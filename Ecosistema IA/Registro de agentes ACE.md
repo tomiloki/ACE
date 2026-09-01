@@ -40,6 +40,6 @@ El **foco** es lo que el agente está haciendo dentro de esa etapa. Es una líne
 
 ## Regla de revisión
 
-`ejecutado_por` debe ser distinto de `revisado_por` cuando ambos sean agentes.
+Cuando `revision` es `agente_externo`, `ejecutado_por` debe ser distinto de `revisado_por`.
 
 Relacionado: [[Registro de subagentes ACE]] · [[E-001 - Ecosistema]]

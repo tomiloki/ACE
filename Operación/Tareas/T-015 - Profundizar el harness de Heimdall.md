@@ -6,7 +6,6 @@ responsable: Tomás y Fenrir
 iniciativa: "[[Operación y reportaje de ACE]]"
 reportaje: equipo
 revision: humano
-revisor_requerido: Tomás
 revisado_por:
 resultado_revision: pendiente
 creado: 2026-09-01

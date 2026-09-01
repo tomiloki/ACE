@@ -84,16 +84,31 @@ La revisión completa vive dentro del reporte de la tarea. No tiene módulo ni a
 | Campo | Uso |
 |---|---|
 | `ejecutado_por` | Persona o agente que realizó el trabajo |
-| `revision` | `ninguna`, `agente`, `humano` o `equipo` |
-| `revisor_requerido` | Quién debe revisar |
+| `revision` | Recomendación vigente: `ejecutor`, `agente_externo`, `humano` o `equipo` |
 | `revisado_por` | Quién revisó finalmente |
 | `resultado_revision` | `pendiente`, `aprobada` o `cambios_solicitados` |
 
+### Recomendación de revisión
+
+La revisión se recomienda por quién debería realizarla, no por el tamaño o complejidad de la tarea.
+
+| Recomendación | Uso |
+|---|---|
+| `ejecutor` | El propio ejecutor verifica un cambio acotado, reversible y de bajo impacto. |
+| `agente_externo` | Revisa un agente o subagente distinto del ejecutor. Quien tome la revisión elige la entidad concreta. |
+| `humano` | Requiere criterio, contexto, validación visual, de negocio u otra decisión humana. |
+| `equipo` | Define fundamentos compartidos: arquitectura, stack, modelo de datos, producto u otra base imprescindible. |
+
+La recomendación inicial se registra al crear la tarea. Después de implementar, el ejecutor puede mantenerla o recomendar otra categoría según el resultado real. El usuario decide cómo se revisará; cambiar la recomendación no dispara una revisión automáticamente.
+
+Las tareas históricas sin `revision` no se categorizan retroactivamente. Si se retoman, reciben una recomendación durante su nueva orientación.
+
 ### Reglas
 
-- Si revisa un agente, debe ser distinto del ejecutor.
+- Si la recomendación es `agente_externo`, quien revisa debe ser distinto del ejecutor.
+- `equipo` no implica votación, unanimidad ni estados por integrante; el equipo conversa y un humano registra el resultado.
 - El revisor informa; no corrige silenciosamente.
-- Una tarea con revisión requerida no termina antes de ser aprobada.
+- Si el usuario decide realizar la revisión recomendada, la tarea no termina hasta resolverla.
 - El revisor agrega sus conclusiones al mismo reporte.
 - Si solicita cambios, el ejecutor responde y registra la corrección en ese mismo hilo.
 - El alcance, evidencia y determinismo de las revisiones por agentes o subagentes se definirán más adelante.

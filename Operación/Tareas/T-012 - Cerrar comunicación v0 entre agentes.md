@@ -6,7 +6,6 @@ ejecutado_por: Fenrir
 iniciativa: "[[Operación y reportaje de ACE]]"
 reportaje: equipo
 revision: humano
-revisor_requerido: Tomás
 revisado_por: Tomás
 resultado_revision: aprobada
 creado: 2026-09-01

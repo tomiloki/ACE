@@ -19,11 +19,19 @@ actualizado: 2026-09-01
 - Mapa general del ecosistema.
 - Un reporte por tarea principal como hilo único de entrega, revisión y corrección.
 - Niveles y frecuencia de reportaje pendientes de profundización.
-- Revisión por agente independiente del ejecutor.
+- Revisión recomendada por quién revisa: ejecutor, agente externo, humano o equipo.
 - Agentes con etapa y foco; subagentes con territorio fijo.
 - Identidades temporales: Ragnar, Fenrir, Atreus y Mímir como agentes; Heimdall como subagente.
 
 ## Último avance
+
+Se simplificó la revisión como recomendación por quién revisa: ejecutor, agente externo, humano o equipo. La recomendación se define al crear la tarea, puede cambiar después de implementar y nunca dispara una revisión automáticamente. Se eliminó `revisor_requerido`; `revisado_por` conserva quién revisó realmente.
+
+- [[Sistema de reportaje ACE]]
+
+No se lanzó ninguna revisión.
+
+### Base inmediata
 
 Fenrir implementó la activación y continuidad v0. Tomás sigue siendo el router: el agente recupera contexto, presenta un reporte inteligente de iniciación, conversa y espera aprobación explícita. La entrega y revisión quedan en un único reporte por tarea principal.
 
