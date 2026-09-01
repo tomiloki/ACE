@@ -1,7 +1,7 @@
 ---
 tipo: reporte
-estado: revisión
-revision_humana: pendiente
+estado: cerrado
+revision_humana: aprobada
 iniciativa: "[[Operación y reportaje de ACE]]"
 tarea: "[[T-001 - Definir niveles de reportaje]]"
 fecha: 2026-09-01
@@ -33,16 +33,16 @@ La propuesta original de niveles `ninguno`, `agente` y `equipo` fue reemplazada.
 
 ### Abierto
 
-- Validar la convención con [[T-014 - Ejecutar piloto real de continuidad]].
+- Validar la convención con [[T-014 - Probar el harness compartido en una tarea real]].
 - Ajustarla solo si los casos reales revelan una necesidad concreta.
 
 ## Revisión
 
-Pendiente de Tomás. Debe confirmar que el reporte representa la convención acordada y explica qué reemplazó a la propuesta original sin reconstruir toda la conversación.
+Tomás revisó y aprobó el reporte junto con los otros reportes estructurales abiertos. Antes del cierre se corrigieron las referencias a tareas para que coincidan con sus nombres reales.
 
 ## Enlaces
 
 - [[Sistema de reportaje ACE]]
 - [[Operación y reportaje de ACE]]
 - [[T-001 - Definir niveles de reportaje]]
-- [[T-014 - Ejecutar piloto real de continuidad]]
+- [[T-014 - Probar el harness compartido en una tarea real]]

@@ -5,6 +5,9 @@ responsable:
   - Codex
   - Tomás
 iniciativa: "[[Operación y reportaje de ACE]]"
+revision: humano
+revisado_por: Tomás
+resultado_revision: aprobada
 creado: 2026-09-01
 ---
 

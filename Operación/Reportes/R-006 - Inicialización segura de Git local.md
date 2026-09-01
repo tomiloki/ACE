@@ -1,7 +1,7 @@
 ---
 tipo: reporte
-estado: revisión
-revision_humana: pendiente
+estado: cerrado
+revision_humana: aprobada
 iniciativa: "[[Operación y reportaje de ACE]]"
 tarea: "[[T-007 - Preparar versionado local seguro]]"
 fecha: 2026-09-01
@@ -38,7 +38,7 @@ Se excluyen secretos, configuración local, plugins instalados y estado de venta
 
 ## Revisión
 
-Pendiente de Tomás. Debe confirmar que las exclusiones protegen el estado local y que continuar sin remoto sigue siendo adecuado para esta etapa.
+Tomás revisó y aprobó el reporte junto con los otros reportes estructurales abiertos. No solicitó cambios de contenido.
 
 ## Enlaces
 

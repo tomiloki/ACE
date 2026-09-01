@@ -1,7 +1,7 @@
 ---
 tipo: reporte
-estado: revisión
-revision_humana: pendiente
+estado: cerrado
+revision_humana: aprobada
 iniciativa: "[[Operación y reportaje de ACE]]"
 tarea: "[[T-016 - Separar agentes de subagentes]]"
 fecha: 2026-09-01
@@ -35,12 +35,12 @@ La etapa expresa el tramo vigente y orienta sin dar permisos. El foco vive únic
 
 ### Abierto
 
-- [[T-013 - Crear harness compartido de agentes]] debe recuperar etapa, foco y reglas consistentemente.
-- [[T-014 - Ejecutar piloto real de continuidad]] debe validar la separación en trabajo real.
+- [[T-013 - Definir harness compartido mínimo de ACE]] debe recuperar etapa, foco y reglas consistentemente.
+- [[T-014 - Probar el harness compartido en una tarea real]] debe validar la separación en trabajo real.
 
 ## Revisión
 
-Pendiente de Tomás. Debe confirmar que agente, subagente, etapa, foco y territorio se distinguen con claridad, y que lo implementado no se confunde con el harness y el piloto pendientes.
+Tomás revisó y aprobó el reporte junto con los otros reportes estructurales abiertos. Antes del cierre se corrigieron las referencias a tareas para que coincidan con sus nombres reales.
 
 ## Enlaces
 
@@ -50,8 +50,8 @@ Pendiente de Tomás. Debe confirmar que agente, subagente, etapa, foco y territo
 - [[Mapa del ecosistema ACE]]
 - [[Reglas de trabajo de Tomás]]
 - [[T-012 - Cerrar comunicación v0 entre agentes]]
-- [[T-013 - Crear harness compartido de agentes]]
-- [[T-014 - Ejecutar piloto real de continuidad]]
+- [[T-013 - Definir harness compartido mínimo de ACE]]
+- [[T-014 - Probar el harness compartido en una tarea real]]
 - [[T-016 - Separar agentes de subagentes]]
 
 ## Apoyo visual

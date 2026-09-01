@@ -5,8 +5,8 @@ responsable: Tomás y Ragnar
 ejecutado_por: Ragnar
 iniciativa: "[[Operación y reportaje de ACE]]"
 revision: humano
-revisado_por:
-resultado_revision: pendiente
+revisado_por: Tomás
+resultado_revision: aprobada
 creado: 2026-09-01
 ---
 

@@ -1,7 +1,7 @@
 ---
 tipo: reporte
-estado: revisión
-revision_humana: pendiente
+estado: cerrado
+revision_humana: aprobada
 iniciativa: "[[Operación y reportaje de ACE]]"
 tarea: "[[T-002 - Diseñar comunicación entre agentes y equipo]]"
 fecha: 2026-09-01
@@ -28,19 +28,19 @@ La convención evolucionó: un agente puede revisar su propio trabajo con recome
 ### Detalle técnico y evidencia
 
 - Implementación inicial: `54d4058 feat: add agent identities and cross-review workflow`.
-- [[T-011 - Ejecutar piloto de revisión cruzada]] conserva ambos veredictos y las correcciones.
+- [[T-011 - Probar revisión cruzada entre agentes]] conserva ambos veredictos y las correcciones.
 - El piloto separó identidad y modelo, impidió correcciones silenciosas del revisor y preservó ejecutor y revisor.
 - La convención vigente está en [[Sistema de reportaje ACE]].
 
 ### Abierto
 
-- [[T-013 - Crear harness compartido de agentes]] debe cargar efectivamente estas reglas.
-- [[T-014 - Ejecutar piloto real de continuidad]] debe comprobar el flujo completo.
+- [[T-013 - Definir harness compartido mínimo de ACE]] debe cargar efectivamente estas reglas.
+- [[T-014 - Probar el harness compartido en una tarea real]] debe comprobar el flujo completo.
 - La revisión automatizada se definirá más adelante; aquí no se lanza Heimdall.
 
 ## Revisión
 
-Pendiente de Tomás. Debe confirmar que se distingue la prueba histórica de la convención vigente, especialmente la revisión por ejecutor y el uso no obligatorio de Heimdall.
+Tomás revisó y aprobó el reporte junto con los otros reportes estructurales abiertos. Antes del cierre se corrigieron las referencias a tareas para que coincidan con sus nombres reales.
 
 ## Enlaces
 
@@ -49,6 +49,6 @@ Pendiente de Tomás. Debe confirmar que se distingue la prueba histórica de la 
 - [[Heimdall - Revisión independiente]]
 - [[Sistema de reportaje ACE]]
 - [[T-002 - Diseñar comunicación entre agentes y equipo]]
-- [[T-011 - Ejecutar piloto de revisión cruzada]]
-- [[T-013 - Crear harness compartido de agentes]]
-- [[T-014 - Ejecutar piloto real de continuidad]]
+- [[T-011 - Probar revisión cruzada entre agentes]]
+- [[T-013 - Definir harness compartido mínimo de ACE]]
+- [[T-014 - Probar el harness compartido en una tarea real]]
