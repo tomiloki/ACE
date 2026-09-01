@@ -3,7 +3,7 @@ tipo: tarea
 estado: pendiente
 responsable: Tomás y Fenrir
 iniciativa: "[[Operación y reportaje de ACE]]"
-revision: humano
+revision: equipo
 revisado_por:
 resultado_revision: pendiente
 creado: 2026-09-01
