@@ -13,7 +13,7 @@ Definir cómo personas y agentes coordinan trabajo, reportan avances y conservan
 
 ## Estado
 
-Sistema operativo inicial funcionando. Activación y continuidad v0 implementadas y pendientes de revisión. La definición de reportaje se profundizará antes del harness compartido.
+Sistema operativo inicial funcionando. Activación y continuidad v0 cerradas. La definición de reportaje y revisión se profundizará antes del harness compartido.
 
 Resumen vigente: [[Estado actual del ecosistema ACE]]
 

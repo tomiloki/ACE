@@ -1,14 +1,14 @@
 ---
 tipo: tarea
-estado: en_curso
+estado: terminada
 responsable: Tomás y Fenrir
 ejecutado_por: Fenrir
 iniciativa: "[[Operación y reportaje de ACE]]"
 reportaje: equipo
 revision: humano
 revisor_requerido: Tomás
-revisado_por:
-resultado_revision: pendiente
+revisado_por: Tomás
+resultado_revision: aprobada
 creado: 2026-09-01
 ---
 
@@ -52,4 +52,4 @@ El caso no requiere mensajería ni activación automática entre agentes. El cam
 - [[Sistema de reportaje ACE]]
 - [[R-011 - Activación y continuidad v0]]
 
-Implementado y pendiente de revisión de Tomás.
+Implementado y cerrado manualmente por Tomás. No se lanzó revisión por agente o subagente.

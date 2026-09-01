@@ -1,7 +1,7 @@
 ---
 tipo: reporte
-estado: revisión
-revision_humana: pendiente
+estado: cerrado
+revision_humana: aprobada
 iniciativa: "[[Operación y reportaje de ACE]]"
 tarea: "[[T-012 - Cerrar comunicación v0 entre agentes]]"
 fecha: 2026-09-01
@@ -39,4 +39,4 @@ La entrega persistente usa un único reporte por tarea principal. Ejecución, re
 
 ## Revisión
 
-Pendiente de Tomás.
+Tomás aprobó el resultado y cerró T-012. No se lanzó revisión por agente o subagente.

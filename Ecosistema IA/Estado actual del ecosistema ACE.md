@@ -30,7 +30,7 @@ Fenrir implementó la activación y continuidad v0. Tomás sigue siendo el route
 - [[T-012 - Cerrar comunicación v0 entre agentes]]
 - [[R-011 - Activación y continuidad v0]]
 
-Pendiente de revisión de Tomás.
+Tomás cerró T-012 manualmente, sin lanzar revisión por agente o subagente.
 
 ## Avance anterior
 
@@ -51,10 +51,9 @@ Fenrir implementó identidades y revisión cruzada. Heimdall pidió cambios en u
 
 ## Siguiente orden
 
-1. Revisar [[T-012 - Cerrar comunicación v0 entre agentes]].
-2. Profundizar niveles y frecuencia de reportaje.
-3. [[T-013 - Definir harness compartido mínimo de ACE]].
-4. [[T-014 - Probar el harness compartido en una tarea real]].
+1. Profundizar niveles, frecuencia y momento de definición del reportaje y la revisión.
+2. [[T-013 - Definir harness compartido mínimo de ACE]].
+3. [[T-014 - Probar el harness compartido en una tarea real]].
 
 ## Más adelante
 
