@@ -1,6 +1,6 @@
 ---
 tipo: tarea
-estado: lista
+estado: terminada
 responsable:
   - Codex
   - Tomás
