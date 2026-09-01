@@ -70,6 +70,24 @@ Opcional y sin repetir el resumen:
 
 El mismo archivo conserva las conclusiones del revisor, correcciones del ejecutor y revisiones posteriores hasta el cierre.
 
+## Criterio de suficiencia
+
+Un reporte es suficiente cuando permite comprender el resultado, tomar una decisión, revisar el trabajo o continuarlo sin reconstruir la tarea completa.
+
+El agente comprueba que el reporte responda, cuando corresponda:
+
+1. ¿Qué resultado existe ahora?
+2. ¿Qué cambió o qué implica?
+3. ¿Cómo se verificó o qué evidencia existe?
+4. ¿Qué quedó abierto?
+5. ¿Qué debe decidir, revisar o hacer alguien ahora?
+
+Estas preguntas no son secciones obligatorias. Si algo no aplica, se omite; no se agrega relleno para completar una plantilla.
+
+## Apoyo visual
+
+El apoyo visual es opcional. Se agrega solamente cuando demuestra un resultado, facilita su revisión, compara antes y después o simplifica algo difícil de explicar. No se crean diagramas o capturas decorativas.
+
 ## Reglas
 
 - Cada reporte gobierna una tarea principal; puede enlazar otras como contexto.
