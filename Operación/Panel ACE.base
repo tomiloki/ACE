@@ -23,6 +23,14 @@ properties:
     displayName: Iniciativa
   reportaje:
     displayName: Reportaje
+  revision:
+    displayName: Revisión
+  revisor_requerido:
+    displayName: Debe revisar
+  revisado_por:
+    displayName: Revisó
+  resultado_revision:
+    displayName: Resultado
   audiencia:
     displayName: Audiencia
   revision_humana:
@@ -45,6 +53,10 @@ views:
       - formula.completada_panel
       - responsable
       - reportaje
+      - revision
+      - revisor_requerido
+      - revisado_por
+      - resultado_revision
       - iniciativa
   - type: table
     name: Reportes

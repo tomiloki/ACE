@@ -59,3 +59,22 @@ El reporte **no contiene ni duplica el trabajo**.
 - Un reporte de equipo también sirve como reporte para agentes.
 - Varias tareas pueden consolidarse en un solo reporte de iniciativa.
 - El reporte enlaza documentación, decisiones, issues y evidencias; no las copia.
+
+## Revisión de tareas
+
+La revisión vive en la tarea. No tiene módulo propio.
+
+| Campo | Uso |
+|---|---|
+| `ejecutado_por` | Persona o agente que realizó el trabajo |
+| `revision` | `ninguna`, `agente`, `humano` o `equipo` |
+| `revisor_requerido` | Quién debe revisar |
+| `revisado_por` | Quién revisó finalmente |
+| `resultado_revision` | `pendiente`, `aprobada` o `cambios_solicitados` |
+
+### Reglas
+
+- Si revisa un agente, debe ser distinto del ejecutor.
+- El revisor informa; no corrige silenciosamente.
+- Una tarea con revisión requerida no termina antes de ser aprobada.
+- El reporte resume el cambio; la revisión valida el trabajo enlazado.

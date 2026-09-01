@@ -57,3 +57,5 @@
 - Un archivo compartido tiene un solo editor a la vez.
 - Los hallazgos transversales se reportan; no se corrigen silenciosamente.
 - Si existe conflicto o desacuerdo, los agentes se detienen y Tomás decide.
+- Un agente no revisa su propio trabajo.
+- Los agentes revisores informan hallazgos; el ejecutor aplica los cambios.
