@@ -1,0 +1,27 @@
+# Obsidian: estado local y plugins instalados
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/
+.trash/
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Sistema operativo y temporales
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.temp
+*.log
+
+# Dependencias generadas
+node_modules/

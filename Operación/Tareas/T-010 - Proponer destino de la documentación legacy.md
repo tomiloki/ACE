@@ -1,0 +1,16 @@
+---
+tipo: tarea
+estado: pendiente
+responsable:
+  - Claude
+  - Tomás
+iniciativa: "[[Producto y documentación ACE]]"
+reportaje: equipo
+prioridad: normal
+dependencia: "[[T-004 - Clasificar documentación heredada contra el diagrama]]"
+creado: 2026-09-01
+---
+
+# Proponer destino de la documentación legacy
+
+Proponer qué se actualiza, qué se archiva y qué se descarta. No mover, borrar ni resubir archivos sin aprobación de Tomás.

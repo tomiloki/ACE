@@ -1,0 +1,71 @@
+filters:
+  and:
+    - file.inFolder("Operación")
+    - file.ext == "md"
+formulas:
+  estado_panel: if(estado == "lista", "🟣 Lista", if(estado == "pendiente", "🟡 Pendiente", if(estado == "en_curso", "🔵 En curso", if(estado == "pausada", "⏸ Pausada", if(estado == "terminada", "🟢 Terminada", estado)))))
+  completada_panel: estado == "terminada"
+  prioridad_panel: if(prioridad == "urgente", "🔴 Urgente", if(prioridad == "alta", "🟠 Alta", if(prioridad == "normal", "Normal", "")))
+properties:
+  file.name:
+    displayName: Tarea
+  formula.estado_panel:
+    displayName: Estado
+  formula.completada_panel:
+    displayName: Completada
+  formula.prioridad_panel:
+    displayName: Prioridad
+  fecha_limite:
+    displayName: Fecha límite
+  responsable:
+    displayName: Responsable
+  iniciativa:
+    displayName: Iniciativa
+  reportaje:
+    displayName: Reportaje
+  audiencia:
+    displayName: Audiencia
+  revision_humana:
+    displayName: Revisión humana
+  fecha:
+    displayName: Fecha
+views:
+  - type: table
+    name: Tareas
+    filters:
+      and:
+        - tipo == "tarea"
+    groupBy:
+      property: formula.estado_panel
+      direction: ASC
+    order:
+      - file.name
+      - formula.prioridad_panel
+      - fecha_limite
+      - formula.completada_panel
+      - responsable
+      - reportaje
+      - iniciativa
+  - type: table
+    name: Reportes
+    filters:
+      and:
+        - tipo == "reporte"
+    order:
+      - file.name
+      - estado
+      - audiencia
+      - revision_humana
+      - iniciativa
+      - fecha
+  - type: table
+    name: Iniciativas
+    filters:
+      and:
+        - tipo == "iniciativa"
+    order:
+      - file.name
+      - formula.prioridad_panel
+      - fecha_limite
+      - estado
+      - responsable

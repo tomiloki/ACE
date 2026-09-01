@@ -1,0 +1,17 @@
+---
+tipo: tarea
+estado: terminada
+responsable: Codex
+iniciativa: "[[Operación y reportaje de ACE]]"
+reportaje: equipo
+creado: 2026-09-01
+---
+
+# Definir niveles de reportaje
+
+Acordar cuándo una tarea requiere reportaje para agentes, para el equipo o ninguno.
+
+## Enlaces
+
+- [[Sistema de reportaje ACE]]
+- [[R-001 - Sistema inicial de reportaje]]
