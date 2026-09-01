@@ -13,7 +13,7 @@ Definir cómo personas y agentes coordinan trabajo, reportan avances y conservan
 
 ## Estado
 
-Sistema operativo inicial funcionando. Comunicación v0 y harness compartido pendientes.
+Sistema operativo inicial funcionando. Comunicación v0 propuesta y pendiente de revisión; harness compartido pendiente.
 
 Resumen vigente: [[Estado actual del ecosistema ACE]]
 
@@ -37,3 +37,4 @@ Resumen vigente: [[Estado actual del ecosistema ACE]]
 - [[R-006 - Inicialización segura de Git local]]
 - [[R-008 - Identidades y revisión cruzada]]
 - [[R-009 - Piloto de revisión cruzada]]
+- [[R-011 - Comunicación v0 entre agentes]]

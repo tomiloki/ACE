@@ -1,7 +1,8 @@
 ---
 tipo: tarea
-estado: pendiente
+estado: en_curso
 responsable: Tomás y Fenrir
+ejecutado_por: Fenrir
 iniciativa: "[[Operación y reportaje de ACE]]"
 reportaje: equipo
 revision: humano
@@ -9,6 +10,13 @@ revisor_requerido: Tomás
 revisado_por:
 resultado_revision: pendiente
 creado: 2026-09-01
+archivos_reservados:
+  - "Ecosistema IA/Comunicación entre agentes ACE.md"
+  - "Operación/Comunicaciones/C-001 - Cambio de agentes subagentes y etapas.md"
+  - "Operación/Reportes/R-011 - Comunicación v0 entre agentes.md"
+identificadores_reservados:
+  - C-001
+  - R-011
 ---
 
 # Cerrar comunicación v0 entre agentes
@@ -39,3 +47,11 @@ El aviso llegó al lugar correcto solo porque son dos agentes y un humano que ab
 - El flujo es breve y ejecutable.
 - Evita ediciones e identificadores simultáneos.
 - Tomás lo revisa antes de adoptarlo.
+
+## Resultado propuesto
+
+- [[Comunicación entre agentes ACE]]
+- [[C-001 - Cambio de agentes subagentes y etapas]]
+- [[R-011 - Comunicación v0 entre agentes]]
+
+Pendiente de revisión de Tomás. Hasta entonces, el flujo es un piloto y no una regla adoptada.

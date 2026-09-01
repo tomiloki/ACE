@@ -25,14 +25,22 @@ actualizado: 2026-09-01
 
 ## Último avance
 
+Fenrir propuso la comunicación v0: bandeja de avisos dirigidos, acuse de recibo y reservas registradas en la tarea. El primer aviso real quedó como piloto y la propuesta espera revisión de Tomás.
+
+- [[T-012 - Cerrar comunicación v0 entre agentes]]
+- [[R-011 - Comunicación v0 entre agentes]]
+- [[C-001 - Cambio de agentes subagentes y etapas]]
+
+## Avance anterior
+
 Ragnar separó agentes de subagentes. El agente declara etapa y foco; el subagente conserva territorio fijo. Se eliminó el territorio de los agentes, que estaba duplicado en tres documentos.
 
 - [[T-016 - Separar agentes de subagentes]]
 - [[R-010 - Agentes, subagentes y etapas]]
 
-**Aviso a Fenrir.** El cambio tocó [[Mapa del ecosistema ACE]] y [[Reglas de trabajo de Tomás]], donde Fenrir venía trabajando, con autorización directa de Tomás y sin acuerdo previo. También cambió el vocabulario de [[T-013 - Definir harness compartido mínimo de ACE]] y [[T-014 - Probar el harness compartido en una tarea real]]. Los detalles están en [[R-010 - Agentes, subagentes y etapas]].
+El cambio tocó documentos donde Fenrir venía trabajando y originó el primer caso de comunicación dirigida: [[C-001 - Cambio de agentes subagentes y etapas]].
 
-## Avance anterior
+## Avance previo
 
 Fenrir implementó identidades y revisión cruzada. Heimdall pidió cambios en una primera revisión y aprobó la segunda.
 
