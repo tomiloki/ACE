@@ -2,6 +2,7 @@
 tipo: harness
 estado: propuesta
 identidad: Heimdall
+clase: subagente
 rol: revisor
 ---
 
@@ -55,6 +56,6 @@ Registrar en la propia tarea:
 
 La revisión queda resumida; no copia el contenido revisado.
 
-Relacionado: [[Registro de agentes ACE]]
+Relacionado: [[Registro de subagentes ACE]]
 
 **Pendiente:** profundizar el subagente cuando existan más casos reales.

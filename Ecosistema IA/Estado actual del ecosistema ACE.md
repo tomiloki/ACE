@@ -10,8 +10,7 @@ actualizado: 2026-09-01
 
 - Obsidian funciona como libreta operativa compartida.
 - Git local protege el historial; todavía no existe remoto.
-- Producto y legacy están en territorio de Ragnar con Tomás.
-- Ecosistema, operación y harnesses están en territorio de Fenrir con Tomás.
+- La etapa vigente es [[E-001 - Ecosistema]]; el foco de cada agente vive en [[Registro de agentes ACE]].
 - Las tareas, iniciativas y reportes viven en `Operación/` y se consultan desde [[Panel ACE]].
 
 ## Fundamentos definidos
@@ -21,7 +20,8 @@ actualizado: 2026-09-01
 - Tres niveles de reportaje: ninguno, agente y equipo.
 - Revisión integrada en cada tarea.
 - Revisión por agente independiente del ejecutor.
-- Identidades temporales: Ragnar, Fenrir, Atreus, Mímir y Heimdall.
+- Agentes con etapa y foco; subagentes con territorio fijo.
+- Identidades temporales: Ragnar, Fenrir, Atreus y Mímir como agentes; Heimdall como subagente.
 
 ## Último avance
 
@@ -43,4 +43,4 @@ Fenrir implementó identidades y revisión cruzada. Heimdall pidió cambios en u
 - Preparar la estructura base del repositorio compartido.
 - Publicar en GitHub cuando la base esté madura.
 
-Relacionado: [[Mapa del ecosistema ACE]] · [[Registro de agentes ACE]] · [[Sistema de reportaje ACE]]
+Relacionado: [[E-001 - Ecosistema]] · [[Mapa del ecosistema ACE]] · [[Registro de agentes ACE]] · [[Registro de subagentes ACE]] · [[Sistema de reportaje ACE]]

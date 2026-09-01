@@ -53,8 +53,8 @@ Individual, por integrante:
 
 - **Indicador 1.** El diagrama, `Arquitectura.md` y el material heredado alcanzan
   para describir ACE y su relevancia.
-- **Indicador 6, parcial.** Los territorios de trabajo ya están definidos en el
-  ecosistema; falta declarar la metodología como tal.
+- **Indicador 6, parcial.** El reparto del trabajo ya está definido en el
+  ecosistema mediante etapas y focos; falta declarar la metodología como tal.
 - **Indicador 4, parcial.** Se puede argumentar tiempo y equipo. Faltan los
   materiales, que dependen del hardware.
 

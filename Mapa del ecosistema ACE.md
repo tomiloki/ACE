@@ -9,23 +9,11 @@
 - Acepta o rechaza propuestas.
 - Define prioridades.
 
-## Territorios
+## Quién hace qué
 
-**Claude + Tomás**
-- Producto.
-- Revisión y depuración de documentación heredada.
-- Documentación de producto.
+Cada agente tiene una etapa que lo orienta y un foco actual. Ambos viven en [[Registro de agentes ACE]] y no se repiten aquí.
 
-**Codex + Tomás**
-- Ecosistema de IA.
-- Operación del proyecto.
-- Comunicación entre personas y agentes.
-- Formas de trabajo.
-- Futuros harnesses y base del repositorio.
-
-**Matías y Paulo**
-- Desarrollo y validación técnica.
-- Trabajo asistido por Gemini y Antigravity.
+Los subagentes tienen territorio fijo y se listan en [[Registro de subagentes ACE]].
 
 ## Fuentes
 
@@ -47,15 +35,9 @@
 4. La decisión se registra.
 5. El equipo ejecuta.
 
-## Trabajo de nuestro territorio
+## Trabajo de la etapa vigente
 
-1. Mapear las reglas de trabajo de Tomás.
-2. Diseñar el sistema de reportaje.
-3. Diseñar la comunicación entre personas y agentes.
-4. Definir el ecosistema de IA.
-5. Establecer formas de trabajo.
-6. Construir los harnesses.
-7. Preparar la base del repositorio.
+Lo que orienta el trabajo en este tramo vive en [[E-001 - Ecosistema]].
 
 Relacionado: [[Reglas de trabajo de Tomás]]
 

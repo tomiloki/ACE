@@ -5,15 +5,16 @@ estado: propuesta
 
 # Registro de agentes ACE
 
-> Identidades temporales. Cada integrante podrá elegir las definitivas.
+> Un agente conversa con el usuario, propone y escala. Identidades temporales: cada integrante podrá elegir la definitiva.
 
-| Identidad    | Plataforma actual     | Humano | Territorio                        |
-| ------------ | --------------------- | ------ | --------------------------------- |
-| **Ragnar**   | Claude Code           | Tomás  | Producto, análisis y legacy       |
-| **Fenrir**   | Codex                 | Tomás  | Ecosistema, operación y ejecución |
-| **Atreus**   | Gemini / Antigravity  | Matías | Por definir                       |
-| **Mímir**    | Gemini / Antigravity  | Paulo  | Por definir                       |
-| **Heimdall** | Modelo intercambiable | Equipo | Revisión independiente            |
+| Identidad  | Humano | Plataforma actual    | Etapa                    | Foco actual                       |
+| ---------- | ------ | -------------------- | ------------------------ | --------------------------------- |
+| **Ragnar** | Tomás  | Claude Code          | [[E-001 - Ecosistema]]   | Producto, análisis y legacy       |
+| **Fenrir** | Tomás  | Codex                | [[E-001 - Ecosistema]]   | Ecosistema, operación y ejecución |
+| **Atreus** | Matías | Gemini / Antigravity | [[E-001 - Ecosistema]]   | Por definir                       |
+| **Mímir**  | Paulo  | Gemini / Antigravity | [[E-001 - Ecosistema]]   | Por definir                       |
+
+Este registro es la única fuente del foco de cada agente. Ningún otro documento lo repite.
 
 ## Identidad de agente
 
@@ -22,15 +23,23 @@ Cada agente define:
 - Nombre.
 - Humano responsable.
 - Plataforma o modelo actual.
-- Territorio.
-- Rol.
+- Etapa.
+- Foco actual.
 - Skills.
 - Instrucciones.
 
 El nombre identifica el **rol persistente**. El modelo puede cambiar.
 
+## Etapa y foco
+
+La **etapa** es el harness que orienta al agente: indica qué construye el proyecto en este tramo. Cambia poco y es un documento propio, que se conserva al cerrarse.
+
+El **foco** es lo que el agente está haciendo dentro de esa etapa. Es una línea breve y cambia seguido.
+
+**La etapa orienta; no restringe.** Si una tarea exige trabajar fuera de la etapa o del foco, el agente lo hace. Queda registrado en la tarea y en su reporte, y no requiere permiso adicional. Los agentes no tienen territorio fijo: eso corresponde a los subagentes.
+
 ## Regla de revisión
 
 `ejecutado_por` debe ser distinto de `revisado_por` cuando ambos sean agentes.
 
-Relacionado: [[Heimdall - Revisión independiente]]
+Relacionado: [[Registro de subagentes ACE]] · [[E-001 - Ecosistema]]

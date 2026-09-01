@@ -1,4 +1,3 @@
-# Reglas de trabajo de Tomás
 
 > Mapa vivo de preferencias. Todavía no es un harness formal.
 
@@ -36,24 +35,16 @@
 - Evitar estructura, plugins y procesos antes de necesitarlos.
 - Priorizar fundamentos sobre velocidad aparente.
 - Preparar una base sólida antes de publicar el repositorio.
-- Dividir territorios sin esconder hallazgos transversales.
+- Dividir el trabajo sin esconder hallazgos transversales.
 
 - Agregar reglas cuando aparezcan casos reales.
 - Conversar y acordar cada regla nueva antes de adoptarla.
 
-## Territorio de Codex
-
-- Ecosistema de IA.
-- Operación y coordinación.
-- Comunicación entre agentes y equipo.
-- Formas de trabajo.
-- Harnesses compartidos.
-- Base futura del repositorio.
-
 ## Coordinación entre agentes
 
+- El foco de cada agente vive en [[Registro de agentes ACE]]; este documento no lo repite.
 - Todos pueden leer todo el vault.
-- Antes de cambiar estructura, nombres o archivos de otro territorio, se propone o reporta.
+- Antes de cambiar estructura, nombres o archivos que otro agente esté trabajando, se propone o reporta.
 - Un archivo compartido tiene un solo editor a la vez.
 - Los hallazgos transversales se reportan; no se corrigen silenciosamente.
 - Si existe conflicto o desacuerdo, los agentes se detienen y Tomás decide.

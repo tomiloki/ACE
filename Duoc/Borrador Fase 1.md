@@ -115,7 +115,7 @@ mantenga la operación ante fallas de conexión.
 Elementos ya existentes que pueden alimentar este punto:
 
 - Trabajo por fases con validación del cliente.
-- Reparto de responsabilidades por territorio.
+- Reparto de responsabilidades por etapa de proyecto y foco de trabajo.
 - Registro de decisiones antes de implementar.
 
 **Funciones y responsabilidades:** ⟨PENDIENTE — la guía exige definirlas por
