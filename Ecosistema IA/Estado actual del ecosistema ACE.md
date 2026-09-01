@@ -15,7 +15,7 @@ actualizado: 2026-09-01
 
 ## Fundamentos definidos
 
-- Reglas de trabajo de Tomás.
+- Harness operativo universal en [[AGENTS]] y convenciones documentales en [[Reglas de trabajo de Tomás]].
 - Mapa general del ecosistema.
 - El reporte no nace por cada tarea: aparece ante una entrega significativa o una revisión distinta del ejecutor.
 - Un reporte por tarea principal, con resumen humano, detalle técnico opcional e hilo de revisión.
@@ -25,13 +25,22 @@ actualizado: 2026-09-01
 
 ## Último avance
 
+Fenrir implementó el harness compartido mínimo. `AGENTS.md` es el núcleo canónico; Claude Code lo importa desde `CLAUDE.md` y Antigravity lo referencia desde una regla de workspace. La identidad permanece en el contexto propio de cada agente y se valida contra el registro.
+
+- [[T-013 - Definir harness compartido mínimo de ACE]]
+- [[R-012 - Harness compartido mínimo de ACE]]
+
+T-013 quedó pendiente de revisión de equipo. T-014 validará la carga efectiva y el consumo de contexto en una tarea real.
+
+### Avance de reportaje
+
 Se simplificaron revisión y reportaje. La revisión recomienda quién revisa y puede cambiar después de implementar. El reporte ya no nace por cada tarea ni distingue audiencia: aparece ante resultados significativos o revisiones distintas del ejecutor y combina resumen humano, detalle técnico opcional e hilo de revisión.
 
 - [[Sistema de reportaje ACE]]
 
 Se eliminaron `revisor_requerido`, `reportaje` y `audiencia`. No se lanzó ninguna revisión.
 
-### Base inmediata
+### Activación y continuidad
 
 Fenrir implementó la activación y continuidad v0. Tomás sigue siendo el router: el agente recupera contexto, presenta un reporte inteligente de iniciación, conversa y espera aprobación explícita. La entrega y revisión quedan en un único reporte por tarea principal.
 
@@ -59,9 +68,9 @@ Fenrir implementó identidades y revisión cruzada. Heimdall pidió cambios en u
 
 ## Siguiente orden
 
-1. Probar contenido y cadencia del nuevo reportaje con casos reales.
-2. [[T-013 - Definir harness compartido mínimo de ACE]].
-3. [[T-014 - Probar el harness compartido en una tarea real]].
+1. Revisar en equipo [[T-013 - Definir harness compartido mínimo de ACE]] y [[R-012 - Harness compartido mínimo de ACE]].
+2. [[T-014 - Probar el harness compartido en una tarea real]].
+3. Ajustar el harness solamente si el piloto revela un vacío real.
 
 ## Más adelante
 

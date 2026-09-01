@@ -1,0 +1,59 @@
+---
+tipo: reporte
+estado: revisión
+iniciativa: "[[Operación y reportaje de ACE]]"
+tarea: "[[T-013 - Definir harness compartido mínimo de ACE]]"
+fecha: 2026-09-01
+---
+
+# Harness compartido mínimo de ACE
+
+## Reporte del ejecutor
+
+### Resumen
+
+Se implementó un harness híbrido y compartido para Claude Code, Codex y Antigravity. `AGENTS.md` contiene el núcleo operativo universal; los adaptadores de plataforma lo cargan o referencian sin duplicar sus reglas. El contexto variable continúa en el vault y se recupera según la sesión y la tarea.
+
+El núcleo establece identidad, recuperación, activación humana, aprobación explícita, comunicación, coordinación, persistencia y evolución de reglas. Las convenciones documentales no nucleares permanecen en [[Reglas de trabajo de Tomás]].
+
+### Implicancias
+
+- Codex puede cargar `AGENTS.md` directamente desde la raíz del repositorio.
+- Claude Code carga `CLAUDE.md`, que importa `AGENTS.md`.
+- Antigravity dispone de una regla de workspace que referencia el mismo núcleo.
+- La identidad no se acopla a la plataforma: cada agente la conserva en su contexto persistente y la valida contra el registro.
+- El vault se consulta como archivos Markdown; no se agregó integración REST con Obsidian.
+- El contexto no se relee en cada mensaje: existe recuperación completa, recuperación por tarea y verificación breve previa a implementar.
+
+### Detalle técnico y evidencia
+
+- Núcleo: `AGENTS.md`.
+- Tamaño inicial del núcleo: 4.496 caracteres, 691 palabras y 89 líneas; la medición real de tokens y adherencia queda para el piloto.
+- Adaptador Claude Code: `CLAUDE.md` con `@AGENTS.md`.
+- Adaptador Antigravity: `.agents/rules/ace.md` con `@../../AGENTS.md`.
+- Fuente de identidad, etapa y foco: [[Registro de agentes ACE]].
+- Punto de entrada al contexto variable: [[Estado actual del ecosistema ACE]].
+- Sistema de entrega y revisión: [[Sistema de reportaje ACE]].
+
+Se verificaron rutas, referencias y ausencia de reglas universales duplicadas en [[Reglas de trabajo de Tomás]]. No se ejecutó build porque la entrega modifica únicamente documentación e instrucciones.
+
+### Abierto
+
+- Configurar la regla de Antigravity como **Always On** desde la plataforma; la documentación oficial no expone metadatos de archivo para esa activación.
+- Cada agente debe conservar su identidad en su propio contexto persistente; no se crearon credenciales locales compartidas.
+- [[T-014 - Probar el harness compartido en una tarea real]] debe validar carga efectiva, recuperación, orientación y consumo de contexto en las plataformas disponibles.
+
+## Revisión
+
+Pendiente de revisión de equipo. La revisión debe comprobar que el núcleo es suficientemente corto, aplica las decisiones acordadas, no duplica reglas y permite que cada plataforma llegue al mismo contexto operativo.
+
+## Enlaces
+
+- [[AGENTS]]
+- [[CLAUDE]]
+- [[Reglas de trabajo de Tomás]]
+- [[Estado actual del ecosistema ACE]]
+- [[Registro de agentes ACE]]
+- [[Sistema de reportaje ACE]]
+- [[T-013 - Definir harness compartido mínimo de ACE]]
+- [[T-014 - Probar el harness compartido en una tarea real]]

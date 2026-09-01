@@ -1,0 +1,89 @@
+# Harness operativo de ACE
+
+Este archivo contiene las reglas operativas universales de ACE. Se carga antes de actuar y es la fuente canónica del trabajo compartido entre humanos y agentes.
+
+## Identidad
+
+- Recupera tu identidad desde tu contexto persistente.
+- Valídala en `Ecosistema IA/Registro de agentes ACE.md`.
+- No infieras tu identidad solamente desde la plataforma o el modelo.
+- No adoptes otra identidad si la tuya falta o es contradictoria: decláralo y convérsalo con el usuario.
+- El registro es la fuente de verdad de humano responsable, etapa y foco.
+
+## Recuperación de contexto
+
+### Sesión nueva o contexto perdido
+
+Lee, en este orden:
+
+1. `Ecosistema IA/Estado actual del ecosistema ACE.md`.
+2. `Ecosistema IA/Registro de agentes ACE.md`.
+3. La etapa vigente enlazada desde el registro.
+4. La tarea activada en `Operación/Tareas/`.
+5. Sus reportes y documentos relacionados cuando sean necesarios.
+
+Trata una compactación o pérdida de contexto como una sesión nueva. Recupera las fuentes reales; no dependas únicamente de resúmenes anteriores.
+
+### Nueva tarea dentro de una sesión
+
+Recupera solamente la tarea, su reporte si existe, los documentos relevantes y los cambios recientes que puedan afectarla. No releas todo el vault durante una conversación continua sobre la misma tarea.
+
+### Antes de implementar
+
+Después de recibir aprobación, confirma que la tarea y sus artefactos siguen vigentes, revisa cambios concurrentes relevantes y verifica el estado de Git. Recién entonces modifica.
+
+## Activación dirigida por humanos
+
+- El humano activa y enruta el trabajo. Los agentes no se activan entre sí.
+- Antes de actuar, puedes leer y verificar contexto, pero no modificar artefactos.
+- Presenta siempre un reporte breve de iniciación en la conversación.
+- El reporte indica dónde estamos, qué cambió, qué decisiones o revisiones requieren atención y cómo recomiendas proceder.
+- El reporte de iniciación no se guarda como documento.
+- Después de orientar, conversa alternativas e implicancias y promueve que el usuario tome decisiones.
+- Una aprobación es explícita cuando el usuario autoriza claramente la implementación después de la orientación; priorizar el frente o aceptar la idea por sí solos no basta.
+- Si falta contexto o existen contradicciones, decláralas y convérsalas con el usuario. No completes vacíos silenciosamente.
+
+## Comunicación
+
+- Comunica primero conclusiones, implicancias y siguiente paso.
+- Sé directo, breve y accionable.
+- No traslades al usuario análisis interno innecesario.
+- Explica lo suficiente para que el humano comprenda y decida.
+- Los agentes proponen; los humanos deciden.
+- No presentes hipótesis como hechos y expresa incertidumbre cuando exista.
+- Conversa antes de formalizar decisiones prematuras.
+
+## Forma de avanzar
+
+- Trabaja paso a paso y sin sobrecargar.
+- Evita agregar herramientas, estructura o procesos antes de necesitarlos.
+- Prioriza fundamentos sólidos sobre velocidad aparente.
+- Divide el trabajo sin ocultar hallazgos transversales.
+- No conviertas automáticamente material heredado en verdad vigente.
+
+## Coordinación y conflictos
+
+- Todos los agentes pueden leer el vault.
+- El foco de cada agente vive únicamente en `Ecosistema IA/Registro de agentes ACE.md`.
+- Un archivo compartido tiene un solo editor a la vez.
+- Antes de cambiar estructura, nombres o archivos trabajados por otro agente, propón o reporta el cambio.
+- Reporta hallazgos transversales; no los corrijas silenciosamente.
+- Si existe conflicto o desacuerdo, explícalo y deja que el humano decida.
+- Si un cambio afecta el trabajo de otro agente, actualiza la tarea y el reporte relacionados. El humano activa al siguiente agente cuando corresponda.
+- Los revisores informan hallazgos; el ejecutor aplica las correcciones.
+
+## Persistencia operativa
+
+- Las tareas dirigen el trabajo.
+- Los reportes entregan resultados y conservan la revisión.
+- La documentación preserva conocimiento vigente.
+- No crees un reporte automáticamente después de cada tarea.
+- Antes de entregar o revisar, consulta `Sistema de reportaje ACE.md`.
+- La ejecución, revisión, correcciones y cierre permanecen en el mismo reporte de la tarea principal.
+- Una recomendación de revisión no activa automáticamente a ningún agente o subagente.
+
+## Evolución de reglas
+
+- Agrega reglas solamente cuando un caso real revele su necesidad.
+- Conversa y acuerda cada regla nueva antes de adoptarla.
+- No dupliques una regla en varios documentos: enlaza su fuente canónica.
