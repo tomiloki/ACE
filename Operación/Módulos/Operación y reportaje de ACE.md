@@ -13,7 +13,9 @@ Definir cómo personas y agentes coordinan trabajo, reportan avances y conservan
 
 ## Estado
 
-Sistema de reportaje inicial propuesto. Piloto operativo en construcción.
+Sistema operativo inicial funcionando. Comunicación v0 y harness compartido pendientes.
+
+Resumen vigente: [[Estado actual del ecosistema ACE]]
 
 ## Tareas
 
@@ -22,9 +24,16 @@ Sistema de reportaje inicial propuesto. Piloto operativo en construcción.
 - [[T-003 - Probar operación con una tarea real]]
 
 - [[T-007 - Preparar versionado local seguro]]
+- [[T-011 - Probar revisión cruzada entre agentes]]
+- [[T-012 - Cerrar comunicación v0 entre agentes]]
+- [[T-013 - Definir harness compartido mínimo de ACE]]
+- [[T-014 - Probar el harness compartido en una tarea real]]
+- [[T-015 - Profundizar el harness de Heimdall]]
 
 ## Reportes
 
 - [[R-001 - Sistema inicial de reportaje]]
 
 - [[R-006 - Inicialización segura de Git local]]
+- [[R-008 - Identidades y revisión cruzada]]
+- [[R-009 - Piloto de revisión cruzada]]

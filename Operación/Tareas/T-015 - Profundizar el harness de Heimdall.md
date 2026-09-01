@@ -1,0 +1,21 @@
+---
+tipo: tarea
+estado: pendiente
+prioridad: baja
+responsable: Tomás y Fenrir
+iniciativa: "[[Operación y reportaje de ACE]]"
+reportaje: equipo
+revision: humano
+revisor_requerido: Tomás
+revisado_por:
+resultado_revision: pendiente
+creado: 2026-09-01
+---
+
+# Profundizar el harness de Heimdall
+
+Retomar el revisor cuando existan casos reales suficientes para definir criterios, skills y límites mejores.
+
+## Por ahora
+
+El piloto actual sirve como base; no se profundiza todavía.

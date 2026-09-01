@@ -7,13 +7,13 @@ estado: propuesta
 
 > Identidades temporales. Cada integrante podrá elegir las definitivas.
 
-| Identidad | Plataforma actual | Humano | Territorio |
-|---|---|---|---|
-| **Ragnar** | Claude Code | Tomás | Producto, análisis y legacy |
-| **Fenrir** | Codex | Tomás | Ecosistema, operación y ejecución |
-| **Atreus** | Gemini / Antigravity | Matías | Por definir |
-| **Mímir** | Gemini / Antigravity | Paulo | Por definir |
-| **Heimdall** | Modelo intercambiable | Equipo | Revisión independiente |
+| Identidad    | Plataforma actual     | Humano | Territorio                        |
+| ------------ | --------------------- | ------ | --------------------------------- |
+| **Ragnar**   | Claude Code           | Tomás  | Producto, análisis y legacy       |
+| **Fenrir**   | Codex                 | Tomás  | Ecosistema, operación y ejecución |
+| **Atreus**   | Gemini / Antigravity  | Matías | Por definir                       |
+| **Mímir**    | Gemini / Antigravity  | Paulo  | Por definir                       |
+| **Heimdall** | Modelo intercambiable | Equipo | Revisión independiente            |
 
 ## Identidad de agente
 

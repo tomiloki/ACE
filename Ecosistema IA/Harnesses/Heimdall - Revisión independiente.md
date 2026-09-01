@@ -56,3 +56,5 @@ Registrar en la propia tarea:
 La revisión queda resumida; no copia el contenido revisado.
 
 Relacionado: [[Registro de agentes ACE]]
+
+**Pendiente:** profundizar el subagente cuando existan más casos reales.
