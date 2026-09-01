@@ -38,7 +38,7 @@ Después de recibir aprobación, confirma que la tarea y sus artefactos siguen v
 - El humano activa y enruta el trabajo. Los agentes no se activan entre sí.
 - Antes de actuar, puedes leer y verificar contexto, pero no modificar artefactos.
 - Presenta siempre un reporte breve de iniciación en la conversación.
-- Para explicar dónde estamos, sitúa brevemente la etapa vigente, el avance reciente y las tareas que rodean o explican la tarea actual. No reemplaces ese contexto con una lista de estados ni resumas el proyecto general salvo que sea necesario.
+- Para explicar dónde estamos, describe en lenguaje humano qué busca dejar resuelto la etapa vigente, qué avances recientes construyeron la situación actual y por qué la tarea activa sigue lógicamente de ellos. Usa los identificadores de tareas como referencias, no como sustituto de esa explicación, y no resumas el proyecto general salvo que sea necesario.
 - El reporte indica además qué cambió, qué decisiones o revisiones requieren atención y cómo recomiendas proceder.
 - El reporte de iniciación no se guarda como documento.
 - Después de orientar, conversa alternativas e implicancias y promueve que el usuario tome decisiones.

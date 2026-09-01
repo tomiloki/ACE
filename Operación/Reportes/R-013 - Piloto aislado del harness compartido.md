@@ -33,7 +33,7 @@ La iniciación fue enfocada y accionable. La conversación posterior corrigió u
 
 ### Hallazgos
 
-- La orientación debe reforzar brevemente la etapa vigente, el avance reciente y las tareas relacionadas. No necesita volver a explicar el proyecto general.
+- La orientación debe explicar en lenguaje humano qué intenta dejar resuelto la etapa vigente, qué avances recientes construyeron la situación actual y por qué la tarea activa sigue lógicamente de ellos. Los identificadores son referencias; no reemplazan ese contexto ni obligan a explicar el proyecto general.
 - La identidad puede inferirse cuando convergen el humano asociado a la cuenta, la tarea, el responsable, la plataforma, la etapa, el foco y el historial.
 - Si la inferencia no es inequívoca, el agente debe preguntarle directamente al humano. No debe continuar sin identidad.
 - T-014 puede ser su propio piloto: activa, recupera contexto, orienta, conversa, registra evidencia y deja continuidad para otro agente.

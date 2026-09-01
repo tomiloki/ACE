@@ -47,7 +47,7 @@ Se verificaron rutas, referencias y ausencia de reglas universales duplicadas en
 
 Los dos primeros turnos de T-014 confirmaron que el núcleo recupera el contexto, orienta antes de actuar y sostiene la conversación con el humano. También revelaron dos precisiones necesarias:
 
-- La iniciación debe situar la etapa, el avance reciente y las tareas que explican la situación actual, sin convertirse en una lista de estados ni resumir innecesariamente el proyecto completo.
+- La iniciación debe explicar en lenguaje humano qué intenta dejar resuelto la etapa, qué avances recientes construyeron la situación actual y por qué la tarea activa sigue de ellos. Los identificadores sirven como referencias, no reemplazan esa explicación, y no es necesario resumir el proyecto completo.
 - La identidad persistente es preferente, pero no exclusiva: el agente puede inferirla mediante señales concordantes, incluido el humano asociado a la cuenta. Si la identidad no es inequívoca, debe preguntarla; no puede continuar anónimo.
 
 Estos ajustes se incorporaron en `AGENTS.md`. T-013 y este reporte permanecen en revisión hasta completar la prueba real y la revisión de equipo.
