@@ -17,6 +17,6 @@ Ejecutar una tarea acotada usando únicamente el contexto definido por el harnes
 
 ## Criterio de aceptación
 
-- El agente entiende territorio, tarea y forma de reportar.
+- El agente entiende su etapa y su foco, la tarea y la forma de reportar.
 - Otro agente puede continuar usando solamente los artefactos registrados.
 - Los vacíos reales del harness quedan anotados.

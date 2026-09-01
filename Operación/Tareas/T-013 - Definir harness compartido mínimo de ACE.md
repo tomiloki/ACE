@@ -17,7 +17,7 @@ Convertir las reglas acordadas en instrucciones comunes para todos los agentes.
 
 ## Incluye
 
-- Fuente de verdad y territorios.
+- Fuente de verdad, etapa y foco.
 - Comunicación y reportaje.
 - Revisión y conflictos.
 - Estilo de documentación y respuesta.
