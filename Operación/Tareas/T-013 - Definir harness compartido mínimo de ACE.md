@@ -22,6 +22,10 @@ Convertir las reglas acordadas en instrucciones comunes para todos los agentes.
 - Revisión y conflictos.
 - Estilo de documentación y respuesta.
 
+## Contexto nuevo
+
+Antes de escribir el harness, leer [[R-010 - Agentes, subagentes y etapas]]. El agente ya no tiene territorio: declara etapa y foco. El territorio quedó solo en los subagentes. Este documento cambió de vocabulario por esa razón.
+
 ## Criterio de aceptación
 
 - Es corto y compartible entre Claude, Codex y Antigravity.

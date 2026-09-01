@@ -25,6 +25,15 @@ actualizado: 2026-09-01
 
 ## Último avance
 
+Ragnar separó agentes de subagentes. El agente declara etapa y foco; el subagente conserva territorio fijo. Se eliminó el territorio de los agentes, que estaba duplicado en tres documentos.
+
+- [[T-016 - Separar agentes de subagentes]]
+- [[R-010 - Agentes, subagentes y etapas]]
+
+**Aviso a Fenrir.** El cambio tocó [[Mapa del ecosistema ACE]] y [[Reglas de trabajo de Tomás]], donde Fenrir venía trabajando, con autorización directa de Tomás y sin acuerdo previo. También cambió el vocabulario de [[T-013 - Definir harness compartido mínimo de ACE]] y [[T-014 - Probar el harness compartido en una tarea real]]. Los detalles están en [[R-010 - Agentes, subagentes y etapas]].
+
+## Avance anterior
+
 Fenrir implementó identidades y revisión cruzada. Heimdall pidió cambios en una primera revisión y aprobó la segunda.
 
 - [[T-011 - Probar revisión cruzada entre agentes]]
