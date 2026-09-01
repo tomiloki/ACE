@@ -43,6 +43,15 @@ Se verificaron rutas, referencias y ausencia de reglas universales duplicadas en
 - Cada agente debe conservar su identidad en su propio contexto persistente; no se crearon credenciales locales compartidas.
 - [[T-014 - Probar el harness compartido en una tarea real]] debe validar carga efectiva, recuperación, orientación y consumo de contexto en las plataformas disponibles.
 
+### Ajuste posterior al piloto aislado
+
+Los dos primeros turnos de T-014 confirmaron que el núcleo recupera el contexto, orienta antes de actuar y sostiene la conversación con el humano. También revelaron dos precisiones necesarias:
+
+- La iniciación debe situar la etapa, el avance reciente y las tareas que explican la situación actual, sin convertirse en una lista de estados ni resumir innecesariamente el proyecto completo.
+- La identidad persistente es preferente, pero no exclusiva: el agente puede inferirla mediante señales concordantes, incluido el humano asociado a la cuenta. Si la identidad no es inequívoca, debe preguntarla; no puede continuar anónimo.
+
+Estos ajustes se incorporaron en `AGENTS.md`. T-013 y este reporte permanecen en revisión hasta completar la prueba real y la revisión de equipo.
+
 ## Revisión
 
 Pendiente de revisión de equipo. La revisión debe comprobar que el núcleo es suficientemente corto, aplica las decisiones acordadas, no duplica reglas y permite que cada plataforma llegue al mismo contexto operativo.

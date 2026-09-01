@@ -32,6 +32,11 @@ Fenrir implementó el harness compartido mínimo. `AGENTS.md` es el núcleo can�
 
 T-013 quedó pendiente de revisión de equipo. T-014 validará la carga efectiva y el consumo de contexto en una tarea real.
 
+La primera prueba aislada de T-014 ya se completó en Codex. Confirmó la recuperación y el diálogo operativo, y llevó a precisar el contexto de iniciación y la resolución de identidad. T-014 permanece en curso hasta ejecutar una prueba real con el entorno habitual.
+
+- [[T-014 - Probar el harness compartido en una tarea real]]
+- [[R-013 - Piloto aislado del harness compartido]]
+
 ### Avance de reportaje
 
 Se simplificaron revisión y reportaje. La revisión recomienda quién revisa y puede cambiar después de implementar. El reporte ya no nace por cada tarea ni distingue audiencia: aparece ante resultados significativos o revisiones distintas del ejecutor y combina resumen humano, detalle técnico opcional e hilo de revisión.

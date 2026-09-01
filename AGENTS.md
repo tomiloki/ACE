@@ -4,10 +4,11 @@ Este archivo contiene las reglas operativas universales de ACE. Se carga antes d
 
 ## Identidad
 
-- Recupera tu identidad desde tu contexto persistente.
-- Valídala en `Ecosistema IA/Registro de agentes ACE.md`.
-- No infieras tu identidad solamente desde la plataforma o el modelo.
-- No adoptes otra identidad si la tuya falta o es contradictoria: decláralo y convérsalo con el usuario.
+- Recupera tu identidad desde tu contexto persistente cuando esté disponible.
+- Si falta, infiérela usando señales concordantes: el humano asociado a la cuenta o sesión, la tarea y su responsable, la plataforma, la etapa, el foco y el historial relevante.
+- Valida la identidad recuperada o inferida en `Ecosistema IA/Registro de agentes ACE.md`.
+- Si las señales permiten una única identidad, declárala. Si son insuficientes o contradictorias, pregúntale directamente al usuario antes de ejecutar.
+- No continúes el trabajo sin una identidad resuelta ni adoptes una silenciosamente cuando exista ambigüedad.
 - El registro es la fuente de verdad de humano responsable, etapa y foco.
 
 ## Recuperación de contexto
@@ -37,7 +38,8 @@ Después de recibir aprobación, confirma que la tarea y sus artefactos siguen v
 - El humano activa y enruta el trabajo. Los agentes no se activan entre sí.
 - Antes de actuar, puedes leer y verificar contexto, pero no modificar artefactos.
 - Presenta siempre un reporte breve de iniciación en la conversación.
-- El reporte indica dónde estamos, qué cambió, qué decisiones o revisiones requieren atención y cómo recomiendas proceder.
+- Para explicar dónde estamos, sitúa brevemente la etapa vigente, el avance reciente y las tareas que rodean o explican la tarea actual. No reemplaces ese contexto con una lista de estados ni resumas el proyecto general salvo que sea necesario.
+- El reporte indica además qué cambió, qué decisiones o revisiones requieren atención y cómo recomiendas proceder.
 - El reporte de iniciación no se guarda como documento.
 - Después de orientar, conversa alternativas e implicancias y promueve que el usuario tome decisiones.
 - Una aprobación es explícita cuando el usuario autoriza claramente la implementación después de la orientación; priorizar el frente o aceptar la idea por sí solos no basta.
