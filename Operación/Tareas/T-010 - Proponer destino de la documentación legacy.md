@@ -1,6 +1,6 @@
 ---
 tipo: tarea
-estado: pendiente
+estado: terminada
 responsable:
   - Claude
   - Tomás
@@ -14,3 +14,8 @@ creado: 2026-09-01
 # Proponer destino de la documentación legacy
 
 Proponer qué se actualiza, qué se archiva y qué se descarta. No mover, borrar ni resubir archivos sin aprobación de Tomás.
+
+## Enlaces
+
+- [[Destino del legacy]]
+- [[R-007 - Destino de la documentación legacy]]

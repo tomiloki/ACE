@@ -1,6 +1,6 @@
 ---
 tipo: tarea
-estado: lista
+estado: terminada
 responsable: Claude
 iniciativa: "[[Producto y documentación ACE]]"
 reportaje: agente
@@ -15,6 +15,8 @@ Separar material útil, contradicciones, vacíos y contenido descartable. No tom
 ## Enlaces
 
 - [[Arquitectura]]
+- [[Clasificación del legacy]]
+- [[R-004 - Clasificación del legacy]]
 
 ## Alcance
 
