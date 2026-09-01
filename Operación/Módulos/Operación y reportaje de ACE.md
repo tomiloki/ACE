@@ -27,4 +27,4 @@ Sistema de reportaje inicial propuesto. Piloto operativo en construcción.
 
 - [[R-001 - Sistema inicial de reportaje]]
 
-- [[R-005 - Inicialización segura de Git local]]
+- [[R-006 - Inicialización segura de Git local]]
