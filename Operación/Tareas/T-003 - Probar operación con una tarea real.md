@@ -3,7 +3,6 @@ tipo: tarea
 estado: en_curso
 responsable: Equipo
 iniciativa: "[[Operación y reportaje de ACE]]"
-reportaje: agente
 creado: 2026-09-01
 ---
 

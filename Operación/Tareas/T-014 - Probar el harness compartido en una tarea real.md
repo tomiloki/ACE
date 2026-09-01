@@ -3,7 +3,6 @@ tipo: tarea
 estado: pendiente
 responsable: Fenrir
 iniciativa: "[[Operación y reportaje de ACE]]"
-reportaje: agente
 revision: agente_externo
 revisado_por:
 resultado_revision: pendiente

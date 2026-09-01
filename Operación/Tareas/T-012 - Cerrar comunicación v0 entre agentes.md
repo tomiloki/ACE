@@ -4,7 +4,6 @@ estado: terminada
 responsable: Tomás y Fenrir
 ejecutado_por: Fenrir
 iniciativa: "[[Operación y reportaje de ACE]]"
-reportaje: equipo
 revision: humano
 revisado_por: Tomás
 resultado_revision: aprobada

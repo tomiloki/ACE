@@ -1,6 +1,5 @@
 ---
 tipo: reporte
-audiencia: agente
 estado: publicado
 iniciativa: "[[Operación y reportaje de ACE]]"
 tareas:

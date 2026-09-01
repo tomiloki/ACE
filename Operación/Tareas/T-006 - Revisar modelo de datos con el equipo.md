@@ -7,7 +7,6 @@ responsable:
   - Matías
   - Claude
 iniciativa: "[[Producto y documentación ACE]]"
-reportaje: equipo
 creado: 2026-09-01
 ---
 

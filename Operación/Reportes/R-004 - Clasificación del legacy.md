@@ -1,6 +1,5 @@
 ---
 tipo: reporte
-audiencia: agente
 estado: cerrado
 revision_humana: no_aplica
 iniciativa: "[[Producto y documentación ACE]]"

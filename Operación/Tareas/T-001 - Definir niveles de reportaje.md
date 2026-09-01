@@ -3,7 +3,6 @@ tipo: tarea
 estado: terminada
 responsable: Codex
 iniciativa: "[[Operación y reportaje de ACE]]"
-reportaje: equipo
 creado: 2026-09-01
 ---
 

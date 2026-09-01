@@ -4,7 +4,6 @@ estado: terminada
 responsable: Tomás y Ragnar
 ejecutado_por: Ragnar
 iniciativa: "[[Operación y reportaje de ACE]]"
-reportaje: equipo
 revision: humano
 revisado_por:
 resultado_revision: pendiente

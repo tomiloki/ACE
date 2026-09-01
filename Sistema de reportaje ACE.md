@@ -1,6 +1,6 @@
 # Sistema de reportaje ACE
 
-> Estado: propuesta en conversación.
+> Estado: vigente; se validará y ajustará con casos reales.
 
 ## Propósito
 
@@ -29,53 +29,52 @@ El reporte y la tarea conservan su propio estado. Cuando el reporte se cierra, l
 
 Cuando la revisión es humana, un usuario puede cerrar el reporte manualmente. No se exige aprobación de todos los integrantes ni un proceso de consenso.
 
-## Nivel definido por tarea
+## Cuándo existe
 
-| Nivel | Uso | Revisión humana | Apoyo visual |
-|---|---|---:|---:|
-| Ninguno | Cambio trivial o suficientemente registrado por la tarea | No | No |
-| Agente | Continuidad, trazabilidad o contexto para otros agentes | No | Opcional |
-| Equipo | Cambio que el equipo debe comprender, revisar o decidir | Sí | Obligatorio |
+Terminar una tarea no crea automáticamente un reporte.
 
-## Reporte para agentes
+- Si `revision` recomienda `agente_externo`, `humano` o `equipo`, la tarea necesita reporte porque la revisión ocurre en ese hilo.
+- Si recomienda `ejecutor`, el reporte es opcional y se crea solo cuando el resultado merece entregarse o conservarse por separado.
+- Una tarea pequeña puede cerrarse con su propio registro cuando la tarea y Git explican suficientemente el resultado.
+- Varias tareas menores pueden alimentar un solo resultado significativo gobernado por una tarea principal.
 
-- Breve y estructurado.
-- Puede vivir en una issue, comentario o nota enlazada.
-- Prioriza continuidad entre agentes.
-- No requiere revisión del equipo.
+## Frecuencia
 
-## Reporte para el equipo
+La frecuencia sigue entregas significativas, hitos, revisiones necesarias, decisiones pendientes o checkpoints solicitados por el usuario. No se crea un reporte por día, sesión, cantidad de tareas ni cambio pequeño.
 
-- Breve y entendible sin revisar todo el trabajo.
-- Requiere revisión humana.
-- Incluye un anexo o material visual: diagrama, captura, tabla, demo u otro apoyo adecuado.
-- Mantiene una versión Markdown legible por agentes.
+## Contenido en capas
 
-## Criterio inicial
+Cada reporte sirve a humanos y agentes sin clasificar audiencia ni crear versiones separadas.
 
-**Ninguno**
-- Trabajo local, trivial o reversible.
-- El check de la tarea entrega suficiente trazabilidad.
+### Resumen
 
-**Agente**
-- Otro agente necesitará conocer el cambio.
-- Afecta trabajo posterior, pero no requiere evaluación humana.
+Breve y orientado al humano:
 
-**Equipo**
-- Cambia dirección, arquitectura o coordinación.
-- Completa un hito relevante.
-- Introduce un riesgo o decisión importante.
-- Afecta a varias áreas, al cliente o a Duoc.
+- Resultado.
+- Implicancias relevantes.
+- Estado actual.
+- Decisiones o revisiones pendientes.
+- Cómo revisar, cuando corresponda.
+
+### Detalle técnico
+
+Opcional y sin repetir el resumen:
+
+- Archivos o componentes afectados.
+- Decisiones técnicas.
+- Evidencia y verificaciones.
+- Limitaciones, riesgos y asuntos abiertos.
+- Información necesaria para que otro agente continúe.
+
+### Revisión
+
+El mismo archivo conserva las conclusiones del revisor, correcciones del ejecutor y revisiones posteriores hasta el cierre.
 
 ## Reglas
 
-- El nivel se define al crear la tarea.
-- Puede escalarse si aumenta su relevancia o así lo considera el usuario al momento de implementar la tarea.
-- Un reporte de equipo también sirve como reporte para agentes.
 - Cada reporte gobierna una tarea principal; puede enlazar otras como contexto.
 - El reporte enlaza documentación, decisiones, issues y evidencias; no las copia.
-
-Los niveles, frecuencia y destinatarios del reportaje requieren una conversación posterior antes de considerarse cerrados.
+- No existe propiedad `audiencia` ni nivel `reportaje`.
 
 ## Revisión de tareas
 

@@ -4,7 +4,6 @@ estado: terminada
 responsable: Fenrir
 ejecutado_por: Fenrir
 iniciativa: "[[Operación y reportaje de ACE]]"
-reportaje: agente
 revision: agente_externo
 revisado_por: Heimdall
 resultado_revision: aprobada

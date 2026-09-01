@@ -3,7 +3,6 @@ tipo: tarea
 estado: terminada
 responsable: Claude
 iniciativa: "[[Producto y documentación ACE]]"
-reportaje: agente
 creado: 2026-09-01
 prioridad: alta
 ---

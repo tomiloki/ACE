@@ -3,7 +3,6 @@ tipo: tarea
 estado: pendiente
 responsable: Tomás y Fenrir
 iniciativa: "[[Operación y reportaje de ACE]]"
-reportaje: equipo
 revision: humano
 revisado_por:
 resultado_revision: pendiente

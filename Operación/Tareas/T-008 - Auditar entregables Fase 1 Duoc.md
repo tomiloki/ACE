@@ -3,7 +3,6 @@ tipo: tarea
 estado: terminada
 responsable: Claude
 iniciativa: "[[Entrega Fase 1 Duoc]]"
-reportaje: equipo
 prioridad: urgente
 fecha_limite: 2026-09-05
 creado: 2026-09-01

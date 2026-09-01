@@ -13,7 +13,7 @@ Definir cómo personas y agentes coordinan trabajo, reportan avances y conservan
 
 ## Estado
 
-Sistema operativo inicial funcionando. Activación y continuidad v0 cerradas. La revisión ya recomienda quién revisa y puede cambiar después de implementar. Niveles y frecuencia de reportaje se profundizarán antes del harness compartido.
+Sistema operativo inicial funcionando. Activación y continuidad v0 cerradas. La revisión recomienda quién revisa y puede cambiar después de implementar. El reporte nace por resultados significativos o revisiones distintas del ejecutor, no por cada tarea.
 
 Resumen vigente: [[Estado actual del ecosistema ACE]]
 

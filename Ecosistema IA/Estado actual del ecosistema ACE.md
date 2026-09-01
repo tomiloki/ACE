@@ -17,19 +17,19 @@ actualizado: 2026-09-01
 
 - Reglas de trabajo de Tomás.
 - Mapa general del ecosistema.
-- Un reporte por tarea principal como hilo único de entrega, revisión y corrección.
-- Niveles y frecuencia de reportaje pendientes de profundización.
+- El reporte no nace por cada tarea: aparece ante una entrega significativa o una revisión distinta del ejecutor.
+- Un reporte por tarea principal, con resumen humano, detalle técnico opcional e hilo de revisión.
 - Revisión recomendada por quién revisa: ejecutor, agente externo, humano o equipo.
 - Agentes con etapa y foco; subagentes con territorio fijo.
 - Identidades temporales: Ragnar, Fenrir, Atreus y Mímir como agentes; Heimdall como subagente.
 
 ## Último avance
 
-Se simplificó la revisión como recomendación por quién revisa: ejecutor, agente externo, humano o equipo. La recomendación se define al crear la tarea, puede cambiar después de implementar y nunca dispara una revisión automáticamente. Se eliminó `revisor_requerido`; `revisado_por` conserva quién revisó realmente.
+Se simplificaron revisión y reportaje. La revisión recomienda quién revisa y puede cambiar después de implementar. El reporte ya no nace por cada tarea ni distingue audiencia: aparece ante resultados significativos o revisiones distintas del ejecutor y combina resumen humano, detalle técnico opcional e hilo de revisión.
 
 - [[Sistema de reportaje ACE]]
 
-No se lanzó ninguna revisión.
+Se eliminaron `revisor_requerido`, `reportaje` y `audiencia`. No se lanzó ninguna revisión.
 
 ### Base inmediata
 
@@ -59,7 +59,7 @@ Fenrir implementó identidades y revisión cruzada. Heimdall pidió cambios en u
 
 ## Siguiente orden
 
-1. Profundizar niveles, frecuencia y momento de definición del reportaje y la revisión.
+1. Probar contenido y cadencia del nuevo reportaje con casos reales.
 2. [[T-013 - Definir harness compartido mínimo de ACE]].
 3. [[T-014 - Probar el harness compartido en una tarea real]].
 

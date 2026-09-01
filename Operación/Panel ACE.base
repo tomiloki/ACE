@@ -21,16 +21,12 @@ properties:
     displayName: Responsable
   iniciativa:
     displayName: Iniciativa
-  reportaje:
-    displayName: Reportaje
   revision:
     displayName: Revisión
   revisado_por:
     displayName: Revisó
   resultado_revision:
     displayName: Resultado
-  audiencia:
-    displayName: Audiencia
   revision_humana:
     displayName: Revisión humana
   fecha:
@@ -50,7 +46,6 @@ views:
       - fecha_limite
       - formula.completada_panel
       - responsable
-      - reportaje
       - revision
       - revisado_por
       - resultado_revision
@@ -63,7 +58,6 @@ views:
     order:
       - file.name
       - estado
-      - audiencia
       - revision_humana
       - iniciativa
       - fecha

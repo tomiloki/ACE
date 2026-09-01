@@ -1,6 +1,5 @@
 ---
 tipo: reporte
-audiencia: equipo
 estado: revisión
 revision_humana: pendiente
 iniciativa: "[[Entrega Fase 1 Duoc]]"

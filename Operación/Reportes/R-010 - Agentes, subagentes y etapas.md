@@ -1,6 +1,5 @@
 ---
 tipo: reporte
-audiencia: equipo
 estado: revisión
 revision_humana: pendiente
 iniciativa: "[[Operación y reportaje de ACE]]"
