@@ -14,6 +14,21 @@ El reporte resume:
 
 El reporte **no contiene ni duplica el trabajo**.
 
+## Un hilo por tarea principal
+
+Cada reporte responde a una tarea principal y concentra en el mismo archivo:
+
+1. Reporte del ejecutor.
+2. Revisión.
+3. Correcciones, si fueron solicitadas.
+4. Revisiones posteriores hasta el cierre.
+
+El reporte funciona como un hilo: la revisión no crea otro archivo. Puede enlazar otras tareas como contexto, pero solo gobierna el cierre de su tarea principal.
+
+El reporte y la tarea conservan su propio estado. Cuando el reporte se cierra, la tarea principal se marca como terminada. Si la revisión solicita cambios, el reporte permanece abierto y la tarea vuelve a ejecución.
+
+Cuando la revisión es humana, un usuario puede cerrar el reporte manualmente. No se exige aprobación de todos los integrantes ni un proceso de consenso.
+
 ## Nivel definido por tarea
 
 | Nivel | Uso | Revisión humana | Apoyo visual |
@@ -57,12 +72,14 @@ El reporte **no contiene ni duplica el trabajo**.
 - El nivel se define al crear la tarea.
 - Puede escalarse si aumenta su relevancia o así lo considera el usuario al momento de implementar la tarea.
 - Un reporte de equipo también sirve como reporte para agentes.
-- Varias tareas pueden consolidarse en un solo reporte de iniciativa.
+- Cada reporte gobierna una tarea principal; puede enlazar otras como contexto.
 - El reporte enlaza documentación, decisiones, issues y evidencias; no las copia.
+
+Los niveles, frecuencia y destinatarios del reportaje requieren una conversación posterior antes de considerarse cerrados.
 
 ## Revisión de tareas
 
-La revisión vive en la tarea. No tiene módulo propio.
+La revisión completa vive dentro del reporte de la tarea. No tiene módulo ni archivo propio. La tarea conserva las propiedades resumidas necesarias para mostrar su estado.
 
 | Campo | Uso |
 |---|---|
@@ -77,4 +94,6 @@ La revisión vive en la tarea. No tiene módulo propio.
 - Si revisa un agente, debe ser distinto del ejecutor.
 - El revisor informa; no corrige silenciosamente.
 - Una tarea con revisión requerida no termina antes de ser aprobada.
-- El reporte resume el cambio; la revisión valida el trabajo enlazado.
+- El revisor agrega sus conclusiones al mismo reporte.
+- Si solicita cambios, el ejecutor responde y registra la corrección en ese mismo hilo.
+- El alcance, evidencia y determinismo de las revisiones por agentes o subagentes se definirán más adelante.

@@ -9,6 +9,15 @@
 - Entregar primero lo importante.
 - Facilitar la comprensión cuando el tema sea complejo.
 
+## Activación y orientación
+
+- Tomás activa y enruta el trabajo. Los agentes no se activan entre sí.
+- Antes de actuar, el agente puede leer y verificar el contexto, pero no modifica artefactos.
+- El agente presenta siempre un reporte breve de iniciación en la conversación. No se guarda como documento.
+- El reporte de iniciación indica: dónde estamos, qué cambió, qué decisiones o revisiones requieren atención y cómo recomienda proceder.
+- Después del reporte de iniciación, el agente conversa alternativas e implicancias y promueve que el usuario tome las decisiones.
+- La implementación requiere aprobación explícita posterior a esa conversación. Priorizar un frente o aprobar una idea no autoriza a ejecutarla.
+
 ## Decisiones
 
 - Los agentes proponen; Tomás decide.
@@ -50,3 +59,4 @@
 - Si existe conflicto o desacuerdo, los agentes se detienen y Tomás decide.
 - Un agente no revisa su propio trabajo.
 - Los agentes revisores informan hallazgos; el ejecutor aplica los cambios.
+- Si un cambio afecta el trabajo de otro agente, se actualizan la tarea y el reporte relacionados. Tomás activa al siguiente agente cuando corresponda.

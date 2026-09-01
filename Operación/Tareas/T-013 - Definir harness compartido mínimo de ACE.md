@@ -9,6 +9,7 @@ revisor_requerido: Tomás
 revisado_por:
 resultado_revision: pendiente
 creado: 2026-09-01
+dependencia: "[[T-012 - Cerrar comunicación v0 entre agentes]]"
 ---
 
 # Definir harness compartido mínimo de ACE

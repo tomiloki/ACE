@@ -17,13 +17,22 @@ actualizado: 2026-09-01
 
 - Reglas de trabajo de Tomás.
 - Mapa general del ecosistema.
-- Tres niveles de reportaje: ninguno, agente y equipo.
-- Revisión integrada en cada tarea.
+- Un reporte por tarea principal como hilo único de entrega, revisión y corrección.
+- Niveles y frecuencia de reportaje pendientes de profundización.
 - Revisión por agente independiente del ejecutor.
 - Agentes con etapa y foco; subagentes con territorio fijo.
 - Identidades temporales: Ragnar, Fenrir, Atreus y Mímir como agentes; Heimdall como subagente.
 
 ## Último avance
+
+Fenrir implementó la activación y continuidad v0. Tomás sigue siendo el router: el agente recupera contexto, presenta un reporte inteligente de iniciación, conversa y espera aprobación explícita. La entrega y revisión quedan en un único reporte por tarea principal.
+
+- [[T-012 - Cerrar comunicación v0 entre agentes]]
+- [[R-011 - Activación y continuidad v0]]
+
+Pendiente de revisión de Tomás.
+
+## Avance anterior
 
 Ragnar separó agentes de subagentes. El agente declara etapa y foco; el subagente conserva territorio fijo. Se eliminó el territorio de los agentes, que estaba duplicado en tres documentos.
 
@@ -32,7 +41,7 @@ Ragnar separó agentes de subagentes. El agente declara etapa y foco; el subagen
 
 **Aviso a Fenrir.** El cambio tocó [[Mapa del ecosistema ACE]] y [[Reglas de trabajo de Tomás]], donde Fenrir venía trabajando, con autorización directa de Tomás y sin acuerdo previo. También cambió el vocabulario de [[T-013 - Definir harness compartido mínimo de ACE]] y [[T-014 - Probar el harness compartido en una tarea real]]. Los detalles están en [[R-010 - Agentes, subagentes y etapas]].
 
-## Avance anterior
+## Avance previo
 
 Fenrir implementó identidades y revisión cruzada. Heimdall pidió cambios en una primera revisión y aprobó la segunda.
 
@@ -42,9 +51,10 @@ Fenrir implementó identidades y revisión cruzada. Heimdall pidió cambios en u
 
 ## Siguiente orden
 
-1. [[T-012 - Cerrar comunicación v0 entre agentes]]
-2. [[T-013 - Definir harness compartido mínimo de ACE]]
-3. [[T-014 - Probar el harness compartido en una tarea real]]
+1. Revisar [[T-012 - Cerrar comunicación v0 entre agentes]].
+2. Profundizar niveles y frecuencia de reportaje.
+3. [[T-013 - Definir harness compartido mínimo de ACE]].
+4. [[T-014 - Probar el harness compartido en una tarea real]].
 
 ## Más adelante
 
