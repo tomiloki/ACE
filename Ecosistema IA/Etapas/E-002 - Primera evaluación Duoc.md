@@ -35,7 +35,10 @@ Una entrega académica coherente y defendible que represente el estado real de A
 ## Módulos
 
 - [[Producto y documentación para la primera evaluación]]
+- [[Planificación y factibilidad]]
+- [[Informe de la primera evaluación]]
+- [[Presentación de la primera evaluación]]
 
-Los demás módulos se abrirán cuando el plan de trabajo de la evaluación pase de borrador a canon.
+Los módulos y sus tareas ya son canónicos. Permanecen pendientes hasta acordar responsables y recomendaciones de revisión.
 
 Relacionado: [[Registro de agentes ACE]] · [[Estado actual del ecosistema ACE]]

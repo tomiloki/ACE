@@ -19,3 +19,4 @@ Continúa el descubrimiento iniciado en [[Producto y documentación ACE]]. El al
 ## Tareas
 
 - [[T-006 - Revisar modelo de datos con el equipo]]
+- [[T-017 - Validar producto, alcance y objetivos para la evaluación]]

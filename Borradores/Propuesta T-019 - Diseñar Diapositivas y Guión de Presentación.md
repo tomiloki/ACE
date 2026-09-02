@@ -1,6 +1,6 @@
 ---
 tipo: propuesta_tarea
-estado: propuesta
+estado: incorporada
 responsable: Equipo (Tomás, Matías, Paulo)
 modulo: "[[Entrega Fase 1 Duoc]]"
 prioridad: urgente
@@ -10,6 +10,8 @@ creado: 2026-09-02
 ---
 
 # Propuesta T-019 — Diseñar Diapositivas y Guión de Presentación
+
+> Propuesta sintetizada en [[T-022 - Diseñar narrativa y diapositivas]] y [[T-023 - Preparar defensa y ensayar la presentación]].
 
 Preparar el material visual y la estrategia de defensa para la presentación grupal evaluada de Fase 1 (semana 4).
 

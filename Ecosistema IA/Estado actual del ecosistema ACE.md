@@ -32,16 +32,15 @@ El repositorio privado ya es compartido por Tomás, Matías y Paulo. Fenrir, Atr
 
 ## Trabajo vigente
 
-El primer módulo activo de E-002 es [[Producto y documentación para la primera evaluación]]. [[T-006 - Revisar modelo de datos con el equipo]] permanece pausada dentro de ese frente.
+E-002 dispone de cuatro módulos canónicos: [[Producto y documentación para la primera evaluación]], [[Planificación y factibilidad]], [[Informe de la primera evaluación]] y [[Presentación de la primera evaluación]].
 
-El plan y las propuestas creadas por Matías continúan en `Borradores/`. Antes de ejecutarlas deben revisarse, dividirse cuando corresponda y convertirse en módulos y tareas canónicas.
+El aporte de Matías fue sintetizado en T-017 a T-023. Las tareas permanecen pendientes y sin activar hasta acordar responsables y recomendaciones de revisión. Los archivos originales continúan en `Borradores/` como antecedentes incorporados.
 
 ## Siguiente orden
 
-1. Revisar y canonizar el plan de Matías.
-2. Crear los módulos restantes de E-002.
-3. Dividir y asignar las tareas de informe, planificación y presentación.
-4. Ordenar las carpetas sin romper las fuentes canónicas ni el historial.
-5. Ejecutar y cerrar la primera evaluación de Duoc.
+1. Acordar responsables y recomendaciones de revisión para T-017 a T-023.
+2. Activar y distribuir las primeras tareas paralelizables.
+3. Ordenar las carpetas sin romper las fuentes canónicas ni el historial.
+4. Ejecutar y cerrar la primera evaluación de Duoc.
 
 Relacionado: [[E-002 - Primera evaluación Duoc]] · [[Registro de agentes ACE]] · [[Mapa del ecosistema ACE]] · [[Sistema de reportaje ACE]]

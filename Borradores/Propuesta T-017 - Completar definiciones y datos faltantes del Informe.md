@@ -1,6 +1,6 @@
 ---
 tipo: propuesta_tarea
-estado: propuesta
+estado: incorporada
 responsable: Equipo (Tomás, Matías, Paulo)
 modulo: "[[Entrega Fase 1 Duoc]]"
 prioridad: urgente
@@ -9,6 +9,8 @@ creado: 2026-09-02
 ---
 
 # Propuesta T-017 — Completar definiciones y datos faltantes del Informe
+
+> Propuesta sintetizada en T-017, T-018, T-019 y T-020. Los identificadores canónicos viven en `Operación/Tareas/`.
 
 Resolver todos los campos `⟨PENDIENTE⟩` del informe de Fase 1 para tener la información técnica y formal completa antes del montaje final.
 

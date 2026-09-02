@@ -1,6 +1,6 @@
 ---
 tipo: propuesta_tarea
-estado: propuesta
+estado: incorporada
 responsable: Equipo (Tomás, Matías, Paulo)
 modulo: "[[Entrega Fase 1 Duoc]]"
 prioridad: urgente
@@ -10,6 +10,8 @@ creado: 2026-09-02
 ---
 
 # Propuesta T-018 — Consolidar y montar Informe Final Fase 1
+
+> Propuesta sintetizada en [[T-021 - Completar y consolidar el informe final]].
 
 Traspasar y consolidar el contenido completado en la plantilla oficial de entrega de Duoc Capstone (`1.5_GuiaEstudiante_Fase 1_Definicion Proyecto APT.docx` o documento sumativo oficial).
 

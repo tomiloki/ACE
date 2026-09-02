@@ -1,6 +1,6 @@
 ---
 tipo: propuesta_plan
-estado: propuesta
+estado: incorporado
 modulo: "[[Entrega Fase 1 Duoc]]"
 fecha_limite: 2026-09-05
 creado: 2026-09-02
@@ -8,7 +8,7 @@ creado: 2026-09-02
 
 # Plan de ataque — Entrega Viernes Fase 1 Duoc
 
-> Carpeta temporal de proposiciones para alinear al equipo (Tomás, Matías, Paulo) respecto a lo necesario para la entrega y presentación del viernes (semana 4).
+> Borrador de Matías incorporado en [[E-002 - Primera evaluación Duoc]], sus módulos y T-017 a T-023. Se conserva como antecedente; no gobierna el trabajo vigente.
 
 ## Contexto y Plazo
 
