@@ -39,11 +39,11 @@ El aporte de Matías fue sintetizado en T-017 a T-023. T-017, T-018, T-019 y T-0
 ## Backlog transversal
 
 - [[T-024 - Validar el harness compartido en Claude Code]] completa la validación práctica pendiente con Ragnar.
-- [[T-025 - Definir metodología mínima de colaboración en GitHub]] acordará ramas, pull requests, revisión y merge sin agregar automatización prematura.
+- [[T-025 - Definir metodología mínima de colaboración en GitHub]] está en curso: acordó ramas por frente y PR por integración de módulo, sin agregar automatización prematura.
 - [[T-026 - Ordenar la estructura de carpetas del repositorio]] terminó: la documentación quedó agrupada y el historial se preservó.
 - [[T-027 - Preparar el proyecto para comenzar programación]] determinará y completará solamente las condiciones técnicas mínimas antes de desarrollar producto.
 
-Estas tareas no pertenecen a E-002. T-024, T-025 y T-027 se asignarán a un módulo vigente cuando el equipo decida abordarlas.
+Estas tareas no pertenecen a E-002. T-025 está activa como trabajo transversal; T-024 y T-027 se asignarán a un módulo vigente cuando el equipo decida abordarlas.
 
 ## Siguiente orden
 

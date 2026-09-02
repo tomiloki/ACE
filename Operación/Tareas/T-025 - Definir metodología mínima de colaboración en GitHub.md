@@ -1,9 +1,10 @@
 ---
 tipo: tarea
-estado: pendiente
+estado: en_curso
 prioridad: media
-responsable: Por definir
-modulo: por_definir
+responsable: Tomás y Fenrir
+ejecutado_por: Fenrir
+modulo: transversal
 revision: equipo
 revisado_por:
 resultado_revision: pendiente
@@ -36,6 +37,14 @@ Acordar una forma sencilla y compartida de trabajar en GitHub antes de que el de
 - Las responsabilidades de autor, revisor y responsable del merge son claras.
 - La propuesta se prueba con un caso real antes de considerarse definitiva.
 
+## Progreso
+
+La propuesta inicial quedó acordada y documentada en [[Colaboración en GitHub]]. Se validará con la primera PR que integre o cierre un módulo antes de considerarse definitiva.
+
 ## Activación
 
-Esta tarea pertenece al backlog transversal. Se asignará a un módulo vigente cuando el equipo decida ejecutarla.
+Tarea transversal activa por decisión de Tomás. No pertenece a E-002 ni modifica sus entregables académicos.
+
+## Reporte
+
+[[R-015 - Metodología mínima de colaboración en GitHub]]
