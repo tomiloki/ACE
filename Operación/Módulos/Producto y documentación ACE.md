@@ -1,6 +1,6 @@
 ---
 tipo: modulo
-estado: activo
+estado: cerrado
 etapa: "[[E-001 - Ecosistema]]"
 responsable:
   - Tomás
@@ -19,3 +19,7 @@ Definir el producto y ordenar el material heredado sin convertirlo automáticame
 - [[T-006 - Revisar modelo de datos con el equipo]]
 
 - [[T-010 - Proponer destino de la documentación legacy]]
+
+## Cierre
+
+Este módulo reunió el descubrimiento inicial de producto y documentación durante [[E-001 - Ecosistema]]. Su trabajo vigente continúa en [[Producto y documentación para la primera evaluación]]; la tarea pausada [[T-006 - Revisar modelo de datos con el equipo]] fue trasladada a esa continuación.

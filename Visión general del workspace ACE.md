@@ -80,8 +80,8 @@ No duplicar tareas completas en Obsidian y GitHub. Obsidian puede mostrar contex
 
 ## Próximos pasos
 
-1. Incorporar a Matías y Paulo mediante el onboarding del repositorio.
-2. Configurar la regla compartida de Antigravity como **Always On** en sus workspaces.
-3. Completar las pruebas del harness en las plataformas disponibles.
-4. Continuar el trabajo estructural guiado por la etapa y las tareas vigentes.
+1. Completar la transición hacia [[E-002 - Primera evaluación Duoc]].
+2. Convertir el plan de Matías en módulos y tareas canónicas.
+3. Completar informe, planificación y presentación de la primera evaluación.
+4. Ordenar las carpetas según la estructura operativa aprobada.
 5. Incorporar plugins o automatizaciones solamente ante una necesidad concreta.

@@ -1,7 +1,7 @@
 ---
 tipo: reporte
-estado: revisión
-revision_humana: pendiente
+estado: cerrado
+revision_humana: aprobada
 modulo: "[[Entrega Fase 1 Duoc]]"
 tareas:
   - "[[T-008 - Auditar entregables Fase 1 Duoc]]"
@@ -37,8 +37,11 @@ falta.
 
 ## Estado actual
 
-Auditoría terminada. Pendiente de revisión de Tomás. T-009 puede avanzar solo
-sobre los indicadores que ya tienen información confirmada.
+Auditoría terminada y aceptada como registro histórico del descubrimiento inicial. Sus vacíos alimentan la planificación de [[E-002 - Primera evaluación Duoc]].
+
+## Revisión
+
+Tomás aceptó el trabajo histórico sin solicitar reconstrucción adicional. El reporte queda cerrado junto con el módulo [[Entrega Fase 1 Duoc]].
 
 ## Enlaces
 

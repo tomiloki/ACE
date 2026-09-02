@@ -54,6 +54,6 @@ Consulta [`Sistema de reportaje ACE.md`](Sistema%20de%20reportaje%20ACE.md) ante
 
 ## Estado
 
-ACE está en la etapa **E-001 — Ecosistema**. En este tramo estamos consolidando el entorno operativo compartido y validando que los distintos agentes recuperen el mismo contexto sin duplicar reglas ni procesos.
+ACE está en la etapa **E-002 — Primera evaluación Duoc**. En este tramo el equipo debe completar, revisar, presentar y cerrar la primera evaluación usando la base operativa adoptada durante E-001.
 
 El detalle vigente y el siguiente orden de trabajo viven en [`Ecosistema IA/Estado actual del ecosistema ACE.md`](Ecosistema%20IA/Estado%20actual%20del%20ecosistema%20ACE.md).

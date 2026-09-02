@@ -34,6 +34,8 @@ Tarea → Módulo → Etapa
 
 Por esa razón, la etapa no se repite en cada tarea.
 
+Si un frente continúa en una etapa posterior, el módulo anterior se cierra y se crea una continuación vinculada a la nueva etapa. Las tareas terminadas conservan su módulo histórico; solamente las tareas todavía vigentes se trasladan a la continuación.
+
 ## Convención mínima
 
 Un módulo usa:

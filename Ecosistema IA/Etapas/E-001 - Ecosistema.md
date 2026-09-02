@@ -1,13 +1,13 @@
 ---
 tipo: etapa
-estado: vigente
+estado: cerrada
 abierta: 2026-09-01
-cerrada:
+cerrada: 2026-09-02
 ---
 
 # E-001 — Ecosistema
 
-> Etapa vigente. Orienta el trabajo de los agentes; no lo restringe.
+> Etapa cerrada. Estableció la base operativa compartida de ACE.
 
 ## Qué construye esta etapa
 
@@ -29,6 +29,10 @@ La etapa indica la dirección por defecto del trabajo. Un agente puede trabajar 
 
 ## Cierre
 
-Esta etapa se cierra cuando exista una base de repositorio estable y el harness compartido esté adoptado por los agentes. Al cerrarse, este documento pasa a `estado: cerrada` y se abre la etapa siguiente. Las etapas cerradas se conservan.
+La etapa se cerró después de publicar el repositorio, adoptar el harness compartido en Codex y Antigravity y validar la operación real con Fenrir, Atreus y Mímir.
+
+Los módulos [[Operación y reportaje de ACE]] y [[Entrega Fase 1 Duoc]] quedaron cerrados. El trabajo de producto continúa en [[Producto y documentación para la primera evaluación]]. Heimdall permanece diferido hasta contar con revisiones reales suficientes.
+
+Siguiente etapa: [[E-002 - Primera evaluación Duoc]]
 
 Relacionado: [[Registro de agentes ACE]] · [[Estado actual del ecosistema ACE]] · [[Mapa del ecosistema ACE]]

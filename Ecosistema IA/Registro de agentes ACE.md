@@ -7,12 +7,12 @@ estado: propuesta
 
 > Un agente conversa con el usuario, propone y escala. Identidades temporales: cada integrante podrá elegir la definitiva.
 
-| Identidad  | Humano | Plataforma actual    | Etapa                    | Foco actual                       |
-| ---------- | ------ | -------------------- | ------------------------ | --------------------------------- |
-| **Ragnar** | Tomás  | Claude Code          | [[E-001 - Ecosistema]]   | Producto, análisis y legacy       |
-| **Fenrir** | Tomás  | Codex                | [[E-001 - Ecosistema]]   | Ecosistema, operación y ejecución |
-| **Atreus** | Matías | Gemini / Antigravity | [[E-001 - Ecosistema]]   | Por definir                       |
-| **Mímir**  | Paulo  | Gemini / Antigravity | [[E-001 - Ecosistema]]   | Por definir                       |
+| Identidad  | Humano | Plataforma actual    | Etapa                  | Foco actual                       |
+| ---------- | ------ | -------------------- | ---------------------- | --------------------------------- |
+| **Ragnar** | Tomás  | Claude Code          | [[E-002 - Primera evaluación Duoc]] | Producto, análisis y legacy       |
+| **Fenrir** | Tomás  | Codex                | [[E-002 - Primera evaluación Duoc]] | Ecosistema, operación y ejecución |
+| **Atreus** | Matías | Gemini / Antigravity | [[E-002 - Primera evaluación Duoc]] | Por definir                       |
+| **Mímir**  | Paulo  | Gemini / Antigravity | [[E-002 - Primera evaluación Duoc]] | Por definir                       |
 
 Este registro es la única fuente del foco de cada agente. Ningún otro documento lo repite.
 
@@ -42,4 +42,4 @@ El **foco** es lo que el agente está haciendo dentro de esa etapa. Es una líne
 
 Cuando `revision` es `agente_externo`, `ejecutado_por` debe ser distinto de `revisado_por`.
 
-Relacionado: [[Registro de subagentes ACE]] · [[E-001 - Ecosistema]]
+Relacionado: [[Registro de subagentes ACE]] · [[E-002 - Primera evaluación Duoc]]

@@ -1,6 +1,6 @@
 ---
 tipo: modulo
-estado: activo
+estado: cerrado
 etapa: "[[E-001 - Ecosistema]]"
 responsable:
   - Tomás
@@ -14,7 +14,7 @@ Definir cómo personas y agentes coordinan trabajo, reportan avances y conservan
 
 ## Estado
 
-Sistema operativo inicial funcionando. Activación y continuidad v0 cerradas. La revisión recomienda quién revisa y puede cambiar después de implementar. El reporte nace por resultados significativos o revisiones distintas del ejecutor, no por cada tarea.
+Sistema operativo inicial adoptado y validado. Activación, continuidad, reportaje, revisión, repositorio y harness compartido quedaron funcionando con varios agentes y humanos.
 
 Resumen vigente: [[Estado actual del ecosistema ACE]]
 
@@ -39,3 +39,7 @@ Resumen vigente: [[Estado actual del ecosistema ACE]]
 - [[R-008 - Identidades y revisión cruzada]]
 - [[R-009 - Piloto de revisión cruzada]]
 - [[R-011 - Activación y continuidad v0]]
+
+## Cierre
+
+El módulo se cerró junto con [[E-001 - Ecosistema]]. [[T-003 - Probar operación con una tarea real]] se comprobó mediante el onboarding y trabajo real de Fenrir, Atreus y Mímir. [[T-015 - Profundizar el harness de Heimdall]] permanece pausada y será reasignada a un módulo futuro cuando existan casos reales suficientes.

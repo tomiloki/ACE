@@ -1,6 +1,6 @@
 ---
 tipo: tarea
-estado: pendiente
+estado: pausada
 prioridad: baja
 responsable: Tomás y Fenrir
 modulo: "[[Operación y reportaje de ACE]]"
@@ -16,4 +16,4 @@ Retomar el revisor cuando existan casos reales suficientes para definir criterio
 
 ## Por ahora
 
-El piloto actual sirve como base; no se profundiza todavía.
+El piloto actual sirve como base; no se profundiza todavía. Cuando se reactive, la tarea se asignará al módulo vigente que gobierne las revisiones automatizadas.

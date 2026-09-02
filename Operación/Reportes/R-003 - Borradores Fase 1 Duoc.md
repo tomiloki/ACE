@@ -1,7 +1,7 @@
 ---
 tipo: reporte
-estado: revisión
-revision_humana: pendiente
+estado: cerrado
+revision_humana: aprobada
 modulo: "[[Entrega Fase 1 Duoc]]"
 tareas:
   - "[[T-009 - Preparar borradores Fase 1 Duoc]]"
@@ -38,8 +38,11 @@ puede responder.
 
 ## Estado actual
 
-Borrador terminado, pendiente de revisión de Tomás. No avanza más sin las
-respuestas del equipo.
+Borrador inicial terminado y aceptado como base histórica. Los campos pendientes se resolverán mediante las tareas canónicas de [[E-002 - Primera evaluación Duoc]].
+
+## Revisión
+
+Tomás aceptó el trabajo histórico sin solicitar reconstrucción adicional. El reporte queda cerrado junto con el módulo [[Entrega Fase 1 Duoc]].
 
 ## Enlaces
 
