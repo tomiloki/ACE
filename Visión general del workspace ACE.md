@@ -73,14 +73,15 @@ No duplicar tareas completas en Obsidian y GitHub. Obsidian puede mostrar contex
 - Vault creado en `C:\PROYECTOS\A.C.E\ACE`.
 - Excalidraw y Obsidian Git instalados.
 - Git para Windows disponible.
-- El directorio todavía no está inicializado como repositorio Git.
+- Repositorio Git inicializado y publicado de forma privada en GitHub.
+- Harness compartido disponible para Codex, Claude Code y Antigravity.
+- El acceso inicial del equipo se explica en [[README]].
 - Google Drive del proyecto continúa en modo de solo lectura hasta autorización explícita.
 
 ## Próximos pasos
 
-1. Conectar Local REST API with MCP en modo de lectura.
-2. Definir la estructura mínima del repositorio y del vault.
-3. Crear el repositorio privado de GitHub y agregar al equipo.
-4. Definir convenciones básicas antes de incorporar más plugins.
-5. Evaluar Templater y Dataview cuando ya existan documentos reales.
-
+1. Incorporar a Matías y Paulo mediante el onboarding del repositorio.
+2. Configurar la regla compartida de Antigravity como **Always On** en sus workspaces.
+3. Completar las pruebas del harness en las plataformas disponibles.
+4. Continuar el trabajo estructural guiado por la etapa y las tareas vigentes.
+5. Incorporar plugins o automatizaciones solamente ante una necesidad concreta.

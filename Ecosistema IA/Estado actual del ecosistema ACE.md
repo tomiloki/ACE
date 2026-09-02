@@ -9,9 +9,10 @@ actualizado: 2026-09-01
 ## Dónde estamos
 
 - Obsidian funciona como libreta operativa compartida.
-- Git local protege el historial; todavía no existe remoto.
+- Git local protege el historial y el repositorio privado de GitHub permite compartirlo con el equipo.
 - La etapa vigente es [[E-001 - Ecosistema]]; el foco de cada agente vive en [[Registro de agentes ACE]].
 - Las tareas, iniciativas y reportes viven en `Operación/` y se consultan desde [[Panel ACE]].
+- [[README]] contiene el onboarding mínimo para clonar, abrir y orientar cada entorno.
 
 ## Fundamentos definidos
 
@@ -80,7 +81,6 @@ Fenrir implementó identidades y revisión cruzada. Heimdall pidió cambios en u
 ## Más adelante
 
 - [[T-015 - Profundizar el harness de Heimdall]]
-- Preparar la estructura base del repositorio compartido.
-- Publicar en GitHub cuando la base esté madura.
+- Refinar el onboarding con los problemas reales que encuentre el equipo.
 
 Relacionado: [[E-001 - Ecosistema]] · [[Mapa del ecosistema ACE]] · [[Registro de agentes ACE]] · [[Registro de subagentes ACE]] · [[Sistema de reportaje ACE]]
