@@ -3,7 +3,7 @@ tipo: tarea
 estado: pendiente
 prioridad: baja
 responsable: Tomás y Fenrir
-iniciativa: "[[Operación y reportaje de ACE]]"
+modulo: "[[Operación y reportaje de ACE]]"
 revision: humano
 revisado_por:
 resultado_revision: pendiente

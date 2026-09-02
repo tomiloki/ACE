@@ -4,7 +4,7 @@ estado: terminada
 responsable:
   - Claude
   - Tomás
-iniciativa: "[[Entrega Fase 1 Duoc]]"
+modulo: "[[Entrega Fase 1 Duoc]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
 dependencia: "[[T-008 - Auditar entregables Fase 1 Duoc]]"

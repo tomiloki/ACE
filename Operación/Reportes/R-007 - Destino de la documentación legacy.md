@@ -2,7 +2,7 @@
 tipo: reporte
 estado: revisión
 revision_humana: pendiente
-iniciativa: "[[Producto y documentación ACE]]"
+modulo: "[[Producto y documentación ACE]]"
 tareas:
   - "[[T-010 - Proponer destino de la documentación legacy]]"
 fecha: 2026-09-01

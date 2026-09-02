@@ -2,7 +2,7 @@
 tipo: reporte
 estado: cerrado
 revision_humana: aprobada
-iniciativa: "[[Operación y reportaje de ACE]]"
+modulo: "[[Operación y reportaje de ACE]]"
 tarea: "[[T-013 - Definir harness compartido mínimo de ACE]]"
 fecha: 2026-09-01
 ---

@@ -1,7 +1,7 @@
 ---
 tipo: reporte
 estado: publicado
-iniciativa: "[[Operación y reportaje de ACE]]"
+modulo: "[[Operación y reportaje de ACE]]"
 tareas:
   - "[[T-011 - Probar revisión cruzada entre agentes]]"
 fecha: 2026-09-01

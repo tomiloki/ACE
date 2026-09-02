@@ -2,7 +2,7 @@
 tipo: propuesta_tarea
 estado: propuesta
 responsable: Equipo (Tomás, Matías, Paulo)
-iniciativa: "[[Entrega Fase 1 Duoc]]"
+modulo: "[[Entrega Fase 1 Duoc]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
 dependencia: "[[Propuesta T-017 - Completar definiciones y datos faltantes del Informe]]"

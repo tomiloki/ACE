@@ -3,7 +3,7 @@ tipo: tarea
 estado: terminada
 responsable: Tomás y Ragnar
 ejecutado_por: Ragnar
-iniciativa: "[[Operación y reportaje de ACE]]"
+modulo: "[[Operación y reportaje de ACE]]"
 revision: humano
 revisado_por: Tomás
 resultado_revision: aprobada

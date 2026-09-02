@@ -28,7 +28,7 @@ Humano y agente deben comenzar por:
 1. [`AGENTS.md`](AGENTS.md): reglas operativas compartidas.
 2. [`Ecosistema IA/Estado actual del ecosistema ACE.md`](Ecosistema%20IA/Estado%20actual%20del%20ecosistema%20ACE.md): situación vigente.
 3. [`Ecosistema IA/Registro de agentes ACE.md`](Ecosistema%20IA/Registro%20de%20agentes%20ACE.md): identidad, etapa y foco de cada agente.
-4. La etapa y la tarea activas enlazadas desde esos documentos.
+4. La etapa, el módulo de trabajo y la tarea activos enlazados desde esos documentos.
 
 El agente presenta primero una orientación breve, conversa alternativas e implicancias con el humano y espera aprobación explícita antes de implementar.
 
@@ -42,6 +42,8 @@ Las identidades actuales son temporales. Si el agente no puede resolver inequív
 
 ## Forma de trabajo
 
+- Las etapas orientan el tramo global del proyecto.
+- Los módulos agrupan frentes de trabajo paralelizables.
 - Las tareas dirigen el trabajo.
 - Los reportes conservan entregas significativas y sus revisiones.
 - La documentación registra conocimiento vigente.

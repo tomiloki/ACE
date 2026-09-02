@@ -3,7 +3,7 @@ tipo: tarea
 estado: terminada
 responsable: Fenrir
 ejecutado_por: Fenrir
-iniciativa: "[[Operación y reportaje de ACE]]"
+modulo: "[[Operación y reportaje de ACE]]"
 revision: agente_externo
 revisado_por: Atreus y Mímir
 resultado_revision: aprobada

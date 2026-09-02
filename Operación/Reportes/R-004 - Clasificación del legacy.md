@@ -2,7 +2,7 @@
 tipo: reporte
 estado: cerrado
 revision_humana: no_aplica
-iniciativa: "[[Producto y documentación ACE]]"
+modulo: "[[Producto y documentación ACE]]"
 tareas:
   - "[[T-004 - Clasificar documentación heredada contra el diagrama]]"
 fecha: 2026-09-01

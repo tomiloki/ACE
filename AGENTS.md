@@ -28,8 +28,9 @@ Lee, en este orden:
 1. `Ecosistema IA/Estado actual del ecosistema ACE.md`.
 2. `Ecosistema IA/Registro de agentes ACE.md`.
 3. La etapa vigente enlazada desde el registro.
-4. La tarea activada en `Operación/Tareas/`.
-5. Sus reportes y documentos relacionados cuando sean necesarios.
+4. El módulo de trabajo activado en `Operación/Módulos/`.
+5. La tarea activada en `Operación/Tareas/`.
+6. Sus reportes y documentos relacionados cuando sean necesarios.
 
 Trata una compactación o pérdida de contexto como una sesión nueva. Recupera las fuentes reales; no dependas únicamente de resúmenes anteriores.
 
@@ -84,6 +85,8 @@ Después de recibir aprobación, confirma que la tarea y sus artefactos siguen v
 
 ## Persistencia operativa
 
+- Las etapas orientan el tramo global y secuencial del proyecto.
+- Los módulos organizan frentes paralelizables dentro de una etapa.
 - Las tareas dirigen el trabajo.
 - Los reportes entregan resultados y conservan la revisión.
 - La documentación preserva conocimiento vigente.

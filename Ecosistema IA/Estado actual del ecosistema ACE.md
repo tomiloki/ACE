@@ -11,7 +11,7 @@ actualizado: 2026-09-01
 - Obsidian funciona como libreta operativa compartida.
 - Git local protege el historial y el repositorio privado de GitHub permite compartirlo con el equipo.
 - La etapa vigente es [[E-001 - Ecosistema]]; el foco de cada agente vive en [[Registro de agentes ACE]].
-- Las tareas, iniciativas y reportes viven en `Operación/` y se consultan desde [[Panel ACE]].
+- Los módulos, tareas y reportes viven en `Operación/` y se consultan desde [[Panel ACE]].
 - [[README]] contiene el onboarding mínimo para clonar, abrir y orientar cada entorno.
 
 ## Fundamentos definidos
@@ -22,6 +22,7 @@ actualizado: 2026-09-01
 - Un reporte por tarea principal, con resumen humano, detalle técnico opcional e hilo de revisión.
 - Revisión recomendada por quién revisa: ejecutor, agente externo, humano o equipo.
 - Agentes con etapa y foco; subagentes con territorio fijo.
+- Estructura operativa `Etapa → Módulo → Tarea`; los módulos son frentes paralelizables y reemplazan el concepto redundante de iniciativa.
 - Identidades temporales: Ragnar, Fenrir, Atreus y Mímir como agentes; Heimdall como subagente.
 
 ## Último avance

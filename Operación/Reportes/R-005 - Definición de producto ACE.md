@@ -2,7 +2,7 @@
 tipo: reporte
 estado: revisión
 revision_humana: pendiente
-iniciativa: "[[Producto y documentación ACE]]"
+modulo: "[[Producto y documentación ACE]]"
 tareas:
   - "[[T-005 - Preparar propuesta de definición de producto ACE]]"
 fecha: 2026-09-01

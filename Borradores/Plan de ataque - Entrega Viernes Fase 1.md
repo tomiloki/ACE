@@ -1,7 +1,7 @@
 ---
 tipo: propuesta_plan
 estado: propuesta
-iniciativa: "[[Entrega Fase 1 Duoc]]"
+modulo: "[[Entrega Fase 1 Duoc]]"
 fecha_limite: 2026-09-05
 creado: 2026-09-02
 ---

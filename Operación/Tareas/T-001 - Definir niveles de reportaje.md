@@ -2,7 +2,7 @@
 tipo: tarea
 estado: terminada
 responsable: Codex
-iniciativa: "[[Operación y reportaje de ACE]]"
+modulo: "[[Operación y reportaje de ACE]]"
 revision: humano
 revisado_por: Tomás
 resultado_revision: aprobada

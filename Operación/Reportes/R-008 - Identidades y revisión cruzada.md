@@ -2,7 +2,7 @@
 tipo: reporte
 estado: cerrado
 revision_humana: aprobada
-iniciativa: "[[Operación y reportaje de ACE]]"
+modulo: "[[Operación y reportaje de ACE]]"
 tarea: "[[T-002 - Diseñar comunicación entre agentes y equipo]]"
 fecha: 2026-09-01
 ---

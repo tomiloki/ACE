@@ -6,7 +6,7 @@ responsable:
   - Paulo
   - Matías
   - Claude
-iniciativa: "[[Producto y documentación ACE]]"
+modulo: "[[Producto y documentación ACE]]"
 creado: 2026-09-01
 ---
 

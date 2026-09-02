@@ -2,7 +2,7 @@
 tipo: tarea
 estado: terminada
 responsable: Claude
-iniciativa: "[[Producto y documentación ACE]]"
+modulo: "[[Producto y documentación ACE]]"
 creado: 2026-09-01
 prioridad: alta
 ---

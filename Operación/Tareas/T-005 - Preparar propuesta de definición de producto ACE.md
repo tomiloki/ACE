@@ -4,7 +4,7 @@ estado: terminada
 responsable:
   - Claude
   - Tomás
-iniciativa: "[[Producto y documentación ACE]]"
+modulo: "[[Producto y documentación ACE]]"
 dependencia: "[[T-004 - Clasificar documentación heredada contra el diagrama]]"
 creado: 2026-09-01
 ---

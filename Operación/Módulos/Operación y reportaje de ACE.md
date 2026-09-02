@@ -1,6 +1,7 @@
 ---
-tipo: iniciativa
-estado: activa
+tipo: modulo
+estado: activo
+etapa: "[[E-001 - Ecosistema]]"
 responsable:
   - Tomás
   - Codex

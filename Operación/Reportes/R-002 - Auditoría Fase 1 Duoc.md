@@ -2,7 +2,7 @@
 tipo: reporte
 estado: revisión
 revision_humana: pendiente
-iniciativa: "[[Entrega Fase 1 Duoc]]"
+modulo: "[[Entrega Fase 1 Duoc]]"
 tareas:
   - "[[T-008 - Auditar entregables Fase 1 Duoc]]"
 fecha: 2026-09-01
