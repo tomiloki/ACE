@@ -40,6 +40,8 @@ El aporte de Matías fue sintetizado en T-017 a T-023. T-017, T-018, T-019 y T-0
 
 - [[T-024 - Validar el harness compartido en Claude Code]] completa la validación práctica pendiente con Ragnar.
 - [[T-025 - Definir metodología mínima de colaboración en GitHub]] acordará ramas, pull requests, revisión y merge sin agregar automatización prematura.
+- [[T-026 - Ordenar la estructura de carpetas del repositorio]] simplificará la organización documental y reducirá ruido compartido sin romper el historial.
+- [[T-027 - Preparar el proyecto para comenzar programación]] determinará y completará solamente las condiciones técnicas mínimas antes de desarrollar producto.
 
 Estas tareas no pertenecen a E-002 ni están activadas. Se asignarán a un módulo vigente cuando el equipo decida abordarlas.
 
