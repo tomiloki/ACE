@@ -36,6 +36,13 @@ E-002 dispone de cuatro módulos canónicos: [[Producto y documentación para la
 
 El aporte de Matías fue sintetizado en T-017 a T-023. T-017, T-018, T-019 y T-020 están en curso con responsables distintos para permitir trabajo paralelo. T-021, T-022 y T-023 permanecen pendientes hasta que sus dependencias entreguen contenido suficiente. Los archivos originales continúan en `Borradores/` como antecedentes incorporados.
 
+## Backlog transversal
+
+- [[T-024 - Validar el harness compartido en Claude Code]] completa la validación práctica pendiente con Ragnar.
+- [[T-025 - Definir metodología mínima de colaboración en GitHub]] acordará ramas, pull requests, revisión y merge sin agregar automatización prematura.
+
+Estas tareas no pertenecen a E-002 ni están activadas. Se asignarán a un módulo vigente cuando el equipo decida abordarlas.
+
 ## Siguiente orden
 
 1. Ejecutar en paralelo T-017, T-018, T-019 y T-020.
