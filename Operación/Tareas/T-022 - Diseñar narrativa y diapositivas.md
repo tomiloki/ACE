@@ -1,10 +1,15 @@
 ---
 tipo: tarea
 estado: pendiente
-responsable: por_definir
+responsable:
+  - Matías
+  - Atreus
 modulo: "[[Presentación de la primera evaluación]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
+revision: equipo
+revisado_por:
+resultado_revision: pendiente
 dependencias:
   - "[[T-017 - Validar producto, alcance y objetivos para la evaluación]]"
   - "[[T-019 - Definir metodología, roles, recursos y evidencias]]"

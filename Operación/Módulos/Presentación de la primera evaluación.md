@@ -2,7 +2,9 @@
 tipo: modulo
 estado: activo
 etapa: "[[E-002 - Primera evaluación Duoc]]"
-responsable: por_definir
+responsable:
+  - Matías
+  - Atreus
 creado: 2026-09-02
 ---
 

@@ -9,10 +9,10 @@ estado: propuesta
 
 | Identidad  | Humano | Plataforma actual    | Etapa                  | Foco actual                       |
 | ---------- | ------ | -------------------- | ---------------------- | --------------------------------- |
-| **Ragnar** | Tomás  | Claude Code          | [[E-002 - Primera evaluación Duoc]] | Producto, análisis y legacy       |
-| **Fenrir** | Tomás  | Codex                | [[E-002 - Primera evaluación Duoc]] | Ecosistema, operación y ejecución |
-| **Atreus** | Matías | Gemini / Antigravity | [[E-002 - Primera evaluación Duoc]] | Por definir                       |
-| **Mímir**  | Paulo  | Gemini / Antigravity | [[E-002 - Primera evaluación Duoc]] | Por definir                       |
+| **Ragnar** | Tomás  | Claude Code          | [[E-002 - Primera evaluación Duoc]] | T-017: producto, alcance y objetivos        |
+| **Fenrir** | Tomás  | Codex                | [[E-002 - Primera evaluación Duoc]] | T-019: metodología, roles y evidencias      |
+| **Atreus** | Matías | Gemini / Antigravity | [[E-002 - Primera evaluación Duoc]] | T-020: plan de trabajo y Carta Gantt        |
+| **Mímir**  | Paulo  | Gemini / Antigravity | [[E-002 - Primera evaluación Duoc]] | T-018: antecedentes académicos e individuales |
 
 Este registro es la única fuente del foco de cada agente. Ningún otro documento lo repite.
 

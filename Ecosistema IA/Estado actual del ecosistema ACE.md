@@ -34,13 +34,14 @@ El repositorio privado ya es compartido por Tomás, Matías y Paulo. Fenrir, Atr
 
 E-002 dispone de cuatro módulos canónicos: [[Producto y documentación para la primera evaluación]], [[Planificación y factibilidad]], [[Informe de la primera evaluación]] y [[Presentación de la primera evaluación]].
 
-El aporte de Matías fue sintetizado en T-017 a T-023. Las tareas permanecen pendientes y sin activar hasta acordar responsables y recomendaciones de revisión. Los archivos originales continúan en `Borradores/` como antecedentes incorporados.
+El aporte de Matías fue sintetizado en T-017 a T-023. T-017, T-018, T-019 y T-020 están en curso con responsables distintos para permitir trabajo paralelo. T-021, T-022 y T-023 permanecen pendientes hasta que sus dependencias entreguen contenido suficiente. Los archivos originales continúan en `Borradores/` como antecedentes incorporados.
 
 ## Siguiente orden
 
-1. Acordar responsables y recomendaciones de revisión para T-017 a T-023.
-2. Activar y distribuir las primeras tareas paralelizables.
-3. Ordenar las carpetas sin romper las fuentes canónicas ni el historial.
-4. Ejecutar y cerrar la primera evaluación de Duoc.
+1. Ejecutar en paralelo T-017, T-018, T-019 y T-020.
+2. Activar T-021 y T-022 cuando exista contenido suficiente.
+3. Preparar y ensayar T-023 después de consolidar la presentación.
+4. Ordenar las carpetas sin romper las fuentes canónicas ni el historial.
+5. Cerrar la primera evaluación de Duoc.
 
 Relacionado: [[E-002 - Primera evaluación Duoc]] · [[Registro de agentes ACE]] · [[Mapa del ecosistema ACE]] · [[Sistema de reportaje ACE]]

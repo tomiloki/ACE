@@ -1,10 +1,15 @@
 ---
 tipo: tarea
 estado: pendiente
-responsable: por_definir
+responsable:
+  - Matías
+  - Atreus
 modulo: "[[Presentación de la primera evaluación]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
+revision: equipo
+revisado_por:
+resultado_revision: pendiente
 dependencia: "[[T-022 - Diseñar narrativa y diapositivas]]"
 creado: 2026-09-02
 ---
@@ -12,6 +17,8 @@ creado: 2026-09-02
 # Preparar defensa y ensayar la presentación
 
 Distribuir la exposición, preparar respuestas y comprobar mediante ensayo que el equipo puede presentar ACE con claridad y dentro del tiempo disponible.
+
+Matías y Atreus coordinan la tarea; Tomás, Matías y Paulo participan en la preparación y el ensayo.
 
 ## Incluye
 

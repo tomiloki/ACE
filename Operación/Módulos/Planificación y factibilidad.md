@@ -2,7 +2,7 @@
 tipo: modulo
 estado: activo
 etapa: "[[E-002 - Primera evaluación Duoc]]"
-responsable: por_definir
+responsable: Equipo
 creado: 2026-09-02
 ---
 

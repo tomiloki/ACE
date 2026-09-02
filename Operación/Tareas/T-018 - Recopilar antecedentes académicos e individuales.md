@@ -1,10 +1,15 @@
 ---
 tipo: tarea
-estado: pendiente
-responsable: por_definir
+estado: en_curso
+responsable:
+  - Paulo
+  - Mímir
 modulo: "[[Planificación y factibilidad]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
+revision: humano
+revisado_por:
+resultado_revision: pendiente
 creado: 2026-09-02
 ---
 
