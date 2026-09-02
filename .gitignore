@@ -1,6 +1,7 @@
 # Obsidian: estado local y plugins instalados
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/.obsidian/
 .obsidian/cache/
 .obsidian/plugins/
 .trash/

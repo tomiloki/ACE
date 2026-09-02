@@ -45,6 +45,6 @@ flowchart TD
 
 ## Archivos de Trabajo Relacionados
 
-- [[Borrador Fase 1]] (en `Duoc/Borrador Fase 1.md`)
-- [[Auditoría Fase 1]] (en `Duoc/Auditoría Fase 1.md`)
+- [[Borrador Fase 1]] (en `Documentación/Duoc/Borrador Fase 1.md`)
+- [[Auditoría Fase 1]] (en `Documentación/Duoc/Auditoría Fase 1.md`)
 - [[Entrega Fase 1 Duoc]] (en `Operación/Módulos/Entrega Fase 1 Duoc.md`)

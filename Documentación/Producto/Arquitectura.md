@@ -53,11 +53,11 @@ Dónde corre el backend — nube, servidor interno, o ambos — está abierto.
 
 | Caja | Nota |
 |---|---|
-| Modelo de datos | `Decisiones/` |
-| Base de datos — motor y topología | `Decisiones/` |
-| Lenguaje y framework backend | `Decisiones/` |
-| Diseño de la API REST | `Decisiones/` |
-| Diseño front-end | `Decisiones/` |
-| Mockups | `Decisiones/` |
-| Infraestructura y hosting | `Decisiones/` |
-| Reproducción en pantalla | `Decisiones/` |
+| Modelo de datos | documentado en [[Modelo de datos]] |
+| Base de datos — motor y topología | pendiente de definir |
+| Lenguaje y framework backend | pendiente de definir |
+| Diseño de la API REST | pendiente de definir |
+| Diseño front-end | pendiente de definir |
+| Mockups | pendiente de definir |
+| Infraestructura y hosting | pendiente de definir |
+| Reproducción en pantalla | pendiente de definir |

@@ -50,7 +50,16 @@ Las identidades actuales son temporales. Si el agente no puede resolver inequív
 - Los agentes proponen; los humanos deciden.
 - No se versionan credenciales, secretos ni configuración local.
 
-Consulta [`Sistema de reportaje ACE.md`](Sistema%20de%20reportaje%20ACE.md) antes de entregar o revisar trabajo.
+## Estructura del repositorio
+
+- [`Documentación/`](Documentación): producto, arquitectura, modelo de datos y antecedentes académicos de Duoc.
+- [`Ecosistema IA/`](Ecosistema%20IA): estado, etapas, registros y harnesses de agentes.
+- [`Operación/`](Operación): módulos, tareas, reportes y reglas de trabajo.
+- [`Borradores/`](Borradores): propuestas y material no canónico.
+- [`Legacy/`](Legacy): antecedentes históricos y validaciones iniciales.
+- [`Excalidraw/`](Excalidraw): diagramas editables.
+
+Consulta [`Operación/Sistema de reportaje ACE.md`](Operación/Sistema%20de%20reportaje%20ACE.md) antes de entregar o revisar trabajo.
 
 ## Estado
 

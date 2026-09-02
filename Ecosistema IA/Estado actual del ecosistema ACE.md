@@ -40,17 +40,16 @@ El aporte de Matías fue sintetizado en T-017 a T-023. T-017, T-018, T-019 y T-0
 
 - [[T-024 - Validar el harness compartido en Claude Code]] completa la validación práctica pendiente con Ragnar.
 - [[T-025 - Definir metodología mínima de colaboración en GitHub]] acordará ramas, pull requests, revisión y merge sin agregar automatización prematura.
-- [[T-026 - Ordenar la estructura de carpetas del repositorio]] simplificará la organización documental y reducirá ruido compartido sin romper el historial.
+- [[T-026 - Ordenar la estructura de carpetas del repositorio]] terminó: la documentación quedó agrupada y el historial se preservó.
 - [[T-027 - Preparar el proyecto para comenzar programación]] determinará y completará solamente las condiciones técnicas mínimas antes de desarrollar producto.
 
-Estas tareas no pertenecen a E-002 ni están activadas. Se asignarán a un módulo vigente cuando el equipo decida abordarlas.
+Estas tareas no pertenecen a E-002. T-024, T-025 y T-027 se asignarán a un módulo vigente cuando el equipo decida abordarlas.
 
 ## Siguiente orden
 
 1. Ejecutar en paralelo T-017, T-018, T-019 y T-020.
 2. Activar T-021 y T-022 cuando exista contenido suficiente.
 3. Preparar y ensayar T-023 después de consolidar la presentación.
-4. Ordenar las carpetas sin romper las fuentes canónicas ni el historial.
-5. Cerrar la primera evaluación de Duoc.
+4. Cerrar la primera evaluación de Duoc.
 
 Relacionado: [[E-002 - Primera evaluación Duoc]] · [[Registro de agentes ACE]] · [[Mapa del ecosistema ACE]] · [[Sistema de reportaje ACE]]

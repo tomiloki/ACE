@@ -1,12 +1,13 @@
 ---
 tipo: tarea
-estado: pendiente
+estado: terminada
 prioridad: media
-responsable: Por definir
-modulo: por_definir
+responsable: Tomás y Fenrir
+ejecutado_por: Fenrir
+modulo: transversal
 revision: equipo
-revisado_por:
-resultado_revision: pendiente
+revisado_por: Tomás
+resultado_revision: aprobada
 creado: 2026-09-02
 ---
 
@@ -17,7 +18,7 @@ Revisar y simplificar la organización documental de ACE para que personas y age
 ## Incluye
 
 - Definir qué contenido debe permanecer en la raíz.
-- Revisar el propósito y los límites de `Decisiones/`, `Duoc/`, `Ecosistema IA/`, `Legacy/`, `Borradores/` y `Operación/`.
+- Revisar el propósito y los límites de `Documentación/`, `Ecosistema IA/`, `Legacy/`, `Borradores/` y `Operación/`.
 - Ordenar archivos temporales, pruebas de conexión y material histórico.
 - Distinguir documentación canónica, antecedentes académicos, borradores y configuración local.
 - Revisar configuración versionada de Obsidian que produzca ruido o conflictos entre integrantes.
@@ -26,10 +27,14 @@ Revisar y simplificar la organización documental de ACE para que personas y age
 ## Criterio de aceptación
 
 - Cada carpeta tiene un propósito claro y no duplica el de otra.
-- Un integrante nuevo puede ubicar operación, decisiones, documentación académica y borradores desde el `README.md`.
+- Un integrante nuevo puede ubicar documentación de producto, antecedentes académicos, operación y borradores desde el `README.md`.
 - Los movimientos conservan el historial y no dejan enlaces canónicos rotos.
 - La estructura evita versionar estado personal o archivos de prueba sin valor permanente.
 
 ## Activación
 
-Esta tarea pertenece al backlog transversal. No está activa ni forma parte de E-002; se asignará a un módulo vigente cuando el equipo decida abordarla.
+Tarea transversal activa por decisión de Tomás. No pertenece a E-002 ni modifica sus entregables académicos.
+
+## Reporte
+
+[[R-014 - Reordenamiento documental del repositorio]]

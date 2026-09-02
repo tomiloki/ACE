@@ -93,7 +93,7 @@ Después de recibir aprobación, confirma que la tarea y sus artefactos siguen v
 - `Borradores/` permite versionar ideas, propuestas y trabajo incompleto; su contenido no es canónico ni activa por sí solo tareas, prioridades, decisiones o aprobaciones.
 - Cuando un borrador es aceptado, sintetízalo en el artefacto canónico correspondiente. No cargues toda la carpeta por defecto: consúltala solamente cuando sea relevante o esté enlazada.
 - No crees un reporte automáticamente después de cada tarea.
-- Antes de entregar o revisar, consulta `Sistema de reportaje ACE.md`.
+- Antes de entregar o revisar, consulta `Operación/Sistema de reportaje ACE.md`.
 - La ejecución, revisión, correcciones y cierre permanecen en el mismo reporte de la tarea principal.
 - Una recomendación de revisión no activa automáticamente a ningún agente o subagente.
 

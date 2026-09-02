@@ -16,7 +16,7 @@ antes de ejecutarse.
 | Acta de Constitución | **Actualizar** | Entiende el producto. Hay que corregir los hitos declarados como completados e incorporar la jerarquía de sitios, los usuarios y los dos flujos de operación. |
 | Documento de Visión | **Reemplazar** | Su contenido pasa a `Producto.md`. El original se archiva. |
 | Matriz de Casos de Uso | **Actualizar** | CU-01 a CU-05 siguen válidos. CU-06 cambia con la nueva jerarquía. Faltan los casos de operación en sitio. |
-| Diccionario de Datos | **Archivar** | Reemplazado por `Decisiones/Modelo de datos`. Sus convenciones ya quedaron rescatadas. |
+| Diccionario de Datos | **Archivar** | Reemplazado por `Documentación/Producto/Modelo de datos.md`. Sus convenciones ya quedaron rescatadas. |
 | Especificación Técnica de la API | **Archivar** | La caja de API sigue abierta. El patrón de respuesta ya quedó registrado en la clasificación. |
 | Guía de Comandos y Terminal | **Descartar** | Material de aprendizaje de Laravel. No define el producto. |
 | A.C.E Notas Tomás | **Archivar, con extracción previa** | Contiene información que no está en ningún otro lado. Ver abajo. |
