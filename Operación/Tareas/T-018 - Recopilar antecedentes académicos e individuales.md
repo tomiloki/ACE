@@ -34,6 +34,13 @@ Los RUT no se registran en Markdown, GitHub, tareas ni reportes. Cada integrante
 - Cada integrante validó su información e interés profesional.
 - Ningún identificador personal sensible quedó versionado en el repositorio.
 
+## Estado y avance
+
+- **Carrera y sede:** Resuelto para los tres integrantes (Ingeniería en Informática, Sede Antonio Varas).
+- **Competencias y áreas de desempeño:** Resuelto. Extraídas de la `Malla Curricular.pdf` (Currículum 1446114) e incorporadas a [[Borrador Fase 1]].
+- **Interés individual:** Paulo validó su redacción (desarrollo frontend, bases de datos y documentación técnica). Se incorporaron propuestas para Tomás y Matías pendientes de su ratificación.
+- **RUT:** Quedan protegidos para canal privado y uso exclusivo en la versión final fuera del repositorio.
+
 ## Enlaces
 
 - [[Auditoría Fase 1]]

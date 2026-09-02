@@ -22,19 +22,24 @@ que Tomás debe validar antes de usarse.
 
 | Nombre | RUT | Carrera | Sede |
 |---|---|---|---|
-| Tomás Escalante | ⟨PENDIENTE⟩ | ⟨PENDIENTE⟩ | ⟨PENDIENTE⟩ |
-| Matías Salas | ⟨PENDIENTE⟩ | ⟨PENDIENTE⟩ | ⟨PENDIENTE⟩ |
-| Paulo Loyola | ⟨PENDIENTE⟩ | ⟨PENDIENTE⟩ | ⟨PENDIENTE⟩ |
+| Tomás Escalante | ⟨Canal privado / Entrega final⟩ | Ingeniería en Informática | Antonio Varas |
+| Matías Salas | ⟨Canal privado / Entrega final⟩ | Ingeniería en Informática | Antonio Varas |
+| Paulo Loyola | ⟨Canal privado / Entrega final⟩ | Ingeniería en Informática | Antonio Varas |
 
 ### 2. Descripción del Proyecto APT
 
 **Nombre del proyecto:** ACE — Autonomous Content Engine.
 
-**Áreas de desempeño:** ⟨PENDIENTE — del plan de estudio⟩
+**Áreas de desempeño:** ⟨PROPUESTA validada con Malla Curricular 1446114⟩
+- *Programación y Desarrollo de Software:* Construcción de componentes web, servicios y clientes de software bajo estándares de ingeniería de software.
+- *Arquitectura e Integración de Plataformas:* Diseño arquitectónico distribuido, integración de sistemas heterogéneos y seguridad en la comunicación cliente-servidor.
+- *Análisis y Desarrollo de Modelos de Datos:* Modelamiento relacional y persistencia local/central para soporte offline.
+- *Gestión de Requerimientos y Calidad de Software:* Especificación de requisitos, diseño de interfaces, aseguramiento de la calidad y trazabilidad documental.
 
-**Competencias:** ⟨PENDIENTE — del perfil de egreso⟩
-
-> Sin estos dos campos, el indicador 2 de la rúbrica queda en cero. Vale 5 puntos.
+**Competencias:** ⟨PROPUESTA validada con Malla Curricular 1446114⟩
+- Diseñar, desarrollar e integrar soluciones de software cliente-servidor y aplicaciones web/distribuidas cumpliendo estándares de calidad y seguridad.
+- Modelar, consultar y administrar bases de datos relacionales y almacenamiento local para persistencia y disponibilidad de información.
+- Aplicar principios de ingeniería de software, especificación formal de requerimientos y documentación técnica en el ciclo de vida del proyecto.
 
 ### 3. Fundamentación
 
@@ -67,10 +72,15 @@ de forma centralizada las pantallas instaladas, el contenido multimedia y la
 programación horaria, con operación de respaldo en el sitio cuando no haya
 conexión a internet.
 
-**Pertinencia con el perfil de egreso:** ⟨PENDIENTE — depende de las competencias⟩
+**Pertinencia con el perfil de egreso:** ⟨PROPUESTA⟩
 
-**Relación con los intereses profesionales:** ⟨PENDIENTE — individual, cada
-integrante escribe el suyo⟩
+El proyecto ACE tributa directamente al perfil de egreso del Ingeniero en Informática de Duoc UC, al responder a una necesidad real de la industria (Lumina Motion) mediante la integración de desarrollo frontend y backend, arquitectura cliente-servidor distribuida, gestión de bases de datos centralizadas y locales para operación ante desconexión, y aseguramiento del ciclo de vida del software con metodologías y documentación técnica rigurosa.
+
+**Relación con los intereses profesionales:**
+
+- **Paulo Loyola:** Mi interés profesional se orienta al desarrollo de software con foco en frontend y en la gestión de bases de datos, complementado con una documentación técnica estructurada. En el proyecto ACE, mi labor comprende la construcción de interfaces de usuario para el control y administración del sistema, la estructuración y consumo eficiente de datos, y el mantenimiento riguroso de la documentación del software para asegurar la mantenibilidad y calidad técnica del producto.
+- **Tomás Escalante:** ⟨PROPUESTA — pendiente validación Tomás⟩ Interés enfocado en el desarrollo backend y la arquitectura de software, asumiendo el diseño distribuido del sistema ACE, las APIs de integración, la lógica de sincronización y los servicios resilientes a fallas de red.
+- **Matías Salas:** ⟨PROPUESTA — pendiente validación Matías⟩ Interés orientado al desarrollo de software, la gestión del proyecto y la vinculación e interacción directa con el cliente, liderando el levantamiento continuo con Lumina Motion, la planificación operativa y la articulación funcional de las entregas.
 
 **Factibilidad** ⟨PROPUESTA, incompleta⟩
 
@@ -118,8 +128,11 @@ Elementos ya existentes que pueden alimentar este punto:
 - Reparto de responsabilidades por etapa de proyecto y foco de trabajo.
 - Registro de decisiones antes de implementar.
 
-**Funciones y responsabilidades:** ⟨PENDIENTE — la guía exige definirlas por
-integrante en proyectos grupales⟩
+**Funciones y responsabilidades:** ⟨PROPUESTA acordada con equipo⟩
+
+- **Tomás Escalante:** Arquitectura de software, desarrollo backend, diseño de servicios y APIs de comunicación.
+- **Matías Salas:** Desarrollo de software, gestión del proyecto, planificación operativa y vinculación/interacción con el cliente (Lumina Motion).
+- **Paulo Loyola:** Desarrollo de software con foco en frontend, gestión y modelamiento de bases de datos, y estandarización y control de la documentación técnica.
 
 ### 6. Evidencias
 
@@ -171,15 +184,15 @@ plan de trabajo del punto 7.
 
 ## Resumen de lo que falta
 
-| # | Falta | Quién responde |
+| # | Falta | Estado / Quién responde |
 |---|---|---|
-| 1 | RUT, carrera y sede de cada integrante | Cada uno |
-| 2 | Competencias del perfil de egreso y áreas de desempeño | Equipo |
-| 3 | Intereses profesionales | Cada uno |
-| 4 | Metodología declarada y responsabilidades por integrante | Equipo |
-| 5 | Evidencias | Equipo con el docente |
-| 6 | Recursos materiales y obstaculizadores | Equipo |
-| 7 | Actividades del plan de trabajo | Equipo |
+| 1 | Carrera y sede de cada integrante | **Resuelto** (Ingeniería en Informática, Sede Antonio Varas). RUTs reservados para canal privado / entrega final. |
+| 2 | Competencias del perfil de egreso y áreas de desempeño | **Resuelto** (incorporadas como propuesta formal desde Malla Curricular 1446114). |
+| 3 | Intereses profesionales | Paulo validado. Propuestas formuladas para Tomás y Matías, pendientes de su ratificación. |
+| 4 | Metodología declarada y responsabilidades por integrante | Responsabilidades incorporadas como propuesta. Metodología de trabajo en desarrollo por Tomás ([[T-019]]). |
+| 5 | Evidencias | Equipo con el docente ([[T-019]]) |
+| 6 | Recursos materiales y obstaculizadores | Equipo ([[T-019]] / [[T-020]]) |
+| 7 | Actividades del plan de trabajo | Equipo ([[T-020]]) |
 | 8 | Documento `1.5_APT122_SumativaFase1.docx` | Equipo |
 
 ## Enlaces
