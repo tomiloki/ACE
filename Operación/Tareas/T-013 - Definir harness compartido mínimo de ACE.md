@@ -1,12 +1,12 @@
 ---
 tipo: tarea
-estado: revisión
+estado: terminada
 responsable: Tomás y Fenrir
 ejecutado_por: Fenrir
 iniciativa: "[[Operación y reportaje de ACE]]"
 revision: equipo
-revisado_por:
-resultado_revision: pendiente
+revisado_por: Tomás
+resultado_revision: aprobada
 creado: 2026-09-01
 dependencia: "[[T-012 - Cerrar comunicación v0 entre agentes]]"
 ---
@@ -43,3 +43,7 @@ Antes de escribir el harness, leer [[R-010 - Agentes, subagentes y etapas]]. El 
 ## Reporte
 
 [[R-012 - Harness compartido mínimo de ACE]]
+
+## Cierre
+
+Tomás aprobó el núcleo compartido después de observar su funcionamiento real con Fenrir, Atreus y Mímir. La estructura queda adoptada y congelada por ahora: cualquier refinamiento futuro deberá responder a una fricción concreta y recurrente, no a escenarios hipotéticos.

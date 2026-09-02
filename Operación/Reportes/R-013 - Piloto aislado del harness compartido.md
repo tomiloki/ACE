@@ -1,6 +1,7 @@
 ---
 tipo: reporte
-estado: abierto
+estado: cerrado
+revision_humana: aprobada
 iniciativa: "[[Operación y reportaje de ACE]]"
 tarea: "[[T-014 - Probar el harness compartido en una tarea real]]"
 fecha: 2026-09-01
@@ -46,15 +47,22 @@ La iniciación fue enfocada y accionable. La conversación posterior corrigió u
 - resolver identidad mediante persistencia, inferencia contextual o conversación con el humano;
 - contextualizar la iniciación desde la etapa y las tareas que explican la situación actual.
 
-### Abierto
+### Prueba real
 
-- Ejecutar una prueba real con el entorno habitual y comparar respuesta, adherencia y consumo.
-- Incorporar cualquier nuevo vacío antes de revisar el cierre de T-013.
-- Someter T-014 a revisión por un agente externo cuando su ejecución esté completa.
+Atreus y Mímir iniciaron trabajo desde Antigravity con sus entornos habituales y sin el historial conversacional de Fenrir. Ambos recuperaron E-001, los avances estructurales recientes y alternativas de continuidad. Además:
+
+- Atreus identificó la validación del harness en Antigravity y la revisión de T-013 como próximos pasos relevantes.
+- Mímir completó onboarding, verificó escritura local y publicó su prueba mediante GitHub.
+- Atreus preparó propuestas versionadas para la Fase 1 Duoc; ese uso real reveló la necesidad de un espacio compartido no canónico, resuelta posteriormente mediante `Borradores/`.
+- Las respuestas mantuvieron al humano dentro de la conversación y no saltaron automáticamente a implementar.
+
+El posible sesgo hacia tareas y ejecución queda como observación, no como defecto confirmado: los agentes pudieron también orientar, proponer y conversar. Se ajustará únicamente si el uso sostenido demuestra una fricción recurrente.
 
 ## Revisión
 
-Pendiente. El reporte permanece abierto mientras continúa la prueba real.
+Atreus y Mímir actuaron como validadores externos al ejecutor original y demostraron continuidad usando los artefactos registrados. Tomás revisó las respuestas, aprobó su calidad y decidió congelar la estructura en lugar de seguir refinándola por hipótesis.
+
+Los criterios de aceptación de T-014 se consideran cumplidos y el reporte queda cerrado.
 
 ## Enlaces
 

@@ -1,6 +1,7 @@
 ---
 tipo: reporte
-estado: revisión
+estado: cerrado
+revision_humana: aprobada
 iniciativa: "[[Operación y reportaje de ACE]]"
 tarea: "[[T-013 - Definir harness compartido mínimo de ACE]]"
 fecha: 2026-09-01
@@ -50,11 +51,13 @@ Los dos primeros turnos de T-014 confirmaron que el núcleo recupera el contexto
 - La iniciación debe explicar en lenguaje humano qué intenta dejar resuelto la etapa, qué avances recientes construyeron la situación actual y por qué la tarea activa sigue de ellos. Los identificadores sirven como referencias, no reemplazan esa explicación, y no es necesario resumir el proyecto completo.
 - La identidad persistente es preferente, pero no exclusiva: el agente puede inferirla mediante señales concordantes, incluido el humano asociado a la cuenta. Si la identidad no es inequívoca, debe preguntarla; no puede continuar anónimo.
 
-Estos ajustes se incorporaron en `AGENTS.md`. T-013 y este reporte permanecen en revisión hasta completar la prueba real y la revisión de equipo.
+Estos ajustes se incorporaron en `AGENTS.md` y luego fueron contrastados con el uso real de Atreus y Mímir desde Antigravity.
 
 ## Revisión
 
-Pendiente de revisión de equipo. La revisión debe comprobar que el núcleo es suficientemente corto, aplica las decisiones acordadas, no duplica reglas y permite que cada plataforma llegue al mismo contexto operativo.
+Tomás aprobó la revisión de equipo después de contrastar el núcleo con pruebas en Codex y Antigravity. Fenrir, Atreus y Mímir llegaron al mismo contexto operativo desde plataformas y usuarios distintos; Atreus y Mímir pudieron orientarse, conversar y aportar al repositorio sin instrucciones paralelas ni una segunda fuente de verdad.
+
+El resultado se considera suficiente para cerrar T-013. El harness queda congelado por ahora y solo se reabrirá o ajustará ante fricciones reales y recurrentes.
 
 ## Enlaces
 
