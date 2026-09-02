@@ -13,6 +13,14 @@ Este archivo contiene las reglas operativas universales de ACE. Se carga antes d
 
 ## Recuperación de contexto
 
+### Jerarquía de fuentes
+
+- El repositorio es la fuente de verdad operativa de ACE: conserva el estado vigente de etapas, tareas, reportes, decisiones y documentación.
+- Cualquier memoria persistente es auxiliar. Puede aportar identidad, preferencias, aprendizajes, antecedentes y razones históricas, pero no reemplaza la verificación de las fuentes canónicas del repositorio.
+- No reconstruyas automáticamente el mismo contexto desde el repositorio y la memoria. Recupera el presente desde el repositorio y consulta memoria solamente cuando aporte información necesaria que no esté allí.
+- En ACE no ejecutes búsquedas ni recuperación de memoria automáticamente al iniciar una sesión, al recibir el primer mensaje, por la sola mención del proyecto ni después de una compactación. Consulta memoria cuando el usuario pida recordar o cuando falte información necesaria que las fuentes canónicas no preserven. La identidad ya disponible en el contexto persistente propio del agente no requiere una búsqueda.
+- Si una memoria contradice al repositorio, prevalece el repositorio. No traslades esa discrepancia al humano ni actualices artefactos basándote únicamente en memoria.
+
 ### Sesión nueva o contexto perdido
 
 Lee, en este orden:
@@ -43,7 +51,7 @@ Después de recibir aprobación, confirma que la tarea y sus artefactos siguen v
 - El reporte de iniciación no se guarda como documento.
 - Después de orientar, conversa alternativas e implicancias y promueve que el usuario tome decisiones.
 - Una aprobación es explícita cuando el usuario autoriza claramente la implementación después de la orientación; priorizar el frente o aceptar la idea por sí solos no basta.
-- Si falta contexto o existen contradicciones, decláralas y convérsalas con el usuario. No completes vacíos silenciosamente.
+- Si falta contexto o existen contradicciones entre fuentes canónicas que no puedas resolver, decláralas y convérsalas con el usuario. No completes vacíos silenciosamente.
 
 ## Comunicación
 
