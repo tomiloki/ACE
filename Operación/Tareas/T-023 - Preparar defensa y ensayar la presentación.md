@@ -1,9 +1,10 @@
 ---
 tipo: tarea
-estado: pendiente
+estado: revisión
 responsable:
   - Matías
   - Atreus
+ejecutado_por: Matías y Atreus
 modulo: "[[Presentación de la primera evaluación]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
@@ -33,3 +34,12 @@ Matías y Atreus coordinan la tarea; Tomás, Matías y Paulo participan en la pr
 - Cada integrante conoce y puede defender su sección.
 - La exposición completa respeta el tiempo disponible.
 - El equipo ensayó preguntas técnicas y de factibilidad previsibles.
+
+## Reporte
+
+- [[R-018 - Guión de presentación y banco de preguntas de defensa]]
+
+## Enlaces
+
+- [[T-022 - Diseñar narrativa y diapositivas]]
+- [[R-017 - Narrativa y diseño de diapositivas de la presentación]]

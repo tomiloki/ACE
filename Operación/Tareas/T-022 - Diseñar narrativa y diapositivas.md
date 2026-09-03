@@ -1,9 +1,10 @@
 ---
 tipo: tarea
-estado: pendiente
+estado: revisión
 responsable:
   - Matías
   - Atreus
+ejecutado_por: Matías y Atreus
 modulo: "[[Presentación de la primera evaluación]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
@@ -35,8 +36,13 @@ Construir una presentación visual que explique problema, solución, alcance, ar
 - El contenido coincide con las decisiones del informe.
 - Los elementos visuales apoyan la exposición en lugar de duplicar párrafos.
 
+## Reporte
+
+- [[R-017 - Narrativa y diseño de diapositivas de la presentación]]
+
 ## Enlaces
 
 - [[Producto]]
 - [[Arquitectura]]
 - [[Borrador Fase 1]]
+- [[R-016 - Plan de trabajo y Carta Gantt]]

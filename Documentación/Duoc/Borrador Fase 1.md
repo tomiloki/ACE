@@ -80,18 +80,25 @@ El proyecto ACE tributa directamente al perfil de egreso del Ingeniero en Inform
 
 - **Paulo Loyola:** Mi interés profesional se orienta al desarrollo de software con foco en frontend y en la gestión de bases de datos, complementado con una documentación técnica estructurada. En el proyecto ACE, mi labor comprende la construcción de interfaces de usuario para el control y administración del sistema, la estructuración y consumo eficiente de datos, y el mantenimiento riguroso de la documentación del software para asegurar la mantenibilidad y calidad técnica del producto.
 - **Tomás Escalante:** ⟨PROPUESTA — pendiente validación Tomás⟩ Interés enfocado en el desarrollo backend y la arquitectura de software, asumiendo el diseño distribuido del sistema ACE, las APIs de integración, la lógica de sincronización y los servicios resilientes a fallas de red.
-- **Matías Salas:** ⟨PROPUESTA — pendiente validación Matías⟩ Interés orientado al desarrollo de software, la gestión del proyecto y la vinculación e interacción directa con el cliente, liderando el levantamiento continuo con Lumina Motion, la planificación operativa y la articulación funcional de las entregas.
+- **Matías Salas:** Mi interés profesional se orienta al desarrollo de software, la gestión del proyecto y la vinculación e interacción directa con el cliente, liderando el levantamiento continuo con Lumina Motion, la planificación operativa y la articulación funcional de las entregas.
 
-**Factibilidad** ⟨PROPUESTA, incompleta⟩
+**Factibilidad** ⟨PROPUESTA validada por equipo⟩
 
 - *Duración:* dieciocho semanas académicas, del 10 de agosto al 12 de diciembre.
-- *Equipo:* tres integrantes con roles diferenciados.
-- *Facilitadores:* acceso directo al cliente a través de Cristóbal, jefe del
-  área de informática de Lumina Motion, y existencia de documentación previa
-  del proyecto.
-- *Obstaculizadores:* ⟨PENDIENTE⟩
-- *Materiales requeridos:* ⟨PENDIENTE — hardware de pantallas, servidor en
-  sitio, hosting⟩
+- *Equipo:* tres integrantes con roles diferenciados: Tomás Escalante (Backend/Arquitectura), Paulo Loyola (Frontend/Bases de Datos) y Matías Salas (Gestión/Player/Cliente).
+- *Facilitadores:*
+  1. Acceso directo al cliente a través de Cristóbal, jefe del área de informática de Lumina Motion.
+  2. Existencia de documentación previa y diagramas conceptuales del proyecto.
+  3. Adopción de un harness operativo asistido por IA (ACE) versionado en Git que optimiza la documentación y la velocidad de desarrollo.
+- *Obstaculizadores y Mitigaciones:*
+  1. *Variabilidad o fallas en el hardware físico de pantallas:* Mitigado mediante el desarrollo de un Player basado en estándares web livianos y empaquetables, compatible con múltiples plataformas.
+  2. *Cortes de conectividad en locales o eventos:* Mitigado con arquitectura de almacenamiento y caché local (SQLite/IndexedDB) para reproducción en bucle autónomo sin internet.
+  3. *Tiempos acotados de desarrollo:* Mitigado mediante la priorización estricta de un MVP funcional para la Semana 10 (Hito 2).
+- *Materiales y recursos requeridos:*
+  - Pantallas de prueba y microcomputadores/Mini PCs para despliegue de Player.
+  - Servidor local en sitio para entornos sin conexión directa.
+  - Infraestructura Cloud / Servidor web para API y base de datos central.
+  - Entornos de desarrollo, repositorios Git y herramientas de diseño UI/UX.
 
 ---
 
@@ -115,18 +122,11 @@ mantenga la operación ante fallas de conexión.
 4. Habilitar la operación en sitio cuando no haya conexión a internet.
 5. Desplegar el sistema en un entorno de pruebas y validarlo con el cliente.
 
-> Los objetivos específicos 3, 4 y 5 dependen de decisiones técnicas todavía
-> abiertas en el diagrama.
-
 ### 5. Metodología
 
-⟨PENDIENTE — el equipo debe declarar la metodología⟩
+⟨PROPUESTA — marco ágil adaptado asistido por IA⟩
 
-Elementos ya existentes que pueden alimentar este punto:
-
-- Trabajo por fases con validación del cliente.
-- Reparto de responsabilidades por etapa de proyecto y foco de trabajo.
-- Registro de decisiones antes de implementar.
+El equipo adopta una metodología de desarrollo iterativa e incremental basada en marcos ágiles (Scrum/Kanban) complementada con el harness colaborativo ACE (asistencia de agentes de IA para trazabilidad, documentación técnica continua y revisión de código).
 
 **Funciones y responsabilidades:** ⟨PROPUESTA acordada con equipo⟩
 
@@ -136,49 +136,75 @@ Elementos ya existentes que pueden alimentar este punto:
 
 ### 6. Evidencias
 
-⟨PENDIENTE — la guía exige acordarlas con el docente⟩
+⟨PROPUESTA sujeta a ratificación con docente⟩
 
 | Tipo | Nombre | Descripción | Justificación |
 |---|---|---|---|
-| ⟨PENDIENTE⟩ | | | |
+| Avance | Informe de Definición y Planificación (Fase 1) | Documento formal de alcance, requerimientos, arquitectura y Carta Gantt. | Valida la pertinencia y factibilidad del proyecto. |
+| Avance | Prototipo Funcional y API Base (Semana 10) | Demostración de panel web y comunicación básica con Player. | Demuestra avance técnico real e integración cliente-servidor. |
+| Final | Plataforma ACE Desplegada (Semana 15) | Software completo operando con reproducción offline y sincronización. | Cumplimiento del 100% de los objetivos planteados. |
+| Final | Manual Técnico y de Usuario | Documentación exhaustiva de instalación, uso y arquitectura. | Asegura mantenibilidad y transferencia al cliente. |
 
 ### 7. Plan de trabajo
 
-⟨PENDIENTE — requiere las competencias del perfil de egreso, que encabezan
-cada fila de la tabla exigida⟩
+⟨PROPUESTA elaborada en T-020 / R-016⟩
 
-Columnas requeridas: competencia, nombre de la actividad, descripción,
-recursos, duración, responsable y observaciones.
+| Competencia del Perfil de Egreso | Nombre de la Actividad | Descripción | Recursos Requeridos | Duración | Responsable | Observaciones / Entregables |
+|---|---|---|---|:---:|---|---|
+| **C3.** Ingeniería de software y requerimientos | **1.1** Levantamiento de requerimientos | Reuniones con Lumina Motion para relevar dolores operativos. | Canal comunicación | S1 - S2 (2 sem) | Matías Salas | Requerimientos base |
+| **C3.** Ingeniería de software y requerimientos | **1.2** Alcance y factibilidad | Delimitación del MVP, objetivos y análisis de viabilidad. | Docs técnicos | S2 - S3 (2 sem) | Tomás / Matías | Alcance formal |
+| **C1.** Soluciones cliente-servidor distribuidas | **1.3** Selección de stack y arquitectura | Arquitectura centralizada y cliente de pantalla offline. | Herramientas diseño | S2 - S3 (2 sem) | Tomás / Paulo | Diagrama de arquitectura |
+| **C3.** Ingeniería de software y requerimientos | **1.4** Elaboración Informe y Diapositivas | Redacción formal y preparación de defensa Fase 1. | Plantilla Duoc | S3 - S4 (2 sem) | Equipo | **Hito 1 (S4):** Presentación Grupal |
+| **C3.** Ingeniería de software y requerimientos | **2.1** Ajustes post-feedback S4 | Incorporación de observaciones docentes al diseño. | Rúbrica | S5 (1 sem) | Equipo | Requerimientos refinados |
+| **C2.** Bases de datos relacionales y locales | **2.2** Modelado de datos | Diseño del esquema relacional y almacenamiento local. | Motor DB, CASE | S5 - S6 (2 sem) | Paulo / Tomás | Diagrama ER y DDL |
+| **C1.** Soluciones cliente-servidor distribuidas | **2.3** Diseño UI/UX Panel Admin | Wireframes y flujos interactivos de administración. | Figma | S5 - S6 (2 sem) | Paulo Loyola | Prototipo de interfaz |
+| **C1.** Soluciones cliente-servidor distribuidas | **2.4** Especificación APIs RESTful | Definición de endpoints, payloads JSON y contratos API. | OpenAPI / Swagger | S6 (1 sem) | Tomás Escalante | Docs de API |
+| **C2.** Bases de datos relacionales y locales | **3.1** Implementación Base de Datos | Despliegue de BD central y capa de acceso a datos / ORM. | Servidor DB | S7 - S8 (2 sem) | Paulo / Tomás | BD operativa |
+| **C1.** Soluciones cliente-servidor distribuidas | **3.2** Desarrollo Backend Core | Endpoints de medios, pantallas y autenticación. | Framework backend | S7 - S9 (3 sem) | Tomás Escalante | API funcional |
+| **C1.** Soluciones cliente-servidor distribuidas | **3.3** Desarrollo Frontend Admin | Interfaz web reactiva para pantallas y programación. | Framework frontend | S8 - S10 (3 sem) | Paulo Loyola | Panel web operativo |
+| **C1.** Soluciones cliente-servidor distribuidas | **3.4** Construcción Player Base | Reproductor multimedia local para ejecución en pantalla. | Web / Electron | S8 - S10 (3 sem) | Matías / Tomás | Player base operativo |
+| **C3.** Ingeniería de software y requerimientos | **3.5** Integración y validación avance | Pruebas de integración y validación con Lumina Motion. | Servidor local | S9 - S10 (2 sem) | Matías / Equipo | **Hito 2 (S10):** Entrega de Avance |
+| **C3.** Ingeniería de software y requerimientos | **3.6** Revisión feedback intermedio | Ajuste de planificación según feedback del Hito 2. | Rúbrica | S11 (1 sem) | Equipo | Plan ajustado |
+| **C1.** Soluciones cliente-servidor distribuidas | **4.1** Programación horaria avanzada | Lógica de calendarización por horario, fechas y sectores. | Scheduler engine | S12 - S13 (2 sem) | Paulo / Tomás | Programador integrado |
+| **C1 / C2.** Persistencia y resiliencia offline | **4.2** Resiliencia offline y Player local | Caché local persistente para reproducción sin internet. | SQLite / IndexedDB | S12 - S14 (3 sem) | Tomás / Matías | Player autónomo offline |
+| **C1.** Soluciones cliente-servidor distribuidas | **4.3** Sincronización y telemetría | Comunicación bidireccional y reporte de estado. | WebSockets / Polling| S13 - S14 (2 sem) | Tomás / Paulo | Telemetría en vivo |
+| **C3.** Ingeniería de software y requerimientos | **4.4** Pruebas integrales de tolerancia | Simulación de cortes de red y recuperación de estado. | Banco de pruebas | S14 (1 sem) | Matías / Equipo | Informe de pruebas |
+| **C1.** Soluciones cliente-servidor distribuidas | **5.1** Despliegue Staging y hardware | Instalación en servidores e integración con pantallas. | Servidor / Mini PC | S15 (1 sem) | Matías / Tomás | Sistema desplegado |
+| **C3.** Ingeniería de software y requerimientos | **5.2** Consolidación Informe Final | Manuales técnico, de usuario y memoria final. | Docs oficiales | S15 (1 sem) | Paulo / Equipo | **Hito 3 (S15):** Entrega Final |
+| **C3.** Ingeniería de software y requerimientos | **6.1** Validación Lumina y Defensa | Pruebas de aceptación con cliente y examen de título. | Prototipo / Demo | S16 - S18 (3 sem) | Equipo | **Hito 4 (S17-18):** Examen Final |
 
-> Vale 10 puntos. Es el indicador 7.
+### 8. Carta Gantt (18 Semanas)
 
-### 8. Carta Gantt
+⟨PROPUESTA elaborada en T-020 / R-016⟩
 
-⟨PROPUESTA — calendario académico real, actividades por validar⟩
-
-| Semana | Fechas | Hito de la asignatura |
-|---|---|---|
-| S1 | 10 – 15 ago | Definición del proyecto |
-| S2 | 17 – 22 ago | Cronograma y tecnologías |
-| S3 | 24 – 29 ago | Cronograma y tecnologías |
-| **S4** | **31 ago – 5 sep** | **Presentación grupal — evaluada** |
-| S5 | 7 – 12 sep | Retroalimentación e inicio de desarrollo |
-| S6 | 14 – 19 sep | Actualización de objetivos y cronograma |
-| S7 | 21 – 26 sep | Desarrollo |
-| S8 | 28 sep – 3 oct | Desarrollo |
-| S9 | 5 – 10 oct | Desarrollo |
-| **S10** | **12 – 17 oct** | **Entrega de avance — evaluada** |
-| S11 | 19 – 24 oct | Retroalimentación |
-| S12 | 26 – 31 oct | Desarrollo |
-| S13 | 2 – 7 nov | Desarrollo |
-| S14 | 9 – 14 nov | Desarrollo |
-| **S15** | **16 – 21 nov** | **Entrega final del proyecto — evaluada** |
-| S16 | 23 – 28 nov | Retroalimentación |
-| **S17** | **30 nov – 5 dic** | **Presentación final — evaluada** |
-| **S18** | **7 – 12 dic** | **Presentación final — evaluada** |
-
-Las actividades del proyecto se superponen a esta grilla una vez definido el
-plan de trabajo del punto 7.
+| # | Actividad | Resp. | S1 | S2 | S3 | S4 [H1] | S5 | S6 | S7 | S8 | S9 | S10 [H2] | S11 | S12 | S13 | S14 | S15 [H3] | S16 | S17 [H4] | S18 [H4] |
+|---|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1.1** | Requerimientos Lumina | Matías | █ | █ | | | | | | | | | | | | | | | | |
+| **1.2** | Alcance y factibilidad | Tomás/Matías | | █ | █ | | | | | | | | | | | | | | | |
+| **1.3** | Stack y arquitectura | Tomás/Paulo | | █ | █ | | | | | | | | | | | | | | | |
+| **1.4** | Informe y Diapositivas | Equipo | | | █ | █ | | | | | | | | | | | | | | |
+| **★** | **Hito 1: Presentación Fase 1**| **Equipo** | | | | **◆** | | | | | | | | | | | | | | |
+| **2.1** | Ajustes post-feedback S4 | Equipo | | | | | █ | | | | | | | | | | | | | |
+| **2.2** | Modelo de datos | Paulo/Tomás | | | | | █ | █ | | | | | | | | | | | | |
+| **2.3** | Diseño UI/UX Panel Admin | Paulo | | | | | █ | █ | | | | | | | | | | | | |
+| **2.4** | Especificación APIs REST | Tomás | | | | | | █ | | | | | | | | | | | | |
+| **3.1** | Implementación BD | Paulo/Tomás | | | | | | | █ | █ | | | | | | | | | | |
+| **3.2** | Desarrollo Backend Core | Tomás | | | | | | | █ | █ | █ | | | | | | | | | |
+| **3.3** | Desarrollo Frontend Admin | Paulo | | | | | | | | █ | █ | █ | | | | | | | | |
+| **3.4** | Construcción Player Base | Matías/Tomás | | | | | | | | █ | █ | █ | | | | | | | | |
+| **3.5** | Integración y validación | Matías/Equipo| | | | | | | | | █ | █ | | | | | | | | |
+| **★** | **Hito 2: Entrega Avance** | **Equipo** | | | | | | | | | | **◆** | | | | | | | | |
+| **3.6** | Feedback intermedio S10 | Equipo | | | | | | | | | | | █ | | | | | | | |
+| **4.1** | Programación horaria | Paulo/Tomás | | | | | | | | | | | | █ | █ | | | | | |
+| **4.2** | Resiliencia offline Player| Tomás/Matías | | | | | | | | | | | | █ | █ | █ | | | | |
+| **4.3** | Sincronización y telemetría | Tomás/Paulo | | | | | | | | | | | | | █ | █ | | | | |
+| **4.4** | Pruebas tolerancia fallos | Matías/Equipo| | | | | | | | | | | | | | █ | | | | |
+| **5.1** | Despliegue Staging / HW | Matías/Tomás | | | | | | | | | | | | | | | █ | | | |
+| **5.2** | Consolidación Informe Final| Paulo/Equipo | | | | | | | | | | | | | | | █ | | | |
+| **★** | **Hito 3: Entrega Final** | **Equipo** | | | | | | | | | | | | | | | **◆** | | | |
+| **6.1** | Validación Lumina y Ajustes| Matías/Equipo| | | | | | | | | | | | | | | | █ | █ | |
+| **6.2** | Preparación Examen y Demo | Paulo/Matías | | | | | | | | | | | | | | | | | █ | █ |
+| **★** | **Hito 4: Examen Final** | **Equipo** | | | | | | | | | | | | | | | | | | **◆** | **◆** |
 
 ---
 
@@ -187,15 +213,16 @@ plan de trabajo del punto 7.
 | # | Falta | Estado / Quién responde |
 |---|---|---|
 | 1 | Carrera y sede de cada integrante | **Resuelto** (Ingeniería en Informática, Sede Antonio Varas). RUTs reservados para canal privado / entrega final. |
-| 2 | Competencias del perfil de egreso y áreas de desempeño | **Resuelto** (incorporadas como propuesta formal desde Malla Curricular 1446114). |
+| 2 | Competencias del perfil de egreso y áreas de desempeño | **Resuelto** (incorporadas formalmente desde Malla Curricular 1446114). |
 | 3 | Intereses profesionales | Paulo validado. Propuestas formuladas para Tomás y Matías, pendientes de su ratificación. |
-| 4 | Metodología declarada y responsabilidades por integrante | Responsabilidades incorporadas como propuesta. Metodología de trabajo en desarrollo por Tomás ([[T-019]]). |
-| 5 | Evidencias | Equipo con el docente ([[T-019]]) |
-| 6 | Recursos materiales y obstaculizadores | Equipo ([[T-019]] / [[T-020]]) |
-| 7 | Actividades del plan de trabajo | Equipo ([[T-020]]) |
-| 8 | Documento `1.5_APT122_SumativaFase1.docx` | Equipo |
+| 4 | Metodología declarada y responsabilidades por integrante | **Resuelto** (incorporado en T-019 / Borrador). |
+| 5 | Evidencias | **Resuelto** (propuesta incorporada en punto 6). |
+| 6 | Recursos materiales y obstaculizadores | **Resuelto** (incorporado en factibilidad). |
+| 7 | Actividades del plan de trabajo y Carta Gantt | **Resuelto** ([[T-020]] / [[R-016]]). |
+| 8 | Documento de entrega montado en plantilla | Pendiente consolidación final ([[T-021]]). |
 
 ## Enlaces
 
 - [[Auditoría Fase 1]]
 - [[Arquitectura]]
+- [[R-016 - Plan de trabajo y Carta Gantt]]

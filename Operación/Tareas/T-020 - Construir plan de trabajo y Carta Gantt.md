@@ -1,9 +1,10 @@
 ---
 tipo: tarea
-estado: en_curso
+estado: revisión
 responsable:
   - Matías
   - Atreus
+ejecutado_por: Matías y Atreus
 modulo: "[[Planificación y factibilidad]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
@@ -29,6 +30,10 @@ Convertir el calendario académico y el alcance acordado en un plan realizable p
 - El plan cubre las dieciocho semanas y los hitos evaluados.
 - Las actividades tienen responsables, duración y recursos.
 - La Carta Gantt coincide con el plan de trabajo y fue acordada por el equipo.
+
+## Reporte
+
+- [[R-016 - Plan de trabajo y Carta Gantt]]
 
 ## Enlaces
 

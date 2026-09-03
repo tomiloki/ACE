@@ -154,3 +154,9 @@ classDiagram
 - ¿Las programaciones se repiten por día de la semana, o solo por rango de
   fechas?
 - Permisos por sector (Cristóbal lo ve improbable).
+
+
+NOTAS EQUIPO 
+
+-Relacion sitios usuarios- un usuario deberia poder tener varioas sitios
+-un medio tiene un nduracion, pero no necesariamente , podria ser ffoto, gif , etc; el medio tienen  qu ete ner un duracion dentro de la reproduccion y hay que fijar de en qu etabla vive eso(programacion,playlist,playlistitem)
