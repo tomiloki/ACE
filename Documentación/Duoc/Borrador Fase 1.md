@@ -4,6 +4,7 @@ estado: propuesta
 fase: 1
 fecha_limite: 2026-09-05
 fecha: 2026-09-01
+actualizado: 2026-09-03
 ---
 
 # Borrador Fase 1 Duoc
@@ -13,6 +14,8 @@ Sigue la estructura de `1.5_GuiaEstudiante_Fase 1_Definicion Proyecto APT.docx`.
 Los campos marcados **⟨PENDIENTE⟩** requieren respuesta del equipo y no se
 completaron por suposición. Los marcados **⟨PROPUESTA⟩** son redacción sugerida
 que Tomás debe validar antes de usarse.
+
+En T-017, Tomás acordó la formulación del problema, la solución y los objetivos el 2026-09-03, recogidos desde [[Producto]]. El alcance continúa en [[Alcance inicial de ACE]] como borrador pendiente de aprobación final. Este acuerdo no cierra T-017 ni implica validación final del cliente o del equipo.
 
 ---
 
@@ -45,32 +48,22 @@ que Tomás debe validar antes de usarse.
 
 **Relevancia del proyecto** ⟨PROPUESTA⟩
 
-Lumina Motion es un estudio multimedia que produce experiencias visuales e
-interactivas. Instala pantallas en centros comerciales, locales comerciales y
-eventos. Hoy la operación de esas pantallas está desacoplada: parte del
-contenido se carga a mano con pendrive y el resto se administra con software
-propietario de pago, como MadMapper y Arena.im, sin un punto único de control.
+Lumina Motion es un estudio multimedia que produce experiencias visuales e interactivas. Para ACE, el foco está en pantallas instaladas en locaciones fijas.
 
-El costo de esa fragmentación aparece cuando hay cambios de último momento:
-cada pantalla o grupo de pantallas se atiende por separado, lo que consume
-tiempo del equipo técnico y expone la operación a errores en vivo frente al
-público del cliente.
+La gestión de las pantallas de Lumina está descentralizada: utiliza herramientas y procedimientos separados, incluye cargas manuales de contenido y requiere intervención presencial. Esto dificulta el control conjunto de las pantallas y la coordinación de cambios, aumentando el tiempo operativo y el riesgo de errores.
 
-ACE aborda ese problema con una plataforma centralizada de gestión de
-pantallas, contenido y programación horaria, capaz de seguir operando cuando
-la conexión a internet falla.
+ACE busca centralizar la administración de pantallas, contenido y programación, permitiendo su gestión a distancia y conservando la capacidad de operarlas y modificarlas localmente cuando no exista conexión a internet.
 
 La relevancia para el campo laboral de la carrera está en que el proyecto
 integra desarrollo backend, diseño de API, modelado de datos, desarrollo
 frontend, comunicación en tiempo real y despliegue en infraestructura real,
 sobre un requerimiento de un cliente concreto.
 
-**Descripción del proyecto** ⟨PROPUESTA⟩
+**Descripción del proyecto** ⟨ACORDADA CON TOMÁS — 2026-09-03⟩
 
-Desarrollar un sistema de gestión de cartelería digital que permita administrar
-de forma centralizada las pantallas instaladas, el contenido multimedia y la
-programación horaria, con operación de respaldo en el sitio cuando no haya
-conexión a internet.
+ACE es una plataforma de gestión de cartelería digital para Lumina Motion que permite administrar de manera centralizada y remota las pantallas, el contenido multimedia y su programación en locaciones fijas. Contempla reproducción autónoma y cambios locales de contenido y programación sin internet, utilizando archivos disponibles en la locación; durante un corte no se puede descargar contenido del servidor remoto.
+
+Cristóbal será el primer usuario administrador. El acceso de operadores estará funcionando desde la primera versión y limitado a sus locaciones autorizadas, aunque todavía no se utilice. La forma técnica del respaldo local continúa por definir y no se compromete una alternativa arquitectónica en esta descripción.
 
 **Pertinencia con el perfil de egreso:** ⟨PROPUESTA⟩
 
@@ -106,21 +99,18 @@ El proyecto ACE tributa directamente al perfil de egreso del Ingeniero en Inform
 
 ### 4. Objetivos
 
-**Objetivo general** ⟨PROPUESTA⟩
+**Objetivo general** ⟨ACORDADO CON TOMÁS — 2026-09-03⟩
 
-Desarrollar una plataforma centralizada de gestión de cartelería digital para
-Lumina Motion, que administre pantallas, contenido y programación horaria, y
-mantenga la operación ante fallas de conexión.
+Desarrollar una plataforma de gestión de cartelería digital para Lumina Motion que permita administrar de manera centralizada y remota las pantallas, el contenido y su programación en locaciones fijas, manteniendo la reproducción y permitiendo realizar cambios localmente cuando no exista conexión a internet.
 
-**Objetivos específicos** ⟨PROPUESTA⟩
+**Objetivos específicos** ⟨ACORDADOS CON TOMÁS — 2026-09-03⟩
 
-1. Modelar la estructura de datos que representa sitios, sectores, pantallas,
-   contenido y programación.
-2. Construir una interfaz de administración que permita cargar contenido y
-   definir su programación horaria.
-3. Implementar la comunicación entre el servidor y las pantallas.
-4. Habilitar la operación en sitio cuando no haya conexión a internet.
-5. Desplegar el sistema en un entorno de pruebas y validarlo con el cliente.
+1. Implementar la administración centralizada y remota de locaciones, sectores y pantallas, con acceso diferenciado para administradores y operadores según las locaciones autorizadas.
+2. Desarrollar la gestión de contenido multimedia y playlists reutilizables, permitiendo organizar su orden, configurar tiempos de exhibición y limitar el acceso al contenido autorizado.
+3. Implementar la programación de playlists por fechas y horarios, con asignación a pantallas o sectores.
+4. Habilitar la reproducción autónoma y la modificación local de contenido y programación sin internet, utilizando archivos disponibles en la locación.
+5. Incorporar la consulta del estado básico de conectividad de los NUC, incluyendo su última comunicación con la plataforma.
+6. Validar el sistema en un entorno de pruebas con el cliente, verificando gestión remota, permisos y funcionamiento con y sin conexión a internet.
 
 ### 5. Metodología
 
