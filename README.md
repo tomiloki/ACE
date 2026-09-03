@@ -56,6 +56,7 @@ Las identidades actuales son temporales. Si el agente no puede resolver inequív
 - [`Ecosistema IA/`](Ecosistema%20IA): estado, etapas, registros y harnesses de agentes.
 - [`Operación/`](Operación): módulos, tareas, reportes y reglas de trabajo.
 - [`Borradores/`](Borradores): propuestas y material no canónico.
+- [`Preguntas Cliente/`](Preguntas%20Cliente): dudas y alternativas para conversar con el cliente, sin decisiones anticipadas.
 - [`Legacy/`](Legacy): antecedentes históricos y validaciones iniciales.
 - [`Excalidraw/`](Excalidraw): diagramas editables.
 

@@ -34,3 +34,4 @@ Acordar la definición de ACE que usará la primera evaluación y comprobar que 
 - [[Producto]]
 - [[Arquitectura]]
 - [[Borrador Fase 1]]
+- [[Gestión local sin internet]] — pregunta abierta para Cristóbal y el equipo; no define todavía la arquitectura de respaldo.
