@@ -61,6 +61,7 @@ classDiagram
     +int playlist_id
     +int medio_id
     +int orden
+    +int duracion_reproduccion
   }
 
   class programaciones {
@@ -110,7 +111,7 @@ classDiagram
 | `pantallas` | Dispositivo físico. Pertenece a un sector. |
 | `medios` | Archivo único, con checksum. |
 | `playlists` | Lista ordenada de contenido. |
-| `playlist_items` | Un medio dentro de una playlist, con su orden. |
+| `playlist_items` | Una aparición de un medio dentro de una playlist, con su orden y tiempo de exhibición. |
 | `programaciones` | Qué playlist se emite, dónde y en qué ventana horaria. |
 | `usuarios` | Identidad y rol: administrador u operador. |
 | `usuarios_locaciones` | Asignaciones de acceso de operadores a locaciones. |
@@ -124,6 +125,9 @@ classDiagram
   Viene del legacy.
 - `medios.checksum` — SHA-256 del archivo. La pantalla no vuelve a descargar
   lo que ya tiene. Viene del legacy.
+- `medios.duracion` — duración propia del archivo, cuando corresponda; no determina cuánto debe mostrarse en una playlist.
+- `playlist_items.duracion_reproduccion` — tiempo de exhibición configurado para esa aparición. Permite usar el mismo medio con distintos tiempos sin modificar el archivo ni sus metadatos. Las unidades, nulabilidad y reglas por tipo de medio quedan pendientes de precisar; el atributo no implica por sí solo cortar ni repetir.
+- `medios.tipo` — describe el medio; el ítem lo consulta mediante `medio_id`, sin duplicarlo en `playlist_items`.
 - `programaciones.sector_id` y `pantalla_id` — se usa uno u otro. Si ambos
   van vacíos, la propuesta anterior la considera global; ese alcance queda pendiente de delimitar antes de habilitar operadores.
 - `usuarios.rol` — valores `administrador` y `operador`. El rol determina las capacidades; las asignaciones determinan las locaciones accesibles al operador.
@@ -149,6 +153,7 @@ Respuesta y contexto: [[Operadores, clientes y locaciones]].
 - **Dos roles:** administrador (todas las locaciones) y operador (locaciones asignadas).
 - **El archivo se separa de su uso.** Un medio se reusa en varias playlists sin
   volver a subirlo.
+- **Dos duraciones distintas, acordadas con Tomás el 2026-09-03:** la propia del archivo en `medios.duracion` y el tiempo de exhibición por aparición en `playlist_items.duracion_reproduccion`.
 - **La playlist no lleva horario ni destino.** Eso vive en `programaciones`.
 
 ## Convenciones
@@ -169,8 +174,7 @@ Respuesta y contexto: [[Operadores, clientes y locaciones]].
 
 - **Segmentación de medios y playlists por locación/es:** es necesaria, pero su relación exacta y reglas de compartición todavía no están acordadas. Las tablas del diagrama no completan aún ese aislamiento; `subido_por` identifica al autor, no concede acceso ni define el alcance.
 - **Programación global:** definir su alcance y autorización de forma consistente con las locaciones permitidas. No habilitar operadores usando una interpretación global irrestricta.
-- ¿Se puede sobrescribir la duración de una imagen dentro de una playlist, o
-  la duración es siempre la del medio?
+- **Comportamiento de duración por tipo de medio:** imágenes sin duración propia, videos con tiempo configurado distinto al original y animaciones con ciclos. Definir corte, repetición o reproducción completa, unidades, nulabilidad y valores por defecto. Casos para conversar en [[Preguntas agrupadas]].
 - ¿Qué pasa si dos programaciones se superponen en la misma pantalla? Hace
   falta una regla: prioridad, o prohibir el solapamiento.
 - ¿Las programaciones se repiten por día de la semana, o solo por rango de
@@ -181,4 +185,4 @@ Respuesta y contexto: [[Operadores, clientes y locaciones]].
 NOTAS EQUIPO 
 
 - Relación usuarios/locaciones atendida el 2026-09-03 mediante `usuarios_locaciones`; permite varias locaciones por usuario.
--un medio tiene un nduracion, pero no necesariamente , podria ser ffoto, gif , etc; el medio tienen  qu ete ner un duracion dentro de la reproduccion y hay que fijar de en qu etabla vive eso(programacion,playlist,playlistitem)
+- Ubicación de la duración de reproducción atendida el 2026-09-03 en `playlist_items`; el comportamiento por tipo de medio permanece abierto.
