@@ -2,13 +2,16 @@
 caja: Modelo de datos
 estado: propuesta
 fecha: 2026-09-01
+actualizado: 2026-09-03
 ---
 
 # Modelo de datos
 
+El modelo completo sigue en propuesta. La base de locaciones y accesos se acordó con Tomás el 2026-09-03: sin entidad cliente por ahora, uso inicial por Cristóbal como administrador y operadores previstos para una o varias locaciones. El alcance de contenido y playlists todavía requiere definición.
+
 ```mermaid
 classDiagram
-  class sitios {
+  class locaciones {
     +int id
     +string nombre
     +string direccion
@@ -17,7 +20,7 @@ classDiagram
 
   class sectores {
     +int id
-    +int sitio_id
+    +int locacion_id
     +string nombre
     +string descripcion
   }
@@ -78,12 +81,17 @@ classDiagram
     +string email
     +string password_hash
     +enum rol
-    +int sitio_id
     +bool activo
   }
 
-  sitios "1" --> "*" sectores
-  sitios "1" --> "*" usuarios
+  class usuarios_locaciones {
+    +int usuario_id
+    +int locacion_id
+  }
+
+  locaciones "1" --> "*" sectores
+  locaciones "1" --> "*" usuarios_locaciones
+  usuarios "1" --> "*" usuarios_locaciones
   sectores "1" --> "*" pantallas
   sectores "1" --> "*" programaciones
   pantallas "1" --> "*" programaciones
@@ -97,14 +105,15 @@ classDiagram
 
 | Entidad | Qué es |
 |---|---|
-| `sitios` | Instalación fija. Equivale al cliente de Lumina. |
-| `sectores` | Subdivisión del sitio: Lobby, Zona VIP. |
+| `locaciones` | Instalación fija. No representa una entidad cliente. |
+| `sectores` | Subdivisión de la locación: Lobby, Zona VIP. |
 | `pantallas` | Dispositivo físico. Pertenece a un sector. |
 | `medios` | Archivo único, con checksum. |
 | `playlists` | Lista ordenada de contenido. |
 | `playlist_items` | Un medio dentro de una playlist, con su orden. |
 | `programaciones` | Qué playlist se emite, dónde y en qué ventana horaria. |
-| `usuarios` | Acceso a nivel de sitio. |
+| `usuarios` | Identidad y rol: administrador u operador. |
+| `usuarios_locaciones` | Asignaciones de acceso de operadores a locaciones. |
 
 ## Campos que merecen explicación
 
@@ -116,17 +125,28 @@ classDiagram
 - `medios.checksum` — SHA-256 del archivo. La pantalla no vuelve a descargar
   lo que ya tiene. Viene del legacy.
 - `programaciones.sector_id` y `pantalla_id` — se usa uno u otro. Si ambos
-  van vacíos, la programación es global.
-- `usuarios.sitio_id` — vacío en el administrador, que ve todos los sitios.
+  van vacíos, la propuesta anterior la considera global; ese alcance queda pendiente de delimitar antes de habilitar operadores.
+- `usuarios.rol` — valores `administrador` y `operador`. El rol determina las capacidades; las asignaciones determinan las locaciones accesibles al operador.
+- `usuarios_locaciones` — clave primaria compuesta (`usuario_id`, `locacion_id`); ambas columnas son claves foráneas. No se repite la pareja ni se limita una locación a un solo operador.
+- El administrador accede a todas las locaciones por su rol, sin requerir filas en `usuarios_locaciones`. Un operador sin asignaciones no tiene acceso a ninguna; una lista vacía nunca concede acceso global.
+
+## Base adoptada: locaciones y acceso
+
+- **Sin entidad cliente por ahora.** La realidad actual descrita por Tomás no justifica esa agrupación adicional. Esto no afirma que cliente y locación sean el mismo concepto.
+- **Primer uso:** Cristóbal como administrador. No se requieren cuentas de operador para iniciar, pero el modelo ya permite incorporarlas después.
+- **Operadores:** una o varias locaciones autorizadas por usuario. No se impone un único operador por locación.
+- **Sin SaaS comercial:** no se incorporan planes, suscripciones ni personalización por cliente.
+- **Validación pendiente con Cristóbal y el equipo:** confirmar la realidad actual y qué cambios futuros justificarían revisar esta base. No se registra como aprobación del cliente.
+
+Respuesta y contexto: [[Operadores, clientes y locaciones]].
 
 ## Decidido
 
 - **No existe entidad evento.** Las pantallas quedan instaladas de forma fija.
   El horario cuelga del contenido, no de una jornada.
-- **Jerarquía de dos niveles:** sitio → sector → pantalla.
-- **Cliente = sitio.** Un cliente no tiene más de un sitio por ahora.
-- **Permisos a nivel de sitio.** El sector dirige contenido, no controla acceso.
-- **Dos roles:** administrador (todos los sitios) y operador (su sitio).
+- **Jerarquía:** locación → sector → pantalla.
+- **Permisos a nivel de locación.** El sector dirige contenido, no controla acceso.
+- **Dos roles:** administrador (todas las locaciones) y operador (locaciones asignadas).
 - **El archivo se separa de su uso.** Un medio se reusa en varias playlists sin
   volver a subirlo.
 - **La playlist no lleva horario ni destino.** Eso vive en `programaciones`.
@@ -140,13 +160,15 @@ classDiagram
 
 ## Descartado del legacy
 
-- `groups` plano: colapsaba sitio y sector en una sola tabla.
+- `groups` plano: colapsaba locación y sector en una sola tabla.
 - `media_items.playlist_id`: ataba cada archivo a una única playlist.
 - Horario y destino dentro de `playlists`: tres responsabilidades en una tabla.
 - `screens.zone` como texto libre: lo reemplaza `sectores`.
 
 ## Abierto
 
+- **Segmentación de medios y playlists por locación/es:** es necesaria, pero su relación exacta y reglas de compartición todavía no están acordadas. Las tablas del diagrama no completan aún ese aislamiento; `subido_por` identifica al autor, no concede acceso ni define el alcance.
+- **Programación global:** definir su alcance y autorización de forma consistente con las locaciones permitidas. No habilitar operadores usando una interpretación global irrestricta.
 - ¿Se puede sobrescribir la duración de una imagen dentro de una playlist, o
   la duración es siempre la del medio?
 - ¿Qué pasa si dos programaciones se superponen en la misma pantalla? Hace
@@ -158,5 +180,5 @@ classDiagram
 
 NOTAS EQUIPO 
 
--Relacion sitios usuarios- un usuario deberia poder tener varioas sitios
+- Relación usuarios/locaciones atendida el 2026-09-03 mediante `usuarios_locaciones`; permite varias locaciones por usuario.
 -un medio tiene un nduracion, pero no necesariamente , podria ser ffoto, gif , etc; el medio tienen  qu ete ner un duracion dentro de la reproduccion y hay que fijar de en qu etabla vive eso(programacion,playlist,playlistitem)

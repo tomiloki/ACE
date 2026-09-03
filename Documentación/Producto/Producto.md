@@ -17,8 +17,8 @@ en que se reproduce.
 | Actor | Rol |
 |---|---|
 | Lumina Motion | Dueña de la plataforma. Estudio multimedia que instala y opera las pantallas. |
-| Cristóbal | Jefe de informática de Lumina. Administra todos los sitios. |
-| Operador del cliente | Opera las pantallas de su propio sitio. |
+| Cristóbal | Jefe de informática de Lumina. Primer usuario, como administrador de todas las locaciones. |
+| Operador | Previsto para una incorporación posterior; gestiona las locaciones que tenga autorizadas. |
 
 ## Qué problema resuelve
 
@@ -43,30 +43,32 @@ Tres objetos y nada más:
 ## Cómo se organiza
 
 ```
-Sitio (el cliente)
+Locación
   └── Sector
         └── Pantalla
 ```
 
-El permiso llega hasta el sitio. El sector solo sirve para dirigir contenido.
+El permiso llega hasta la locación. Un operador puede tener una o varias locaciones asignadas; no se limita cada locación a un único operador. El sector solo sirve para dirigir contenido.
+
+Para el alcance inicial no se modela una entidad cliente. Esto no equipara cliente con locación: la necesidad de incorporarlo se revisará con Cristóbal y el equipo en [[Operadores, clientes y locaciones]].
 
 ## Alcance inicial
 
 ⟨PROPUESTA — requiere validación⟩
 
-- Gestión de sitios, sectores y pantallas.
+- Gestión de locaciones, sectores y pantallas.
 - Carga de contenido reutilizable entre listas.
 - Programación horaria dirigida a un sector o a una pantalla.
 - Reproducción autónoma: la pantalla guarda el contenido y sigue funcionando
   sin conexión.
 - Operación en sitio cuando se cae internet.
-- Dos roles: administrador y operador.
+- Dos roles diseñados: administrador y operador. El primer uso será por Cristóbal como administrador, sin requerir operadores al inicio.
 
 ## Fuera de alcance
 
 - Creación, edición o diseño del contenido. ACE lo distribuye, no lo produce.
 - Mantenimiento físico de pantallas y cableado.
-- Un cliente con más de un sitio.
+- Entidad cliente y personalización por cliente, por ahora; no se impone una equivalencia entre cliente y locación.
 - Permisos a nivel de sector.
 
 ## Restricción que define el producto
