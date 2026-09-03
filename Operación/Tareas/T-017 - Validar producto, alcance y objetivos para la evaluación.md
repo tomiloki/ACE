@@ -8,6 +8,7 @@ modulo: "[[Producto y documentación para la primera evaluación]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
 revision: equipo
+ejecutado_por: Fenrir
 revisado_por:
 resultado_revision: pendiente
 creado: 2026-09-02
@@ -31,6 +32,7 @@ Acordar la definición de ACE que usará la primera evaluación y comprobar que 
 
 ## Enlaces
 
+- [[R-019 - Definición de producto y objetivos para la evaluación]] — resultado preparado; revisión de equipo pendiente, sin cierre de la tarea.
 - [[Producto]]
 - [[Arquitectura]]
 - [[Borrador Fase 1]]

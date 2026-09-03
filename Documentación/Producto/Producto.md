@@ -7,7 +7,7 @@ actualizado: 2026-09-03
 
 # Producto
 
-Problema, solución y objetivos acordados con Tomás durante T-017 el 2026-09-03. El alcance sigue en borrador y la tarea permanece abierta; esto no constituye validación final del cliente ni del equipo.
+Problema, solución, alcance y objetivos acordados con Tomás durante T-017 el 2026-09-03. Este documento concentra la definición de producto; la tarea permanece abierta y su revisión de equipo está pendiente. Esto no constituye validación final del cliente ni del equipo.
 
 ## Qué es ACE
 
@@ -68,13 +68,12 @@ Desarrollar una plataforma de gestión de cartelería digital para Lumina Motion
 
 ## Alcance inicial
 
-⟨PROPUESTA — requiere aprobación final⟩. El detalle para conversar permanece en [[Alcance inicial de ACE]].
+Alcance de la primera versión de producto, consolidado desde [[Alcance inicial de ACE]], que se conserva solo como antecedente. No implica entregar todo el software durante E-002, dedicada a la primera evaluación académica.
 
 - Gestión centralizada y remota de locaciones, sectores y pantallas.
 - Carga de contenido reutilizable entre listas, con orden, tiempos de exhibición y acceso limitado a las locaciones autorizadas.
-- Programación horaria dirigida a un sector o a una pantalla.
-- Reproducción autónoma: la pantalla guarda el contenido y sigue funcionando
-  sin conexión.
+- Programación por fechas y horarios dirigida a un sector o a una pantalla.
+- Reproducción autónoma: el NUC conserva el contenido y la programación y continúa reproduciendo sin conexión.
 - Cambios locales de contenido y programación sin internet, usando archivos disponibles localmente.
 - Dos roles funcionales desde la primera versión: administrador y operador. El primer uso será por Cristóbal como administrador, sin requerir cuentas de operador al inicio.
 - Consulta de conectividad y última comunicación de los NUC.
@@ -83,8 +82,9 @@ Desarrollar una plataforma de gestión de cartelería digital para Lumina Motion
 
 - Creación, edición o diseño del contenido. ACE lo distribuye, no lo produce.
 - Mantenimiento físico de pantallas y cableado.
-- Entidad cliente y personalización por cliente, por ahora; no se impone una equivalencia entre cliente y locación.
+- Entidad cliente, suscripciones y personalización tipo SaaS, por ahora; no se impone una equivalencia entre cliente y locación.
 - Permisos a nivel de sector.
+- Monitoreo avanzado, más allá de la conectividad y última comunicación de los NUC.
 
 ## Restricción que define el producto
 
@@ -94,7 +94,7 @@ Estas capacidades no deciden todavía si el respaldo será individual por NUC o 
 
 ## Definiciones pendientes
 
-- Aprobación final del alcance en [[Alcance inicial de ACE]].
+- Revisión de equipo de esta definición en [[R-019 - Definición de producto y objetivos para la evaluación]].
 - Formatos admitidos, reglas de duración y conflictos de programación.
 - Segmentación y compartición de contenidos y playlists entre locaciones.
 - Validación de las preguntas de operación y accesos con Cristóbal y el equipo.

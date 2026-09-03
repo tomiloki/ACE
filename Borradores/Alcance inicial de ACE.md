@@ -1,6 +1,6 @@
 # Alcance inicial de ACE
 
-**Borrador para conversar — 2026-09-03.** Relacionado con [[T-017 - Validar producto, alcance y objetivos para la evaluación]]. No constituye una definición aprobada ni un compromiso de entrega.
+**Incorporado — 2026-09-03.** Su contenido se consolidó en [[Producto]] y se incorporó a [[Borrador Fase 1]] durante [[T-017 - Validar producto, alcance y objetivos para la evaluación]]. Se conserva como antecedente de la conversación, no como fuente paralela: los cambios posteriores se realizan en Producto. La revisión de la tarea permanece pendiente en [[R-019 - Definición de producto y objetivos para la evaluación]].
 
 Describe la primera versión de producto que se propone construir; no significa entregar todo el software durante E-002.
 

@@ -15,7 +15,7 @@ Los campos marcados **⟨PENDIENTE⟩** requieren respuesta del equipo y no se
 completaron por suposición. Los marcados **⟨PROPUESTA⟩** son redacción sugerida
 que Tomás debe validar antes de usarse.
 
-En T-017, Tomás acordó la formulación del problema, la solución y los objetivos el 2026-09-03, recogidos desde [[Producto]]. El alcance continúa en [[Alcance inicial de ACE]] como borrador pendiente de aprobación final. Este acuerdo no cierra T-017 ni implica validación final del cliente o del equipo.
+En T-017, Tomás acordó la formulación del problema, la solución, el alcance y los objetivos el 2026-09-03, recogidos desde [[Producto]], fuente de la definición vigente. El borrador [[Alcance inicial de ACE]] queda como antecedente incorporado. Este acuerdo no cierra T-017 ni implica validación final del cliente o del equipo; la revisión permanece pendiente en [[R-019 - Definición de producto y objetivos para la evaluación]].
 
 ---
 
@@ -64,6 +64,8 @@ sobre un requerimiento de un cliente concreto.
 ACE es una plataforma de gestión de cartelería digital para Lumina Motion que permite administrar de manera centralizada y remota las pantallas, el contenido multimedia y su programación en locaciones fijas. Contempla reproducción autónoma y cambios locales de contenido y programación sin internet, utilizando archivos disponibles en la locación; durante un corte no se puede descargar contenido del servidor remoto.
 
 Cristóbal será el primer usuario administrador. El acceso de operadores estará funcionando desde la primera versión y limitado a sus locaciones autorizadas, aunque todavía no se utilice. La forma técnica del respaldo local continúa por definir y no se compromete una alternativa arquitectónica en esta descripción.
+
+**Alcance de la primera versión:** administración de locaciones, sectores y pantallas; carga de medios y playlists reutilizables con orden, tiempos de exhibición y acceso limitado a locaciones autorizadas; programación por fechas y horarios para pantallas o sectores; reproducción e intervención local sin internet; y consulta básica de conectividad y última comunicación de los NUC. Quedan fuera la creación o edición audiovisual, el mantenimiento físico, una entidad cliente y funciones de suscripción o personalización SaaS, los permisos por sector y el monitoreo avanzado. Los formatos admitidos, las reglas de duración y los conflictos de programación requieren delimitación. Este alcance describe el producto a desarrollar, no software que deba entregarse completo en la primera evaluación.
 
 **Pertinencia con el perfil de egreso:** ⟨PROPUESTA⟩
 
