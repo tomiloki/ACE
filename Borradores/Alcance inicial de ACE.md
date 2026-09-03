@@ -10,6 +10,7 @@ Describe la primera versión de producto que se propone construir; no significa 
 
 - Gestionar locaciones, sectores y pantallas desde la plataforma.
 - Cristóbal como primer usuario administrador.
+- Acceso de operadores funcionando desde la primera versión, limitado a sus locaciones autorizadas, aunque Cristóbal sea el único usuario inicial.
 
 ### 2. Contenido y playlists
 
@@ -30,7 +31,7 @@ Describe la primera versión de producto que se propone construir; no significa 
 ### 5. Intervención local sin internet
 
 - Cambiar contenido y programación desde la locación.
-- Pendiente: si será mediante paneles individuales o un panel conjunto.
+- Limitación: sin internet no se puede descargar contenido del servidor remoto; se utilizan archivos disponibles localmente.
 
 ### 6. Estado básico de los equipos
 
@@ -49,12 +50,5 @@ Describe la primera versión de producto que se propone construir; no significa 
 - Formatos de medios admitidos.
 - Reglas de duración por tipo de medio.
 - Resolución de conflictos de programación.
-- Modalidad del respaldo local sin internet.
 
 Estos puntos requieren delimitación; no representan funcionalidades ilimitadas.
-
-## Pregunta abierta sobre operadores
-
-Que Cristóbal sea el único usuario inicial no necesariamente significa que el rol operador quede sin implementar.
-
-**¿La primera versión debe traer el acceso de operadores funcionando aunque todavía nadie lo use, o solamente dejarlo diseñado para implementarlo después?**
