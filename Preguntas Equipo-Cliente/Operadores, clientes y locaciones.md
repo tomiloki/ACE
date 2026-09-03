@@ -35,16 +35,44 @@ Agregar clientes y más personalización no se considera necesario para este alc
 
 ### Tablas relacionadas
 
-| Tabla | Atributos |
-|---|---|
-| `locaciones` | `id: int (PK)`, `nombre: string`, `direccion: string`, `activo: bool` |
-| `sectores` | `id: int (PK)`, `locacion_id: int (FK)`, `nombre: string`, `descripcion: string` |
-| `usuarios` | `id: int (PK)`, `nombre: string`, `email: string`, `password_hash: string`, `rol: enum(administrador, operador)`, `activo: bool` |
-| `usuarios_locaciones` | `usuario_id: int (FK)`, `locacion_id: int (FK)`; PK compuesta por ambos atributos |
+```mermaid
+erDiagram
+    locaciones ||--o{ sectores : contiene
+    locaciones ||--o{ usuarios_locaciones : recibe_asignaciones
+    usuarios ||--o{ usuarios_locaciones : tiene_asignaciones
+
+    locaciones {
+        int id PK
+        string nombre
+        string direccion
+        bool activo
+    }
+
+    sectores {
+        int id PK
+        int locacion_id FK
+        string nombre
+        string descripcion
+    }
+
+    usuarios {
+        int id PK
+        string nombre
+        string email
+        string password_hash
+        enum rol "administrador u operador"
+        bool activo
+    }
+
+    usuarios_locaciones {
+        int usuario_id PK, FK "PK compuesta con locacion_id"
+        int locacion_id PK, FK "PK compuesta con usuario_id"
+    }
+```
 
 - `locaciones` reemplaza a `sitios`; `sectores.locacion_id` reemplaza a `sitio_id`. Las pantallas siguen perteneciendo a un sector mediante `pantallas.sector_id`.
 - Se elimina `usuarios.sitio_id`: las asignaciones viven en `usuarios_locaciones`.
 - El administrador tiene acceso global por rol. Un operador accede solo a sus asignaciones; sin asignaciones no tiene acceso.
 - **Contenido y playlists:** deben segmentarse por locación/es; la relación exacta y los permisos de compartición siguen pendientes. No se asume una biblioteca global para operadores.
 
-Esta tabla registra la respuesta a esta fecha; el modelo vigente continúa en [[Modelo de datos]].
+Este diagrama registra la respuesta a esta fecha; el modelo vigente continúa en [[Modelo de datos]].
