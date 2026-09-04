@@ -48,30 +48,11 @@ Diseñada para la creación, curaduría de contenidos multimedia, calendarizaci�
 
 ---
 
----
-## 3. Vistas de Media Library (Bóveda y Gestión de Medios)
+## Comparativa de Usabilidad
 
-### 3.1 Versión 1: "Visual Asset Vault & Quick Inspector"
-Diseñada para la gestión visual ágil, carga rápida de archivos e inspección detallada de metadatos.
-- **Zona de Carga Inteligente (Drag-and-Drop):** Área superior con detección automática de tipo de medio y optimización para el almacenamiento local de los NUCs.
-- **Diferenciación de Duración:** Distingue duración nativa en videos (`00:20s (Native)`) de la duración asignada en imágenes/banners (`00:10s (Configured)`).
-- **Filtros por Campaña y Tags:** Píldoras interactivas (`Costanera Retail`, `Mall Plaza Ads`, `Holiday 2026`, `Emergency Banners`).
-- **Inspector Lateral (Quick Asset Inspector):** Panel derecho con reproductor previo, edición de tags y botón modal `Assign to Screens`.
-- **Estado de Resiliencia:** Badge verde `100% NUC Cached` que confirma que el medio ya fue descargado localmente por los NUCs de pantalla.
-
-### 3.2 Versión 2: "Folder & Campaign Manager with Screen Target Matrix"
-Diseñada para la organización por clientes, carpetas jerárquicas y distribución directa sobre planos de pantallas.
-- **Árbol de Carpetas (Folder Tree):** Navegación estructurada (`Lumina Motion Clients > Costanera Center > Retail Promos > Autumn 2026`).
-- **Indicador de Salud de Sincronización:** Badge consolidado `Sync Health: Downloaded to 14/14 Local NUCs`.
-- **Selector Interactivo de Pantallas (Screen Target Selector):** Plano visual de tótems y pantallas LED del mall con acción directa `1-click Deploy Asset to Loop`.
-
----
-
-## Comparativa de Usabilidad — Vistas de Media Library
-
-| Dimensión | Versión 1: Visual Asset Vault | Versión 2: Folder & Campaign Hub |
+| Dimensión | Versión 1 (Command Center) | Versión 2 (Playlist Studio) |
 |---|---|---|
-| **Estructura Principal** | Cuadrícula visual con zona de carga superior e inspector lateral. | Árbol jerárquico de carpetas con cuadrícula y plano de distribución de pantallas. |
-| **Gestión de Duración** | Distingue duración nativa (video) vs. duración configurada (imagen/animación). | Duración resumida en tarjeta con metadata expandible. |
-| **Acción Principal** | Inspección rápida y asignación modal a pantallas. | Despliegue en 1 clic hacia el loop activo de las pantallas seleccionadas. |
-| **Control Offline** | Badge individual `100% NUC Cached` por archivo. | Badge consolidado de red `Downloaded to 14/14 Local NUCs`. |
+| **Objetivo Central** | Diagnóstico rápido, telemetría y salud de pantallas. | Programación horaria y curaduría multimedia. |
+| **Control Offline** | Muestra qué pantallas están en corte de red. | Asegura que el contenido esté 100% precargado antes de emitir. |
+| **Simulación Visual** | Miniaturas en grilla. | Reproductor a escala vertical 9:16. |
+| **Rol de Usuario** | Operador técnico / Soporte. | Gestor de contenidos / Diseñador multimedia. |
