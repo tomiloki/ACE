@@ -37,6 +37,10 @@ flowchart LR
 - Requiere panel disponible sin internet, acceso autorizado a los NUC y confirmación de cambios por pantalla.
 - Agrega complejidad que debe justificarse por el uso real.
 
+## Acuerdo base - 2026-09-04
+
+ACE compromete la capacidad de cambiar contenido y programación desde la locación sin internet, usando archivos disponibles allí. No se ha elegido todavía entre A y B; ambas alternativas se conservan para validación con Cristóbal y el equipo.
+
 ## A confirmar
 
 - ¿Quién puede intervenir en la locación y con qué equipo/red?

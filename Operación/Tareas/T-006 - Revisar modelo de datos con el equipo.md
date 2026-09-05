@@ -24,9 +24,11 @@ Retomada el 2026-09-04 tras consolidar la definición de producto y el contexto 
 
 ## Preguntas pendientes
 
-- Regla de solapamiento de programaciones.
-- Duración de una imagen según medio o playlist.
-- Comportamiento de videos, GIFs y otros medios con duración propia.
 - Franjas horarias que cruzan medianoche.
-- Formatos y valores admitidos para `medios.tipo`.
-- Validar el conjunto antes de pasar la propuesta a decisión.
+- Validar el conjunto con el equipo antes de pasar la propuesta a decisión.
+
+## Decisiones incorporadas el 2026-09-04
+
+- Formatos iniciales: MP4 H.264, JPG, PNG y GIF.
+- Videos completos según su duración; imágenes y GIF con duración del ítem de playlist.
+- No se permiten solapamientos efectivos; una programación puede editarse, cancelarse o interrumpirse.

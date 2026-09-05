@@ -1,6 +1,6 @@
 ---
 tipo: tarea
-estado: revisión
+estado: terminada
 responsable:
   - Matías
   - Atreus
@@ -9,8 +9,8 @@ modulo: "[[Presentación de la primera evaluación]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
 revision: equipo
-revisado_por:
-resultado_revision: pendiente
+revisado_por: Tomás por el equipo
+resultado_revision: aprobada
 dependencia: "[[T-022 - Diseñar narrativa y diapositivas]]"
 creado: 2026-09-02
 ---

@@ -8,13 +8,6 @@ Según el entendimiento actual, habría un operador por locación y posiblemente
 
 **¿Qué relaciones entre operadores, clientes y locaciones debe soportar ACE desde el inicio, y cuáles pueden quedar para después? ¿Necesitamos modelar al cliente o basta inicialmente con locaciones y accesos asignados?**
 
-## Casos a confirmar
-
-- Un operador gestiona varias locaciones, o varios operadores comparten una locación.
-- Un cliente tiene varias locaciones, o una locación atiende a varios clientes.
-- Qué contenido y playlists pueden compartirse y quién puede verlos, modificarlos y utilizarlos.
-- Cuáles de estos casos existen hoy, cuáles son próximos y cuáles son solo posibilidades.
-
 ## Alternativas e implicancias
 
 **A. Locaciones y permisos, sin entidad cliente inicialmente**

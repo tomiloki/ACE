@@ -17,5 +17,4 @@ Preparar los documentos posibles usando solo información confirmada. Marcar cla
 
 ## Enlaces
 
-- [[Borrador Fase 1]]
 - [[R-003 - Borradores Fase 1 Duoc]]

@@ -1,13 +1,13 @@
 ---
 tipo: reporte
-estado: abierto
+estado: cerrado
 tarea: "[[T-022 - Diseñar narrativa y diapositivas]]"
 modulo: "[[Presentación de la primera evaluación]]"
 responsable:
   - Matías
   - Atreus
 revision: equipo
-resultado_revision: pendiente
+resultado_revision: aprobada
 fecha: 2026-09-02
 ---
 
@@ -191,4 +191,8 @@ flowchart LR
 - [[T-022 - Diseñar narrativa y diapositivas]]
 - [[T-020 - Construir plan de trabajo y Carta Gantt]]
 - [[R-016 - Plan de trabajo y Carta Gantt]]
-- [[Borrador Fase 1]]
+- [[Documentación/Duoc/Entregas/Entrega 1/README|Entrega 1 Duoc]]
+
+## Revisión y cierre
+
+**Aprobada por el equipo — 2026-09-05.** Tomás confirmó el cierre tras la entrega de la primera evaluación. La versión entregada se conserva en [[Documentación/Duoc/Entregas/Entrega 1/README|Entrega 1 Duoc]] como PPTX y PDF. La presentación final contiene las diapositivas de la narrativa más anexos de arquitectura, glosario, evidencias y preguntas previstas.

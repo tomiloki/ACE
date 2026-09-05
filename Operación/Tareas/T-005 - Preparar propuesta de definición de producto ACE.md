@@ -2,8 +2,8 @@
 tipo: tarea
 estado: terminada
 responsable:
-  - Claude
   - Tomás
+  - Claude
 modulo: "[[Producto y documentación ACE]]"
 dependencia: "[[T-004 - Clasificar documentación heredada contra el diagrama]]"
 creado: 2026-09-01

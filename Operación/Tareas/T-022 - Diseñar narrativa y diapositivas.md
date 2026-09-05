@@ -1,6 +1,6 @@
 ---
 tipo: tarea
-estado: revisión
+estado: terminada
 responsable:
   - Matías
   - Atreus
@@ -9,8 +9,8 @@ modulo: "[[Presentación de la primera evaluación]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
 revision: equipo
-revisado_por:
-resultado_revision: pendiente
+revisado_por: Tomás por el equipo
+resultado_revision: aprobada
 dependencias:
   - "[[T-017 - Validar producto, alcance y objetivos para la evaluación]]"
   - "[[T-019 - Definir metodología, roles, recursos y evidencias]]"
@@ -44,5 +44,5 @@ Construir una presentación visual que explique problema, solución, alcance, ar
 
 - [[Producto]]
 - [[Arquitectura]]
-- [[Borrador Fase 1]]
+- [[Documentación/Duoc/Entregas/Entrega 1/README|Entrega 1 Duoc]]
 - [[R-016 - Plan de trabajo y Carta Gantt]]

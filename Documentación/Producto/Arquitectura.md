@@ -1,63 +1,71 @@
 ---
-estado: borrador
-fuente: diagrama Excalidraw 2026-08-31
-actualizado: 2026-09-01
+estado: propuesta vigente
+actualizado: 2026-09-04
 ---
 
 # Arquitectura
 
-Refleja el diagrama. Componentes tentativos, decisiones sin cerrar.
+## Decisiones vigentes
 
-## Topología
+- Backend como monolito modular en Laravel.
+- MariaDB como base de datos central.
+- Filament v5 para el panel administrativo.
+- Laravel Reverb y WebSockets para tiempo real.
+- Sesiones Laravel/Filament para humanos y tokens revocables de Sanctum para los NUC.
+- Cada Player mantiene en caché IndexedDB los medios y la programación que le corresponden; reproduce siempre desde esa caché.
+- La API se expondrá mediante HTTPS y Reverb mediante WSS en despliegues remotos.
+
+## Topología principal
 
 ```mermaid
 flowchart LR
-  OP["PC Operador<br/>(remoto)"]
-  API["Backend / API / BDD"]
+  OP[Operador remoto] --> PANEL[Panel Filament]
 
-  subgraph SITIO["Red local — sitio del evento"]
-    SRV["Servidor interno (PC/NUC)<br/>+ frontend local"]
-    PANT["Pantalla"]
+  subgraph CENTRAL[Plataforma central ACE]
+    PANEL --> LARAVEL[Laravel: módulos y API]
+    LARAVEL <--> DB[(MariaDB)]
+    LARAVEL --> STORAGE[(Almacenamiento central de medios)]
+    LARAVEL <--> REVERB[Reverb / WebSockets]
   end
 
-  OPS["Operador en sitio"]
-
-  OP ==>|1 · principal · internet| API
-  API ==> SRV
-  SRV <==>|websockets| PANT
-  OPS -->|2 · respaldo · sin internet| SRV
+  N1[NUC / Player 1 con caché IndexedDB] <--> LARAVEL
+  N1 <--> REVERB
+  N2[NUC / Player 2 con caché IndexedDB] <--> LARAVEL
+  N2 <--> REVERB
 ```
+
+La infraestructura concreta de despliegue queda pendiente, pero la plataforma central debe ser accesible remotamente.
 
 ## Flujos
 
-1. **Principal.** El operador remoto trabaja contra el backend por internet.
-2. **Respaldo.** Si cae internet, la operación no puede depender del servidor
-   remoto: el PC conectado a la pantalla expone su propio frontend y se opera
-   en sitio.
+1. El operador administra locaciones, pantallas, medios, playlists y programación desde el panel Filament.
+2. Los NUC autentican contra la API, reciben cambios y descargan por anticipado los medios y la programación que les corresponden.
+3. Antes de marcar un medio como disponible, el Player verifica su checksum y lo guarda con la programación en IndexedDB.
+4. La reproducción se realiza desde la caché local. Una caída de internet obliga a continuar con los recursos programados localmente, sin depender del servidor central.
+5. Al recuperar conectividad, el NUC informa su estado y resincroniza mediante API y Reverb.
 
-Dónde corre el backend — nube, servidor interno, o ambos — está abierto.
+## Operación local sin internet
 
-## Componentes
+ACE permitirá cambiar contenido y programación desde la locación, usando los recursos disponibles localmente. Durante un corte no se puede descargar contenido del servidor central. La topología sigue abierta:
 
-| Componente | Estado |
-|---|---|
-| Pantalla | dibujado |
-| Servidor interno (PC / NUC) | dibujado |
-| PC Operador remoto | dibujado |
-| Backend / API / BDD | dibujado, ubicación abierta |
-| WebSockets | dibujado, funcionamiento abierto |
-| Frontend local en el servidor interno | confirmado — respaldo sin internet |
-| Electron en pantalla | opción sin evaluar |
+- Panel individual por NUC.
+- PC con panel único conectado por red local a varios NUC.
 
-## Abierto
+La decisión depende de validar la realidad operativa con el equipo y Lumina Motion. Ver [[Gestión local sin internet]].
 
-| Caja | Nota |
-|---|---|
-| Modelo de datos | documentado en [[Modelo de datos]] |
-| Base de datos — motor y topología | pendiente de definir |
-| Lenguaje y framework backend | pendiente de definir |
-| Diseño de la API REST | pendiente de definir |
-| Diseño front-end | pendiente de definir |
-| Mockups | pendiente de definir |
-| Infraestructura y hosting | pendiente de definir |
-| Reproducción en pantalla | pendiente de definir |
+Independiente de esa decisión, el flujo local no reemplaza la plataforma central: es un respaldo para operar sobre los NUC de la locación cuando no existe conectividad remota.
+
+## Alcance técnico inicial
+
+- Telemetría básica: conectado o desconectado, última comunicación y estado de sincronización.
+- Formatos: MP4 H.264, JPG, PNG y GIF.
+- Programaciones por fecha, horario y recurrencia semanal; no se permiten solapamientos efectivos.
+- Las programaciones se pueden editar, cancelar o interrumpir; el estado resultante debe ser válido.
+- Reproducción autónoma basada en recursos sincronizados antes del corte; no hay streaming desde la plataforma central.
+
+## Pendiente
+
+- Plataforma concreta del Player: PWA/kiosco, Electron u otra alternativa.
+- Modalidad exacta de operación local por LAN.
+- Proveedor de hosting, almacenamiento central y despliegue.
+- Validación de cuota y persistencia de IndexedDB con contenido real en NUC.

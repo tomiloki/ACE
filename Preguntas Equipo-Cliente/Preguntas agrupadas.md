@@ -1,6 +1,0 @@
-- Sin internet, ¿basta gestionar cada NUC por separado o necesitamos un panel local conjunto? [[Gestión local sin internet]]
-- ¿Qué relaciones entre operadores, clientes y locaciones existen hoy y cuáles debemos soportar desde el inicio? ¿Se sostiene la base inicial sin entidad cliente? [[Operadores, clientes y locaciones]]
-- ¿Qué contenidos y playlists pueden compartirse entre locaciones y quién puede verlos, modificarlos y utilizarlos?
-- Para una imagen sin duración propia, ¿qué tiempo de exhibición se exige o utiliza por defecto?
-- Si un video dura 20 segundos y se configura para 10 o 60, ¿se corta, se repite o debe reproducirse completo?
-- Para un GIF animado u otra animación, ¿se respeta un ciclo completo o se repite/corta según el tiempo configurado?

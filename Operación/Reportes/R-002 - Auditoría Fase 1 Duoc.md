@@ -45,7 +45,6 @@ Tomás aceptó el trabajo histórico sin solicitar reconstrucción adicional. El
 
 ## Enlaces
 
-- [[Auditoría Fase 1]]
 - [[T-008 - Auditar entregables Fase 1 Duoc]]
 - [[T-009 - Preparar borradores Fase 1 Duoc]]
 

@@ -1,0 +1,3 @@
+- Sin internet, ¿basta gestionar cada NUC por separado o necesitamos un panel local conjunto? [[Gestión local sin internet]]
+- ¿Qué relaciones entre operadores, clientes y locaciones existen hoy y cuáles debemos soportar desde el inicio? ¿Se sostiene la base inicial sin entidad cliente? [[Operadores, clientes y locaciones]]
+- ¿Se permiten franjas horarias que cruzan medianoche, o deben dividirse en dos programaciones?

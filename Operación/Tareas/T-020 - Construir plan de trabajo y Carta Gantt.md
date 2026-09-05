@@ -37,5 +37,5 @@ Convertir el calendario académico y el alcance acordado en un plan realizable p
 
 ## Enlaces
 
-- [[Borrador Fase 1]]
+- [[Documentación/Duoc/Entregas/Entrega 1/README|Entrega 1 Duoc]]
 - [[E-002 - Primera evaluación Duoc]]

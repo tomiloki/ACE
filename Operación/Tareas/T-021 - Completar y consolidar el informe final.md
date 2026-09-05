@@ -1,6 +1,6 @@
 ---
 tipo: tarea
-estado: pendiente
+estado: terminada
 responsable:
   - Paulo
   - Mímir
@@ -8,8 +8,8 @@ modulo: "[[Informe de la primera evaluación]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
 revision: equipo
-revisado_por:
-resultado_revision: pendiente
+revisado_por: Tomás por el equipo
+resultado_revision: aprobada
 dependencias:
   - "[[T-017 - Validar producto, alcance y objetivos para la evaluación]]"
   - "[[T-018 - Recopilar antecedentes académicos e individuales]]"
@@ -36,7 +36,10 @@ Integrar el contenido acordado en la plantilla oficial y producir el informe rev
 - El contenido cumple la estructura y los indicadores de la pauta disponible.
 - El documento fue revisado por el equipo y está listo para entrega.
 
+## Reporte
+
+- [[R-021 - Cierre del informe de la primera evaluación]]
+
 ## Enlaces
 
-- [[Borrador Fase 1]]
-- [[Auditoría Fase 1]]
+- [[Documentación/Duoc/Entregas/Entrega 1/README|Entrega 1 Duoc]]

@@ -33,5 +33,4 @@ Acordar cómo trabajará el equipo, qué responsabilidad tendrá cada integrante
 
 ## Enlaces
 
-- [[Auditoría Fase 1]]
-- [[Borrador Fase 1]]
+- [[Documentación/Duoc/Entregas/Entrega 1/README|Entrega 1 Duoc]]

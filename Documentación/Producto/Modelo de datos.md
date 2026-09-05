@@ -7,7 +7,7 @@ actualizado: 2026-09-03
 
 # Modelo de datos
 
-El modelo completo sigue en propuesta. La base de locaciones, accesos, bibliotecas y recurrencia mínima se acordó con Tomás entre el 2026-09-03 y el 2026-09-04: sin entidad cliente por ahora, uso inicial por Cristóbal como administrador, operadores previstos para una o varias locaciones, contenido aislado por locación y recurrencia por días de semana seleccionados. Los solapamientos y el comportamiento de duración por tipo de medio todavía requieren definición.
+El modelo completo sigue en propuesta. La base de locaciones, accesos, bibliotecas y recurrencia mínima se acordó con Tomás entre el 2026-09-03 y el 2026-09-04: sin entidad cliente por ahora, uso inicial por Cristóbal como administrador, operadores previstos para una o varias locaciones, contenido aislado por locación y recurrencia por días de semana seleccionados. La duración por tipo de medio y la regla de solapamientos se acordaron con Tomás el 2026-09-04; las franjas que cruzan medianoche siguen pendientes.
 
 ```mermaid
 classDiagram
@@ -138,8 +138,8 @@ classDiagram
 - `medios.checksum` — SHA-256 del archivo. La pantalla no vuelve a descargar
   lo que ya tiene. Viene del legacy.
 - `medios.duracion_segundos` — duración propia del archivo, expresada en segundos y nula cuando el medio no tiene una duración propia aplicable. No determina cuánto debe mostrarse en una playlist.
-- `playlist_items.duracion_reproduccion_segundos` — tiempo de exhibición configurado, en segundos, para esa aparición. Por ahora se utiliza solo cuando el medio no tiene duración propia. El atributo no define todavía si un medio con duración propia debe cortarse, repetirse o reproducirse completo.
-- `medios.tipo` — describe el medio; el ítem lo consulta mediante `medio_id`, sin duplicarlo en `playlist_items`.
+- `playlist_items.duracion_reproduccion_segundos` — tiempo de exhibición configurado, en segundos, para esa aparición. Se utiliza para imágenes y GIF. Los videos MP4 se reproducen completos según su duración propia; no se cortan ni se repiten mediante este atributo en la primera versión.
+- `medios.tipo` — describe el medio; la primera versión admite MP4 H.264, JPG, PNG y GIF. El ítem lo consulta mediante `medio_id`, sin duplicarlo en `playlist_items`.
 - `programaciones.sector_id` y `pantalla_id` — debe existir exactamente uno: una programación se dirige a un sector o a una pantalla, nunca a ambos ni queda sin destino. La locación se obtiene desde ese destino y no se duplica en `programaciones`.
 - `programaciones.recurrente` — si es falso, `fecha_inicio`, `fecha_fin`, `hora_inicio` y `hora_fin` describen una única programación. Si es verdadero, las fechas delimitan su vigencia y las horas la franja aplicable en los días seleccionados.
 - `programacion_dias_semana` — usa clave primaria compuesta (`programacion_id`, `dia_semana`). Solo tiene filas cuando `recurrente` es verdadero y contiene uno o más días entre lunes y domingo. Sus siete días equivalen a una programación diaria.
@@ -153,7 +153,6 @@ classDiagram
 - **Primer uso:** Cristóbal como administrador. No se requieren cuentas de operador para iniciar, pero el modelo ya permite incorporarlas después.
 - **Operadores:** una o varias locaciones autorizadas por usuario. No se impone un único operador por locación.
 - **Bibliotecas:** cada locación mantiene sus propios medios y playlists; no se comparten entre locaciones por ahora.
-- **Sin SaaS comercial:** no se incorporan planes, suscripciones ni personalización por cliente.
 - **Validación pendiente con Cristóbal y el equipo:** confirmar la realidad actual y qué cambios futuros justificarían revisar esta base. No se registra como aprobación del cliente.
 
 Respuesta y contexto: [[Operadores, clientes y locaciones]].
@@ -168,10 +167,11 @@ Respuesta y contexto: [[Operadores, clientes y locaciones]].
 - **Bibliotecas aisladas:** `medios` y `playlists` pertenecen a una locación. Una playlist solo incluye medios de su locación y solo se programa en destinos de esa misma locación.
 - **El archivo se separa de su uso.** Un medio se reusa en varias playlists sin
   volver a subirlo dentro de su biblioteca de locación.
-- **Dos duraciones distintas, acordadas con Tomás el 2026-09-03:** la propia del archivo, nullable y en segundos, en `medios.duracion_segundos`; y el tiempo de exhibición, nullable y en segundos, en `playlist_items.duracion_reproduccion_segundos` cuando el medio no tiene duración propia.
+- **Dos duraciones distintas:** la propia del archivo, nullable y en segundos, en `medios.duracion_segundos`; y el tiempo de exhibición, nullable y en segundos, en `playlist_items.duracion_reproduccion_segundos` para imágenes y GIF. Los videos MP4 se reproducen completos según su duración propia.
 - **La playlist no lleva horario ni destino.** Eso vive en `programaciones`.
 - **Programación localizada:** se dirige exactamente a un sector o una pantalla; su locación es la del destino y debe coincidir con la de su playlist.
 - **Recurrencia mínima:** una programación es única o recurrente. La recurrente se aplica en los días de semana elegidos dentro de su rango de vigencia; no se incorporan intervalos genéricos, mensualidades, feriados ni excepciones todavía.
+- **Conflictos de programación:** no se permiten solapamientos efectivos sobre una misma pantalla. Una programación puede editarse, cancelarse o interrumpirse, siempre que el estado resultante respete esa regla.
 
 ## Convenciones
 
@@ -179,20 +179,11 @@ Respuesta y contexto: [[Operadores, clientes y locaciones]].
 - Nombres en español.
 - Las claves foráneas terminan en `_id`.
 
-## Descartado del legacy
-
-- `groups` plano: colapsaba locación y sector en una sola tabla.
-- `media_items.playlist_id`: ataba cada archivo a una única playlist.
-- Horario y destino dentro de `playlists`: tres responsabilidades en una tabla.
-- `screens.zone` como texto libre: lo reemplaza `sectores`.
-
 ## Abierto
 
-- **Comportamiento de duración por tipo de medio:** quedaron decididas las unidades (segundos) y la nulabilidad. Falta definir corte, repetición o reproducción completa para videos, GIFs y otros medios con duración propia. Casos para conversar en [[Preguntas agrupadas]].
-- ¿Qué pasa si dos programaciones se superponen en la misma pantalla? Hace
-  falta una regla: prioridad, o prohibir el solapamiento.
 - ¿Se permiten franjas horarias que cruzan medianoche, o deben dividirse en dos programaciones?
 - Permisos por sector no forman parte del alcance inicial; el acceso llega hasta la locación.
+- La plataforma concreta del Player y la validación de cuota/persistencia de IndexedDB con medios reales no alteran este modelo, pero permanecen pendientes de prueba.
 
 
 NOTAS EQUIPO 

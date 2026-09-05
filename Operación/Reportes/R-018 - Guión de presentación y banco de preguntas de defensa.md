@@ -1,13 +1,13 @@
 ---
 tipo: reporte
-estado: abierto
+estado: cerrado
 tarea: "[[T-023 - Preparar defensa y ensayar la presentación]]"
 modulo: "[[Presentación de la primera evaluación]]"
 responsable:
   - Matías
   - Atreus
 revision: equipo
-resultado_revision: pendiente
+resultado_revision: aprobada
 fecha: 2026-09-02
 ---
 
@@ -118,3 +118,7 @@ gantt
 - [[T-022 - Diseñar narrativa y diapositivas]]
 - [[R-017 - Narrativa y diseño de diapositivas de la presentación]]
 - [[R-016 - Plan de trabajo y Carta Gantt]]
+
+## Revisión y cierre
+
+**Aprobada por el equipo — 2026-09-05.** Tomás confirmó el cierre de la preparación de defensa tras la entrega de la primera evaluación. Este cierre registra la presentación realizada sin reconstruir retrospectivamente el detalle del ensayo; la nota y la retroalimentación de Duoc se registrarán cuando estén disponibles.

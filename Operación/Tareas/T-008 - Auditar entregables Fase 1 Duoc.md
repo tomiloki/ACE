@@ -16,5 +16,4 @@ No completar información faltante mediante suposiciones.
 
 ## Enlaces
 
-- [[Auditoría Fase 1]]
 - [[R-002 - Auditoría Fase 1 Duoc]]

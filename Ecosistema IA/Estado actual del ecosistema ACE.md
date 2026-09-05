@@ -1,7 +1,7 @@
 ---
 tipo: estado_proyecto
 estado: vigente
-actualizado: 2026-09-02
+actualizado: 2026-09-05
 ---
 
 # Estado actual del ecosistema ACE
@@ -19,7 +19,7 @@ El repositorio privado ya es compartido por Tomás, Matías y Paulo. Fenrir, Atr
 - El humano activa el trabajo; el agente orienta, conversa y espera aprobación.
 - La estructura operativa es `Etapa → Módulo → Tarea`.
 - Los reportes aparecen ante entregas significativas o revisiones necesarias.
-- `Borradores/` conserva material versionado no canónico.
+- `Borradores/` contiene únicamente trabajo incompleto que podría consolidarse; los artefactos canónicos no lo referencian.
 
 ## Transición desde E-001
 
@@ -34,7 +34,7 @@ El repositorio privado ya es compartido por Tomás, Matías y Paulo. Fenrir, Atr
 
 E-002 dispone de cuatro módulos canónicos: [[Producto y documentación para la primera evaluación]], [[Planificación y factibilidad]], [[Informe de la primera evaluación]] y [[Presentación de la primera evaluación]].
 
-El aporte de Matías fue sintetizado en T-017 a T-023. T-017, T-018, T-019 y T-020 están en curso con responsables distintos para permitir trabajo paralelo. T-021, T-022 y T-023 permanecen pendientes hasta que sus dependencias entreguen contenido suficiente. Los archivos originales continúan en `Borradores/` como antecedentes incorporados.
+La Entrega 1 quedó enviada y preservada en [[Documentación/Duoc/Entregas/Entrega 1/README|Entrega 1 Duoc]]. T-017, T-018, T-021, T-022 y T-023 están cerradas. T-019 continúa en curso y T-020 permanece en revisión para repasar la Carta Gantt. La nota y la retroalimentación de Duoc siguen pendientes de recepción.
 
 ## Backlog transversal
 
@@ -47,9 +47,9 @@ Estas tareas no pertenecen a E-002. T-025 está activa como trabajo transversal;
 
 ## Siguiente orden
 
-1. Ejecutar en paralelo T-017, T-018, T-019 y T-020.
-2. Activar T-021 y T-022 cuando exista contenido suficiente.
-3. Preparar y ensayar T-023 después de consolidar la presentación.
-4. Cerrar la primera evaluación de Duoc.
+1. Completar T-019: metodología, roles, recursos y evidencias.
+2. Repasar y resolver la revisión de T-020: plan de trabajo y Carta Gantt.
+3. Registrar la nota y la retroalimentación de Duoc cuando estén disponibles.
+4. Evaluar el cierre de la etapa después de resolver esos dos frentes.
 
 Relacionado: [[E-002 - Primera evaluación Duoc]] · [[Registro de agentes ACE]] · [[Mapa del ecosistema ACE]] · [[Sistema de reportaje ACE]]

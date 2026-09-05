@@ -1,7 +1,7 @@
 ---
 tipo: reporte
-estado: en_curso
-revision_equipo: pendiente
+estado: cerrado
+revision_equipo: aprobada
 modulo: "[[Producto y documentación para la primera evaluación]]"
 tarea: "[[T-017 - Validar producto, alcance y objetivos para la evaluación]]"
 fecha: 2026-09-03
@@ -15,7 +15,7 @@ fecha: 2026-09-03
 
 ### Resumen
 
-[[Producto]] reúne el problema, la solución, el alcance inicial y los objetivos acordados con Tomás. [[Borrador Fase 1]] recoge esa definición para el informe académico; [[Alcance inicial de ACE]] queda como antecedente incorporado, no como otra fuente que mantener.
+[[Producto]] reúne el problema, la solución, el alcance inicial y los objetivos aprobados. El informe de [[Documentación/Duoc/Entregas/Entrega 1/README|Entrega 1 Duoc]] recoge esa definición para la evaluación académica.
 
 La definición aborda gestión descentralizada, cargas manuales y dependencia presencial: propone administración centralizada y remota para locaciones fijas, sin perder reproducción ni cambios locales durante un corte de internet. Los operadores tendrán acceso funcional desde la primera versión, aunque Cristóbal sea el único usuario inicial. No se incorpora una entidad cliente ni un modelo SaaS por ahora.
 
@@ -37,6 +37,6 @@ El alcance describe el producto a construir, no una entrega completa de software
 
 ## Revisión
 
-**Pendiente — recomendación: equipo.** No se ha activado una revisión ni cerrado la tarea.
+**Aprobada por el equipo — 2026-09-05.** Tomás confirmó que las decisiones incorporadas al informe de la primera evaluación están validadas. La definición queda cerrada como base de producto y fuente para documentación posterior.
 
-Revisar [[Producto]] y su incorporación en [[Borrador Fase 1]], y decidir si la definición sirve como base de la evaluación con los asuntos abiertos declarados. Las conclusiones y eventuales correcciones se registran en este mismo hilo. La conformidad conversacional de Tomás no se registra como una revisión final que todavía no se ha realizado.
+Los asuntos técnicos que el informe declara pendientes permanecen en sus tareas propias. No invalidan ni reabren retrospectivamente la definición aprobada para esta entrega.

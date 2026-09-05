@@ -1,6 +1,6 @@
 ---
 tipo: tarea
-estado: en_curso
+estado: terminada
 responsable:
   - Paulo
   - Mímir
@@ -8,8 +8,8 @@ modulo: "[[Planificación y factibilidad]]"
 prioridad: urgente
 fecha_limite: 2026-09-05
 revision: humano
-revisado_por:
-resultado_revision: pendiente
+revisado_por: Tomás
+resultado_revision: aprobada
 creado: 2026-09-02
 ---
 
@@ -37,11 +37,15 @@ Los RUT no se registran en Markdown, GitHub, tareas ni reportes. Cada integrante
 ## Estado y avance
 
 - **Carrera y sede:** Resuelto para los tres integrantes (Ingeniería en Informática, Sede Antonio Varas).
-- **Competencias y áreas de desempeño:** Resuelto. Extraídas de la `Malla Curricular.pdf` (Currículum 1446114) e incorporadas a [[Borrador Fase 1]].
+- **Competencias y áreas de desempeño:** Resuelto. Extraídas de la `Malla Curricular.pdf` (Currículum 1446114) e incorporadas al informe de [[Documentación/Duoc/Entregas/Entrega 1/README|Entrega 1 Duoc]].
 - **Interés individual:** Paulo validó su redacción (desarrollo frontend, bases de datos y documentación técnica). Se incorporaron propuestas para Tomás y Matías pendientes de su ratificación.
 - **RUT:** Quedan protegidos para canal privado y uso exclusivo en la versión final fuera del repositorio.
 
+## Reporte
+
+- [[R-020 - Cierre de antecedentes académicos e individuales]]
+
 ## Enlaces
 
-- [[Auditoría Fase 1]]
-- [[Borrador Fase 1]]
+- [[Documentación/Duoc/Entregas/Entrega 1/README|Entrega 1 Duoc]]
+- [[Documentación/Duoc/Material/Malla Curricular.pdf|Malla Curricular]]

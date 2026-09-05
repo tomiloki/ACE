@@ -46,8 +46,6 @@ Tomás aceptó el trabajo histórico sin solicitar reconstrucción adicional. El
 
 ## Enlaces
 
-- [[Borrador Fase 1]]
-- [[Auditoría Fase 1]]
 - [[T-009 - Preparar borradores Fase 1 Duoc]]
 
 ## Apoyo visual

@@ -1,6 +1,6 @@
 ---
 tipo: tarea
-estado: en_curso
+estado: terminada
 responsable:
   - Tomás
   - Ragnar
@@ -9,8 +9,8 @@ prioridad: urgente
 fecha_limite: 2026-09-05
 revision: equipo
 ejecutado_por: Fenrir
-revisado_por:
-resultado_revision: pendiente
+revisado_por: Tomás por el equipo
+resultado_revision: aprobada
 creado: 2026-09-02
 ---
 
@@ -32,10 +32,10 @@ Acordar la definición de ACE que usará la primera evaluación y comprobar que 
 
 ## Enlaces
 
-- [[R-019 - Definición de producto y objetivos para la evaluación]] — resultado preparado; revisión de equipo pendiente, sin cierre de la tarea.
+- [[R-019 - Definición de producto y objetivos para la evaluación]] — revisión aprobada y tarea cerrada.
 - [[Producto]]
 - [[Arquitectura]]
-- [[Borrador Fase 1]]
+- [[Documentación/Duoc/Entregas/Entrega 1/README|Entrega 1 Duoc]]
 - [[Gestión local sin internet]] — pregunta abierta para Cristóbal y el equipo; no define todavía la arquitectura de respaldo.
 - [[Operadores, clientes y locaciones]] — pregunta abierta sobre relaciones actuales y futuras, permisos y necesidad de modelar al cliente.
-- [[Preguntas agrupadas]] — listado breve de consultas pendientes, incluidos los casos de duración por tipo de medio.
+- [[A-PREGUNTAS TOTALES]] — listado breve de consultas pendientes, incluidos los casos de duración por tipo de medio.

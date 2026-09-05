@@ -91,7 +91,7 @@ Después de recibir aprobación, confirma que la tarea y sus artefactos siguen v
 - Los reportes entregan resultados y conservan la revisión.
 - La documentación preserva conocimiento vigente.
 - `Borradores/` permite versionar ideas, propuestas y trabajo incompleto; su contenido no es canónico ni activa por sí solo tareas, prioridades, decisiones o aprobaciones.
-- Cuando un borrador es aceptado, sintetízalo en el artefacto canónico correspondiente. No cargues toda la carpeta por defecto: consúltala solamente cuando sea relevante o esté enlazada.
+- Ningún artefacto canónico referencia un borrador ni lo usa como fuente. Cuando el equipo acepta un borrador, sintetízalo en su artefacto canónico y elimínalo. No cargues toda la carpeta por defecto: consúltala solamente cuando el usuario la mencione o el asunto activo la vuelva relevante.
 - No crees un reporte automáticamente después de cada tarea.
 - Antes de entregar o revisar, consulta `Operación/Sistema de reportaje ACE.md`.
 - La ejecución, revisión, correcciones y cierre permanecen en el mismo reporte de la tarea principal.
